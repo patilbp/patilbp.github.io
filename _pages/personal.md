@@ -18,12 +18,8 @@ Check my photography portfolio here - [[Unsplash](https://unsplash.com/@p_bhagya
 
 Few of my captures: (See below)
 
-<img src = "/images/Photography_Paragliding.JPG">
-<img src = "/images/Photography_Turtle.JPG>
-<img src = "/images/Photography_Hibiscus.jpg>
-<img src = "/images/Photography_Dog.jpg>
-<img src = "/images/Photography_Palace-Of-Fine-Arts.JPG>
-<img src = "/images/Photography_Twilight.jpg>
+<img src = "/images/Photography_Collage_1.jpg">
+<img src = "/images/Photography_Collage_1.jpg">
 
 <ins><b>Cooking</b></ins>
 
