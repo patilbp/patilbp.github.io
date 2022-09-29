@@ -1,7 +1,7 @@
 ---
 title: "Camera-Based Assistive Text and Product Label Reading For Blind Person"
 collection: publications
-permalink: /publication/ierj_2015/
+permalink: /publication/ierj/
 excerpt: ''
 date: 2015-10-26
 venue: 'Online'
