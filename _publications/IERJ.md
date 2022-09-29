@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/ierj/
 excerpt: ''
 date: 2015-10-26
-venue: 'Online'
+venue: 'International Engineering Research Journal (IERJ)'
 ---
 <br>
 
