@@ -1,0 +1,19 @@
+---
+title: "Camera-Based Assistive Text and Product Label Reading For Blind Person"
+collection: publications
+permalink: /publication/ierj_2015/
+excerpt: ''
+date: 2015-10-26
+venue: 'Online'
+---
+<br>
+
+[View paper here](http://www.ierjournal.org/vol1iss10/Camera-Based%20Assistive%20Text%20and%20Product%20Label%20Reading%20For%20Blind%20Person.pdf)
+
+<div style="text-align: justify">
+<h3> Abstract </h3>
+
+We propose a camera-based assistive text reading framework to help blind person or low visual power to read text and product label or document from hand-held objects in their day to day life. We have an efficient and effective motion based method which is used to define region of interest (ROI), to separate the object from noisy backgrounds. For that purpose, we need to shake the object in front of camera. By a mixture-of-Gaussians-based background subtraction technique we subtract the text from the cluttered background. To automatically focus the text regions from the object ROI, we offer a stroke width transform (SWT) algorithm. This algorithm is helping to recognize the character by their shape and width by calculating each pixel by their start to end point. It is a local image operator which computes per pixel the width of the most likely a stoke containing the pixel. The output of SWT is an image of size equal to the size of the input image where each elements contains the width of the stroke associated with the pixel. Text recognition is performed by off-the-shelf optical character recognition (OCR) prior to output of information words from the localize text region. The recognized text code are recorded as Script file, then we employ the Microsoft Speech Development kit (SDK) to load these file and display the audio output of text information. Blind person can adjust speech rate, volume, and tone according to their preference. We explore the user interface issues and robustness of the algorithm in extracting and reading text from different objects with complex backgrounds. <br><br>
+</div>
+
+<img src = '/images/IERJ_Certificate.png'>
