@@ -17,7 +17,7 @@ product reviews and generate key insights from it, specifically highlighting the
 the imapct of these products on the customers buying it. However we are also planning to develop a platform where we can share these findings so that the 
 customers may get benefitted from the findings and thus, it can help them to decide upon the purchase of the flagged product.
 
-I am working on this research advised by Prof. [David Goldberg](https://dgoldberg.sdsu.edu/).
+I am working on this research advised by Prof. [David Goldberg](https://dgoldberg.sdsu.edu/) AI Research Lab @ SDSU.
 
 Some of the questions I am trying to answer at present:
 
