@@ -19,7 +19,7 @@ Check my photography portfolio here - [[Unsplash](https://unsplash.com/@p_bhagya
 Few of my captures: (See below)
 
 <img src = "/images/Photography_Collage_1.jpg">
-<img src = "/images/Photography_Collage_1.jpg">
+<img src = "/images/Photography_Collage_2.jpg">
 
 <ins><b>Cooking</b></ins>
 
