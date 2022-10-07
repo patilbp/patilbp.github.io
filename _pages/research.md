@@ -7,7 +7,7 @@ header:
   overlay_filter: 0.3
 author_profile: true
 ---
-## <center>RESEARCH</center>
+
 Currently I’m working on an interdisciplinary research topic of Amazon Product Reviews. This page briefly describes my research experience and interests.
 
 ### Amazon Product Reviews
