@@ -6,7 +6,7 @@ header:
   overlay_filter: 0.3
 author_profile: true
 ---
-<br>
+
 Besides, I am ardent and passionate towards my hobbies.
 <br>
 
