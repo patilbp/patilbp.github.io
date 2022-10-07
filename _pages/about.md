@@ -21,6 +21,18 @@ I am a MS in Big data Analytics grad student at <a href = "https://big.sdsu.edu/
 <img src = "/images/BP-Torrey-Pines.jpeg" width="500" height="500"><br>
 <small><i>Department of Big Data Analytics, San Diego State University</i></small>
 <br><br>
+  
+Prior to grad school, I was working as an Data Scientist on end-to-end research, design, development, and deployment of ML Models for <a href = "https://www.saviantconsulting.com/"> Saviant Consulting</a>, Pune, Maharashtra, India. I was the single point of contact with customers.<br><br>
+  
+
+
+As an undergraduate, I majored in Computer Engineering from <a href="http://www.unipune.ac.in/">University of Pune (UoP)</a> in 2016. It was a very fruitful time in my life as I invested a lot of time in learning and exploring various technical workshops, events and competitions. Workshops I explored included Android App Development, Arduino Development, Big Data Analytics, Ethical Hacking, Robotics, etc. As a result of this, I was crystal clear of where I need to head after my undergrad studies and start a career in Big Data Analytics domain. I learnt a lot about social connections, maintaining and nurturing relations with people in this phase.<br><br> 
+
+I worked on the problem statement of 'Camera-based assistive Text and Product Label reading for Blind person', as part of my year long final year thesis project. It was interesting to get enlightened upon new techniques available by use of technology, which helps the visually impaired people. The vision was to design a algorithm and build a working prototype to demonstrate an automated model which scans, reads, translates and gives audio output to assist people.
+
+Generally, I enjoy working on projects which have my independent thought and concept behind them. It is challenging, but I believe it's an essential growth skill.
+
+On the fun side, I've the hobby of photography. I like capturing picturesque moments of nature's beauty and all living beings. Apart from this, I like to cook and try out new dishes, with some twist of taste!.<br><br>
 
 📫 [<a href="bhagya22july@gmail.com">bhagya22july@gmail.com</a>] 👈 Email <br>
 🔗 [<a href="https://www.linkedin.com/in/bhagyashripatil/">LinkedIn</a>] [<a href="https://github.com/patilbp">GitHub</a>] [<a href="https://www.researchgate.net/profile/Bhagyashri-Patil-6">Research Gate</a>] 👈  Portfolio Links <br>
