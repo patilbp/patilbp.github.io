@@ -18,7 +18,7 @@ redirect_from:
 
 I am a MS in Big data Analytics grad student at <a href = "https://big.sdsu.edu/"> San Diego State University, California </a>. Currently, I am affiliated with <a href = "https://business.sdsu.edu/students/ai"> AI Research Lab @ SDSU </a> where I am conducting research on the topic of "Amazon Product Reviews" advised by Prof. <a href = "https://dgoldberg.sdsu.edu/">David Goldberg</a>.<br><br>
 
-<center><img src = "/images/BP-Torrey-Pines.jpeg" width="500" height="500"><br></center>
+<img src = "/images/BP-Torrey-Pines.jpeg" width="500" height="500" text-align=center><br>
 <small><i>Department of Big Data Analytics, San Diego State University</i></small>
 <br><br>
 
