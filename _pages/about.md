@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: <br>
+title: "A Little About Me"
 layout: single
 header:
   overlay_image: header_1.jpg
