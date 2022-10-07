@@ -41,7 +41,7 @@ On the fun side, I've the hobby of photography. I like capturing picturesque mom
 📫 [<a href="bhagya22july@gmail.com">bhagya22july@gmail.com</a>] 👈 Email <br>
 🔗 [<a href="https://www.linkedin.com/in/bhagyashripatil/">LinkedIn</a>] [<a href="https://github.com/patilbp">GitHub</a>] [<a href="https://www.researchgate.net/profile/Bhagyashri-Patil-6">Research Gate</a>] 👈  Portfolio Links <br>
 📚 [<a href = "https://patilbp.github.io/resources/">Resources</a>] 👈 A compiled list of useful resources <br>
-🎹 [<a href = "https://patilbp.github.io/personal/">Personal</a>]   👈 Know more about my personal interests here <br>  
+🎹 [<a href = "https://patilbp.github.io/personal/">Personal</a>]   👈 Know more about my personal interests and hobbies here <br>  
 </p>
 <br>
 
