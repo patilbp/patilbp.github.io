@@ -4,7 +4,7 @@ title: <br>
 layout: single
 header:
   overlay_image: header_1.jpg
-  overlay_filter: 0.5
+  overlay_filter: 0.1
 author_profile: true
 redirect_from:
   - /about/
