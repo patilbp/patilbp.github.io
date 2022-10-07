@@ -10,7 +10,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-## A Little About Me
 
 <p align="justify">
 
