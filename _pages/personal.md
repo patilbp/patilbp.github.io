@@ -23,7 +23,7 @@ Few of my captures: (See below)
 
 <ins><b>Cooking</b></ins>
 
-Recently, after coming to persue my Master's program, I cook and make my eatables daily. Unlike earlier, when my Mother used to help me out, back when I was in India. I used to know how to cook, but I discovered the exact meaning I cooking when I started trying out different kinds of dishes by tweaking the base ingredients. Sometimes, I give a twist of taste to a dish by adding sprouts to it, so as to increase its nutrient content. I found out, cooking is a relaxing therapy for me. Whenever I feel out of zone, I check out with my groceries and try preparing something which I have never cooked earlier. And beleieve me, it tastes the best even after giving first attempt of cooking that food dish. I really enjoy cooking and often I host get togethers to my friends and we have a great time exploring new dishes together.
+Recently, after coming to persue my Master's program, I cook and make my eatables daily. Unlike earlier, when my Mother used to help me out, back when I was in India. I used to know how to cook, but I discovered the exact meaning I cooking when I started trying out different kinds of dishes by tweaking the base ingredients. Sometimes, I give a twist of taste to a dish by adding sprouts to it, so as to increase its nutrient content. I found out, cooking is a relaxing therapy for me. Whenever I feel out of zone, I check out with my groceries and try preparing something which I have never cooked earlier. And believe me, it tastes the best even though its first attempt of cooking that particular food dish. I really enjoy cooking and often I host get togethers to my friends and we have a great time together.
 <br>
 
 <img src = "/images/Cooking_Collage_1.jpg">
