@@ -36,7 +36,7 @@ I worked on the problem statement of 'Camera-based assistive Text and Product La
 
 Generally, I enjoy working on projects which have my independent thought and concept behind them. It is challenging, but I believe it's an essential growth skill.
 
-On the fun side, I've the hobby of photography. I like capturing picturesque moments of nature's beauty and all living beings. Apart from this, I like to cook and try out new dishes, with some twist of taste!.<br><br>
+On the fun side, I've the hobby of photography. I like capturing picturesque moments of nature's beauty and all living beings. Apart from this, I like to cook and try out new dishes, with some twist of taste and trying DIY Projects!.<br><br>
 
 📫 [<a href="bhagya22july@gmail.com">bhagya22july@gmail.com</a>] 👈 Email <br>
 🔗 [<a href="https://www.linkedin.com/in/bhagyashripatil/">LinkedIn</a>] [<a href="https://github.com/patilbp">GitHub</a>] [<a href="https://www.researchgate.net/profile/Bhagyashri-Patil-6">Research Gate</a>] 👈  Portfolio Links <br>
