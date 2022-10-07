@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "A Little About Me"
+title: <br>
 layout: single
 header:
   overlay_image: header_1.jpg
@@ -10,6 +10,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+## A Little About Me
 
 <p align="justify">
 
