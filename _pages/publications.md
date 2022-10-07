@@ -15,7 +15,7 @@ Prof. B.D.Shendkar, <b><i>Bhagyashri Patil</i></b>, Niranjan Dhumal, Shivanand K
 <i>International Journal of Innovative Research and Creative Technology 2016</i>. <b>IJIRCT 2016</b>.
 <br>
 <br>
-<b>[Camera-Based Assistive Text and Product Label Reading For Blind Person](http://katreparitosh.github.io/publication/IERJ_2015)</b> <br> 
+<b>[Camera-Based Assistive Text and Product Label Reading For Blind Person](http://patilbp.github.io/publication/IERJ_2015)</b> <br> 
 Prof. B.D.Shendkar, <b><i>Bhagyashri Patil</i></b>, Niranjan Dhumal, Shivanand Kampali, Sachin Bansode (University Of Pune, Pune)<br>
 <i>International Engineering Research Journal 2015</i>. <b>IERJ 2015</b>.
 <br>
