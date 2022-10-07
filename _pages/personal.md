@@ -16,15 +16,19 @@ I am a passionate photographer. I like to capture beautiful and rare moments, wh
 
 Check my photography portfolio here - [[Unsplash](https://unsplash.com/@p_bhagyashri)] [[Flickr](https://www.flickr.com/people/196044958@N08/)]  
 
-Few of my captures: (See below)
+Few of my captures:
 
 <img src = "/images/Photography_Collage_1.jpg">
 <img src = "/images/Photography_Collage_2.jpg">
 
 <ins><b>Cooking</b></ins>
 
-Recently, after coming to persue my Master's program, I cook and make my eatables daily. Unlike earlier, when my Mother used to help me out, back when I was in India. I used to know how to cook, but I discovered the exact meaning I cooking when I started trying out different kinds of dishes by tweaking the base ingredients. Sometimes, I give a twist of taste to a dish by adding sprouts to it, so as to increase its nutrient content. I found out, cooking is a relaxing therapy for me. Whenever I feel out of zone, I check out with my groceries and try preparing something which I have never cooked earlier. And believe me, it tastes the best even though its first attempt of cooking that particular food dish. I really enjoy cooking and often I host get togethers to my friends and we have a great time together.
+Recently, after coming to persue my Master's program, I cook and make my eatables daily. Unlike earlier, when my Mother used to help me out, back when I was in India. I used to know how to cook, but I discovered the exact meaning I cooking when I started trying out different kinds of dishes by tweaking the base ingredients. Sometimes, I give a twist of taste to a dish by adding sprouts to it, so as to increase its nutrient content.<br>
+
+I found out, cooking is a relaxing therapy for me. Whenever I feel out of zone, I check out with my groceries and try preparing something which I have never cooked earlier. And believe me, it tastes the best even though its first attempt of cooking that particular food dish. I really enjoy cooking and often I host get togethers to my friends and we have a great time together.
 <br>
+
+Few of my culinary dishes:
 
 <img src = "/images/Cooking_Collage_1.jpg">
 <img src = "/images/Cooking_Collage_2.jpg">
