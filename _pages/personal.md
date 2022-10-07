@@ -27,4 +27,4 @@ Recently, after coming to persue my Master's program, I cook and make my eatable
 <br>
 
 <img src = "/images/Cooking_Collage_1.jpg">
-<img src = "/images/Cooking_Collage_2.png">
+<img src = "/images/Cooking_Collage_2.jpg">
