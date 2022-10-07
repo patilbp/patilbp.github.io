@@ -26,7 +26,7 @@ Prior to grad school, I was working as an Data Scientist on end-to-end research,
 
 I was responsible for training-deploying NLP models for Sentiment analysis of user feedback, Conceptualizing & implementing org-level Application Level Management (ALM) activity for automated reporting, designing NLP algorithms, AWS Cloud Deployments, Interviewing and technically assessing candidates, Supply-Demand analysis, and enabling automated Dynamic Alerts for critical KPIs.<br><br>
 
-My career in Big Data Analytics started with my first employer 'Honeywell', which is popular for manufacturing automotive products. I was outsourced as a Consultant by a startup company Techknomatic Services, to Honeywell. I worked on Collecting & analyzing business requirements, developing automated reports, optimizing Dashboard performance, providing Hierarchical Access Rights for the stakeholders, etc.<br>
+My career in Big Data Analytics started with my first employer <a href = "https://www.honeywell.com/in/en/hail"> Honeywell</a>, Pune, Maharashtra, India; which is popular for manufacturing automotive products. I was outsourced as a Consultant in Honeywell, by a startup company <a href = "https://techknomatic.com/"> Techknomatic Services </a>, Pune, Maharashtra, India. I worked on Collecting & analyzing business requirements, developing automated reports, optimizing Dashboard performance, providing Hierarchical Access Rights for the stakeholders, etc.<br>
 
 This early startup experience let me learn a lot of things and has directly contributed in my vertical exponential growth. I learned the importance of prioritization, mitigating problems at hand by precedence, delivery-oriented research, and finding the correct spot in product development & business objectives.<br><br>
 
