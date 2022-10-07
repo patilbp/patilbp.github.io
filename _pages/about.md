@@ -13,22 +13,26 @@ redirect_from:
 ## A Little About Me
 
 <p align="justify">
-  
+
 👋 Hi! I am Bhagyashri.<br><br>
 
 I am a MS in Big data Analytics grad student at <a href = "https://big.sdsu.edu/"> San Diego State University, California </a>. Currently, I am affiliated with <a href = "https://business.sdsu.edu/students/ai"> AI Research Lab @ SDSU </a> where I am conducting research on the topic of "Amazon Product Reviews" advised by Prof. <a href = "https://dgoldberg.sdsu.edu/">David Goldberg</a>.<br><br>
-  
-<img src = "/images/BP-Torrey-Pines.jpeg" width="500" height="500"><br>
+
+<center><img src = "/images/BP-Torrey-Pines.jpeg" width="500" height="500"><br></center>
 <small><i>Department of Big Data Analytics, San Diego State University</i></small>
 <br><br>
-  
-Prior to grad school, I was working as an Data Scientist on end-to-end research, design, development, and deployment of ML Models for <a href = "https://www.saviantconsulting.com/"> Saviant Consulting</a>, Pune, Maharashtra, India. I was the single point of contact with customers.<br><br>
-  
 
+Prior to grad school, I was working as an Data Scientist on end-to-end research, design, development, and deployment of ML Models for <a href = "https://www.saviantconsulting.com/"> Saviant Consulting</a>, Pune, Maharashtra, India. I was the single point of contact to the customers.<br><br>
+
+I was responsible for training-deploying NLP models for Sentiment analysis of user feedback, Conceptualizing & implementing org-level Application Level Management (ALM) activity for automated reporting, designing NLP algorithms, AWS Cloud Deployments, Interviewing and technically assessing candidates, Supply-Demand analysis, and enabling automated Dynamic Alerts for critical KPIs.<br><br>
+
+My career in Big Data Analytics started with my first employer 'Honeywell', which is popular for manufacturing automotive products. I was outsourced as a Consultant by a startup company Techknomatic Services, to Honeywell. I worked on Collecting & analyzing business requirements, developing automated reports, optimizing Dashboard performance, providing Hierarchical Access Rights for the stakeholders, etc.<br><br>
+
+This early startup experience let me learn a lot of things and has directly contributed in my vertical exponential growth. I learned the importance of prioritization, mitigating problems at hand by precedence, delivery-oriented research, and finding the correct spot in product development & business objectives.<br><br>
 
 As an undergraduate, I majored in Computer Engineering from <a href="http://www.unipune.ac.in/">University of Pune (UoP)</a> in 2016. It was a very fruitful time in my life as I invested a lot of time in learning and exploring various technical workshops, events and competitions. Workshops I explored included Android App Development, Arduino Development, Big Data Analytics, Ethical Hacking, Robotics, etc. As a result of this, I was crystal clear of where I need to head after my undergrad studies and start a career in Big Data Analytics domain. I learnt a lot about social connections, maintaining and nurturing relations with people in this phase.<br><br> 
 
-I worked on the problem statement of 'Camera-based assistive Text and Product Label reading for Blind person', as part of my year long final year thesis project. It was interesting to get enlightened upon new techniques available by use of technology, which helps the visually impaired people. The vision was to design a algorithm and build a working prototype to demonstrate an automated model which scans, reads, translates and gives audio output to assist people.
+I worked on the problem statement of 'Camera-based assistive Text and Product Label reading for Blind person', as part of my year long final year thesis project. It was interesting to get enlightened upon new techniques available by use of technology, which helps the visually impaired people. The vision was to design a algorithm and build a working prototype to demonstrate an automated model which scans, reads, translates and gives audio output to assist people.<br><br>
 
 Generally, I enjoy working on projects which have my independent thought and concept behind them. It is challenging, but I believe it's an essential growth skill.
 
