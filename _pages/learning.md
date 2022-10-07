@@ -6,7 +6,6 @@ header:
   overlay_filter: 0.3
 author_profile: true
 ---
-# <center>RESOURCES</center>
 
 I generally spend time a lot of time searching for relevant resources to broaden my knowledge and learn new things. Hence, as a habit, I always pool the links in an excel sheet to keep the assortment handy. It's always good to have the resources around to quickly read important concepts and troubleshoot problems.  
 
