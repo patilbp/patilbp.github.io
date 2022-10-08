@@ -6,7 +6,6 @@ excerpt: ''
 date: 2016-07-22
 venue: 'International Journal Of Innovative Research And Creative Technology (IJIRCT)'
 ---
-<br>
 
 [View paper here](https://www.researchgate.net/publication/360994747_Camera-Based_Assistive_Text_and_Product_Label_Reading_For_Blind_Person)
 
