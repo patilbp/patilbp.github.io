@@ -1,7 +1,7 @@
 ---
 title: "Camera-Based Assistive Text and Product Label Reading For Blind Person"
 collection: publications
-permalink: /publication/IJIRCT_2016/
+permalink: /publication/ijirct_2016/
 excerpt: ''
 date: 2016-07-22
 venue: 'International Journal Of Innovative Research And Creative Technology (IJIRCT)'
