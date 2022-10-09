@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: <br>
+title: I have no special talent. I am only passionately curious.<br>
+- Albert Einstein.
 layout: single
 header:
   overlay_image: header_1.jpg
