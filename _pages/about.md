@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: <font size="15"> I have no special talent. I am only passionately curious.<br> - Albert Einstein. </font> 
+title: <font size="12"> I have no special talent. I am only passionately curious.<br> <div align="right"> - Albert Einstein. </div></font> 
 layout: single
 header:
   overlay_image: header_1.jpg
