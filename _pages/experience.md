@@ -53,9 +53,10 @@ Roles and Responsibilities:
 * Evaluated ensemble of dashboard models to optimize perplexity, accuracy and computation time
 * Spearheaded and conducted training on advanced BI tools for 60 associate-level employees of reputed MNCs
 
-<img src = "/images/Saviant_Collage.jpg"><br>
+<img src = "/images/Saviant_Collage_1.jpg">
+<img src = "/images/Saviant_Collage_2.jpg">
 <small><i><center> Saviant Consulting (Pune, Maharashtra, India) </center></i></small>
-<br><br>
+<br>
 
 ---
 <b>Business Intelligence Consultant</b> @ <a href="https://www.honeywell.com/in/en/hail"> Honeywell</a>, Pune, Maharashtra, India<br>
@@ -72,3 +73,6 @@ Roles and Responsibilities:
 * Developed dashboards by establishing parameter binding with filter controls for data slicing & dicing
 * Customized time-dimension & hierarchies to change aggregation levels of reports at initial load stage
 * Enabled widget toggling using layers with radio-buttons, facilitated pop-ups and navigation links for multi-page reports for ease in interactivity of reports
+
+<img src = "/images/Honeywell_Collage.jpg">
+<small><i><center> Honeywell (Pune, Maharashtra, India) </center></i></small>
