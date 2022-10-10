@@ -8,7 +8,7 @@ author_profile: true
 ---
 
 <b>Data Scientist Intern</b> @ <a href="https://valorcompounding.com/"> Valor Compounding Pharmacy</a>, Berkeley, California<br>
-<i>(June 2022 - Present)</i><br> 
+<i>Duration: June 2022 - Present</i><br> 
 Manager: [Ann Olaguer](https://www.linkedin.com/in/ann-o-bb631933/), Director of Business Intelligence and Analytics, Valor Compounding Pharmacy<br>
 
 ---
