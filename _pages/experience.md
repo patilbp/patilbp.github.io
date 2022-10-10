@@ -53,6 +53,10 @@ Roles and Responsibilities:
 * Evaluated ensemble of dashboard models to optimize perplexity, accuracy and computation time
 * Spearheaded and conducted training on advanced BI tools for 60 associate-level employees of reputed MNCs
 
+<img src = "/images/Saviant_Collage.jpg"><br>
+<small><i> Saviant Consulting (Pune, Maharashtra, India) </i></small>
+<br><br>
+
 ---
 <b>Business Intelligence Consultant</b> @ <a href="https://www.honeywell.com/in/en/hail"> Honeywell</a>, Pune, Maharashtra, India<br>
 <i>(Aug 2017 - July 2018) : Contract Employer (Techknomatic Services)</i><br> 
