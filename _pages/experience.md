@@ -54,7 +54,7 @@ Roles and Responsibilities:
 * Spearheaded and conducted training on advanced BI tools for 60 associate-level employees of reputed MNCs
 
 <img src = "/images/Saviant_Collage.jpg"><br>
-<small><i> Saviant Consulting (Pune, Maharashtra, India) </i></small>
+<small><i><center> Saviant Consulting (Pune, Maharashtra, India) </center></i></small>
 <br><br>
 
 ---
