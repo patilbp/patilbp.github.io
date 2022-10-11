@@ -24,7 +24,7 @@ Prior to my grad school, I've worked as a Data Scientist and have got overall 4 
 <small><i>Department of Big Data Analytics, San Diego State University</i></small>
 <br><br>
 
-### My work history
+## My work history
   
 My last employer was <a href = "https://www.saviantconsulting.com/"> Saviant Consulting</a>, Pune, Maharashtra, India. I was working on end-to-end research, design, development, and deployment of Machine Learning Models. I was handling a team of four developers, including me. I was responsible for training-deploying NLP models for Sentiment analysis of user feedback, Conceptualizing & implementing org-level Application Level Management (ALM) activity for automated reporting, designing NLP algorithms, AWS Cloud Deployments, Interviewing and technically assessing candidates, Supply-Demand analysis, and enabling automated Dynamic Alerts for critical KPIs.<br><br>
 
@@ -32,7 +32,7 @@ My career in Big Data Analytics started with my first employer <a href = "https:
 
 This early startup experience let me learn a lot of things and has directly contributed in my vertical exponential growth. I learned the importance of prioritization, mitigating problems at hand by precedence, delivery-oriented research, and finding the correct spot in product development & business objectives.<br><br>
 
-### My educational background
+## My educational background
   
 As an undergraduate, I majored in Computer Engineering from <a href="http://www.unipune.ac.in/">University of Pune (UoP)</a> in 2016. It was a very fruitful time in my life as I invested a lot of time in learning and exploring various technical workshops, events and competitions. Workshops I explored included Android App Development, Arduino Development, Big Data Analytics, Ethical Hacking, Robotics, etc. As a result of this, I was crystal clear of where I need to head after my undergrad studies and start a career in Big Data Analytics domain. I learnt a lot about social connections, maintaining and nurturing relations with people in this phase.<br><br>
 
