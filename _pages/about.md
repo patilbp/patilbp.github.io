@@ -21,7 +21,7 @@ I am a graduate student in MS Big data Analytics program at <a href = "https://b
 Prior to my grad school, I've worked as a Data Scientist and have got overall 4 years of experience (excluding internships/school years) in Machine Learning, NLP, Data Engineering, Data Modelling & Profiling, Design & Development of Business Data Analysis and Statistical Analysis (Python). I enjoy working in team as much as I enjoy working independently. On the fun side, photography is my hobby and I like capturing picturesque moments of nature's beauty and all living beings. Apart from this, I like to cook and try out new dishes, with some twist of taste and trying out DIY Projects!.<br><br>
 
 <img src = "/images/BP-Torrey-Pines.jpeg" width="500" height="500" margin="auto" text-align="center"><br>
-<small><i><center>Torrey Pines Gliderport, San Diego, CA</center></i></small>
+<small><i>Torrey Pines Gliderport, San Diego, CA</i></small>
 <br><br>
 
 <b> My work history </b><br><br>
