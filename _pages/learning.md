@@ -7,7 +7,7 @@ header:
 author_profile: true
 ---
 
-I generally spend time a lot of time searching for relevant resources to broaden my knowledge and learn new things. Hence, as a habit, I always pool the links in an excel sheet to keep the assortment handy. It's always good to have the resources around to quickly read important concepts and troubleshoot problems.  
+I generally spend time a good chunk of time searching for relevant resources to broaden my knowledge and learn new things. So I've got a habit to pool the links and store them, to keep the assortment handy. It saves a lot of time to quickly read important concepts and troubleshoot problems.  
 
 Thought of listing down some material that I keep a track of and which I felt was extremely useful :)
 
