@@ -21,39 +21,11 @@ author_profile: true
 <a href="https://public.tableau.com/app/profile/bhagyashri.patil/viz/Crude-OilImportAnalysis_0/Crude-OilImportAnalysis" target="_blank"><b>Crude Oil Import Analysis</b></a><br>
 
 
+<h3>Crude Oil Import Analysis</h3>
+<p>Lorem ipsum..</p>
+
+
 <!-- Portfolio Gallery Grid -->
-<div class="row">
-  <div class="column">
-    <div class="content">
-      <img src = "/images/Analysis_Renewable Energy.png" alt="Renewable Energy Analysis" style="width:100%">
-      <h3>Renewable Energy Analysis</h3>
-      <p>Lorem ipsum..</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src = "/images/Analysis_HR Attrition.png" alt="HR Attrition Analysis" style="width:100%">
-      <h3>HR Attrition Analysis</h3>
-      <p>Lorem ipsum..</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src = "/images/Analysis_Bank Marketing Campaign.png" alt="Bank Marketing Campaign Analysis" style="width:100%">
-      <h3>Bank Marketing Campaign Analysis</h3>
-      <p>Lorem ipsum..</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src = "/images/Analysis_Crude Oil Import.png" alt="Crude Oil Import Analysis" style="width:100%">
-      <h3>Crude Oil Import Analysis</h3>
-      <p>Lorem ipsum..</p>
-    </div>
-  </div>
-</div>
-
-
 <!-- The grid: four columns -->
 <div class="row">
   <div class="column">
