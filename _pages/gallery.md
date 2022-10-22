@@ -21,9 +21,6 @@ author_profile: true
 <a href="https://public.tableau.com/app/profile/bhagyashri.patil/viz/Crude-OilImportAnalysis_0/Crude-OilImportAnalysis" target="_blank"><b>Crude Oil Import Analysis</b></a><br>
 
 
-<!-- MAIN (Center website) -->
-<div class="main">
-
 <!-- Portfolio Gallery Grid -->
 <div class="row">
   <div class="column">
@@ -56,24 +53,31 @@ author_profile: true
   </div>
 </div>
 
-  
+
+<!-- The grid: four columns -->
 <div class="row">
   <div class="column">
-    <img src = "/images/Analysis_Renewable Energy.png" alt="Renewable Energy Analysis" style="width:100%">
+    <img src = "/images/Analysis_Renewable Energy.png" alt="Renewable Energy Analysis" style="width:100%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src = "/images/Analysis_HR Attrition.png" alt="HR Attrition Analysis" style="width:100%">
+    <img src = "/images/Analysis_HR Attrition.png" alt="HR Attrition Analysis" style="width:100%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src = "/images/Analysis_Bank Marketing Campaign.png" alt="Bank Marketing Campaign Analysis" style="width:100%">
+    <img src = "/images/Analysis_Bank Marketing Campaign.png" alt="Bank Marketing Campaign Analysis" style="width:100%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src = "/images/Analysis_Crude Oil Import.png" alt="Crude Oil Import Analysis" style="width:100%">
+    <img src = "/images/Analysis_Crude Oil Import.png" alt="Crude Oil Import Analysis" style="width:100%" onclick="myFunction(this);">
   </div>
 </div>
-  
-  
-  
 
-<!-- END MAIN -->
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
 </div>
