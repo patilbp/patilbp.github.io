@@ -29,16 +29,16 @@ author_profile: true
 <!-- The grid: four columns -->
 <div class="row">
   <div class="column">
-    <img src = "/images/Analysis_Renewable Energy.png" alt="Renewable Energy Analysis" onclick="myFunction(this);">
+    <img src = "/images/Analysis_Renewable Energy.png" width="500" height="500" alt="Renewable Energy Analysis" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src = "/images/Analysis_HR Attrition.png" alt="HR Attrition Analysis" onclick="myFunction(this);">
+    <img src = "/images/Analysis_HR Attrition.png" width="500" height="500" alt="HR Attrition Analysis" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src = "/images/Analysis_Bank Marketing Campaign.png" alt="Bank Marketing Campaign Analysis" onclick="myFunction(this);">
+    <img src = "/images/Analysis_Bank Marketing Campaign.png" width="500" height="500" alt="Bank Marketing Campaign Analysis" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src = "/images/Analysis_Crude Oil Import.png" alt="Crude Oil Import Analysis" onclick="myFunction(this);">
+    <img src = "/images/Analysis_Crude Oil Import.png" width="500" height="500" alt="Crude Oil Import Analysis" onclick="myFunction(this);">
   </div>
 </div>
 
