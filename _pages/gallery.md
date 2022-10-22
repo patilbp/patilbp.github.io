@@ -56,5 +56,24 @@ author_profile: true
   </div>
 </div>
 
+  
+<div class="row">
+  <div class="column">
+    <img src = "/images/Analysis_Renewable Energy.png" alt="Renewable Energy Analysis" style="width:100%">
+  </div>
+  <div class="column">
+    <img src = "/images/Analysis_HR Attrition.png" alt="HR Attrition Analysis" style="width:100%">
+  </div>
+  <div class="column">
+    <img src = "/images/Analysis_Bank Marketing Campaign.png" alt="Bank Marketing Campaign Analysis" style="width:100%">
+  </div>
+  <div class="column">
+    <img src = "/images/Analysis_Crude Oil Import.png" alt="Crude Oil Import Analysis" style="width:100%">
+  </div>
+</div>
+  
+  
+  
+
 <!-- END MAIN -->
 </div>
