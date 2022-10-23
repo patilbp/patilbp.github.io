@@ -28,11 +28,5 @@ author_profile: true
 <br>
 
 
-<img alt="Renewable Energy Analysis" src="/images/Analysis_Renewable Energy.png" width="45%" height="400"/> <img alt="HR Attrition Analysis" src="/images/Analysis_HR Attrition.png" width="45%" height="400"/>
-<img alt="Bank Marketing Campaign Analysis" src="/images/Analysis_Bank Marketing Campaign.png" width="45%" height="400"/> <img alt="Crude Oil Import Analysis" src="/images/Analysis_Crude Oil Import.png" width="45%" height="400"/>
-
-
-<img src = "/images/Analysis_Renewable Energy.png" width="200" height="400" alt="Renewable Energy Analysis">
-<img src = "/images/Analysis_HR Attrition.png" width="200" height="400" alt="HR Attrition Analysis">
-<img src = "/images/Analysis_Bank Marketing Campaign.png" width="200" height="400" alt="Bank Marketing Campaign Analysis">
-<img src = "/images/Analysis_Crude Oil Import.png" width="200" height="400" alt="Crude Oil Import Analysis">
+<img alt="Renewable Energy Analysis" src="/images/Analysis_Renewable Energy.png" width="45%" height="250"/> <img alt="HR Attrition Analysis" src="/images/Analysis_HR Attrition.png" width="45%" height="250"/>
+<img alt="Bank Marketing Campaign Analysis" src="/images/Analysis_Bank Marketing Campaign.png" width="45%" height="250"/> <img alt="Crude Oil Import Analysis" src="/images/Analysis_Crude Oil Import.png" width="45%" height="250"/>
