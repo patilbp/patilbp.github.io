@@ -28,10 +28,9 @@ author_profile: true
 <br>
 
 
+<img alt="Renewable Energy Analysis" src="/images/Analysis_Renewable Energy.png" width="45%" height="500"/> <img alt="HR Attrition Analysis" src="/images/Analysis_HR Attrition.png" width="45%" height="500"/>
+<img alt="Bank Marketing Campaign Analysis" src="/images/Analysis_Bank Marketing Campaign.png" width="45%" height="500"/> <img alt="Crude Oil Import Analysis" src="/images/Analysis_Crude Oil Import.png" width="45%" height="500"/>
 
-
-<img src = "/images/Analysis_Renewable Energy.png" width="45%"/> <img src = "/images/Analysis_HR Attrition.png" width="45%"/>
-<img src = "/images/Analysis_Bank Marketing Campaign.png" width="45%"/> <img src = "/images/Analysis_Crude Oil Import.png" width="45%"/>
 
 <img src = "/images/Analysis_Renewable Energy.png" width="200" height="400" alt="Renewable Energy Analysis">
 <img src = "/images/Analysis_HR Attrition.png" width="200" height="400" alt="HR Attrition Analysis">
