@@ -6,25 +6,32 @@ header:
   overlay_filter: 0.3
 author_profile: true
 ---
+
+<a href="https://public.tableau.com/app/profile/bhagyashri.patil/viz/RenewableEnergyAnalysis/EnergyEfficientCountryRanking" target="_blank">
+<b> Renewable Energy Analysis </b></a>
+<img src = "/images/Analysis_Renewable Energy.png">
 <br>
 
-<img src = "/images/Analysis_Renewable Energy.png">
+<a href="https://public.tableau.com/app/profile/bhagyashri.patil/viz/HR-AttritionAnalytics/HRAttritionAnalysis" target="_blank">
+<b> HR Attrition Analytics </b></a>
 <img src = "/images/Analysis_HR Attrition.png">
+<br>
+
+<a href="https://public.tableau.com/app/profile/bhagyashri.patil/viz/BankMarketingCampaignAnalysis_0/BankMarketingCampaignAnalysis" target="_blank">
+<b> Bank Marketing Campaign Analysis </b></a>
 <img src = "/images/Analysis_Bank Marketing Campaign.png">
+<br>
+
+<a href="https://public.tableau.com/app/profile/bhagyashri.patil/viz/Crude-OilImportAnalysis_0/Crude-OilImportAnalysis" target="_blank">
+<b> Crude-Oil Import Analysis </b></a>
 <img src = "/images/Analysis_Crude Oil Import.png">
-
-<a href="https://public.tableau.com/app/profile/bhagyashri.patil/viz/RenewableEnergyAnalysis/EnergyEfficientCountryRanking" target="_blank"></a><br>
-<a href="https://public.tableau.com/app/profile/bhagyashri.patil/viz/HR-AttritionAnalytics/HRAttritionAnalysis" target="_blank"></a><br>
-<a href="https://public.tableau.com/app/profile/bhagyashri.patil/viz/BankMarketingCampaignAnalysis_0/BankMarketingCampaignAnalysis" target="_blank"></a><br>
-<a href="https://public.tableau.com/app/profile/bhagyashri.patil/viz/Crude-OilImportAnalysis_0/Crude-OilImportAnalysis" target="_blank"></a><br>
+<br>
 
 
-<h3>Crude Oil Import Analysis</h3>
-<p>Lorem ipsum..</p>
 
 
-<img src = "/images/Analysis_Renewable Energy.png" width="200"/> <img src = "/images/Analysis_HR Attrition.png" width="500"/>
-
+<img src = "/images/Analysis_Renewable Energy.png" width="45%"/> <img src = "/images/Analysis_HR Attrition.png" width="45%"/>
+<img src = "/images/Analysis_Bank Marketing Campaign.png" width="45%"/> <img src = "/images/Analysis_Crude Oil Import.png" width="45%"/>
 
 <img src = "/images/Analysis_Renewable Energy.png" width="200" height="400" alt="Renewable Energy Analysis">
 <img src = "/images/Analysis_HR Attrition.png" width="200" height="400" alt="HR Attrition Analysis">
