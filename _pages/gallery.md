@@ -29,4 +29,4 @@ author_profile: true
 
 
 <img alt="Renewable Energy Analysis" src="/images/Analysis_Renewable Energy.png" width="45%" height="250"/> <img alt="HR Attrition Analysis" src="/images/Analysis_HR Attrition.png" width="45%" height="250"/>
-<img alt="Bank Marketing Campaign Analysis" src="/images/Analysis_Bank Marketing Campaign.png" width="45%" height="250"/> <img alt="Crude Oil Import Analysis" src="/images/Analysis_Crude Oil Import.png" width="45%" height="250"/>
+<img alt="Bank Marketing Campaign Analysis" src="/images/Analysis_Bank Marketing Campaign.png" width="45%" height="100%"/> <img alt="Crude Oil Import Analysis" src="/images/Analysis_Crude Oil Import.png" width="45%" height="100%"/>
