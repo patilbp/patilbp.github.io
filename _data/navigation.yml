@@ -10,8 +10,8 @@ main:
   - title: "Research"
     url: /research/
   
-  - title: "Gallery"
-    url: /gallery/
+#  - title: "Gallery"
+#    url: /gallery/
     
   - title: "Publications"
     url: /publications/
