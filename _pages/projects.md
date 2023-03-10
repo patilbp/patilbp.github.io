@@ -21,8 +21,9 @@ Develop a matrix system of performance metrics for the customer care department 
 A series of data metrics and dashboard visualizations in Qlik that report the following levels:<br>
 - By overall department
 - By role / position within the department
-- By individual within the department
+- By individual within the department<br>
 <br>
+
 ## Discovery of Process and Considerations: <br>
 <br>
 ### Customer Care is divided into 2 departments: <br>
@@ -49,15 +50,23 @@ A series of data metrics and dashboard visualizations in Qlik that report the fo
 | Number of Zendesk Tickets Worked on | All          | Zendesk        |                   |                                                     |
 <br>
 
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|-----------------------------|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=============================|
-| Foot1   | Foot2   | Foot3   |
+| Data Metrics | Affected Roles | Data Source | Data Tables | Variable or Fixed | Goal of Metric (Based on 40 hours/week) |
+|:--------|:-------:|--------:|:--------|:-------:|--------:|
+| Number of Rx Typed   | cell2   | cell3   | cell2   | cell3   | cell2   |
+| Number of Phone Calls Answered   | cell5   | cell6   | cell2   | cell3   | cell2   |
+| Number of Phone Calls Returned   | cell2   | cell3   | cell2   | cell3   | cell2   |
+| Number of Zendesk Tickets Worked on   | cell5   | cell6   | cell2   | cell3   | cell2   |
+| Number of Zendesk Tickets Solved   | cell2   | cell3   | cell2   | cell3   | cell2   |
+| Average time to Solve Ticket   | cell2   | cell3   | cell2   | cell3   | cell2   |
+| Number of work hours scheduled vs. worked   | cell2   | cell3   | cell2   | cell3   | cell2   |
+| Percent On-time arrival   | cell2   | cell3   | cell2   | cell3   | cell2   |
+| Hours of 'Other' or 'In Meeting' Agent Status   | cell2   | cell3   | cell2   | cell3   | cell2   |
+| Number of Rx Verified   | cell2   | cell3   | cell2   | cell3   | cell2   |
+| Number of Rx Shipped   | cell2   | cell3   | cell2   | cell3   | cell2   |
+| Individual Name   | cell2   | cell3   | cell2   | cell3   | cell2   |
+| Individual Title   | cell2   | cell3   | cell2   | cell3   | cell2   |
+| Employment Type (FT / PT / Per Diem)   | cell2   | cell3   | cell2   | cell3   | cell2   |
+| Role / Position   | cell2   | cell3   | cell2   | cell3   | cell2   |
 
 <br>
 
