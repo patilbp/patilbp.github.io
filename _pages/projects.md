@@ -66,10 +66,10 @@ A series of data metrics and dashboard visualizations in Qlik that report the fo
 |:--------|:-------:|--------:|--------:|--------:|--------:|
 | cell1   | cell2   | cell3   | cell7   | cell8   | cell9   |
 | cell4   | cell5   | cell6   | cell10  | cell11  | cell12  |
-|-----------------------------|-----------------------------|
+|---------|---------|---------|---------|---------|---------|
 | cell1   | cell2   | cell3   | cell7   | cell8   | cell9   |
 | cell4   | cell5   | cell6   | cell10  | cell11  | cell12  |
-|=============================|=============================|
+|=========|=========|=========|=========|=========|=========|
 | Foot1   | Foot2   | Foot3   | Foot4   | Foot5   | Foot6   |
 
 <br>
