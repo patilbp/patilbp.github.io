@@ -41,18 +41,11 @@ A series of data metrics and dashboard visualizations in Qlik that report the fo
 - Sales (All)
 <br>
 ## Brainstorm Metrics / Data sources: <br>
-### Individual & Role Specific Dashboard Metrics: <br>
-| Data Metrics                      | Affected Roles | Data Source    | Variable or Fixed | Goal of Metric (Based on 40 hours / week)           |
-| --------------------------------- | -------------- | -------------- | ----------------- | -------------------------------------------------   |
-| Number of Rx Typed                | 1, 2, 5        | PK             | Variable          | CCS CF: Goal: 60 / day (min) <br> CCS DTP Goal: 30 / day (min) <br> CCS DTP Goal: 30 / day (min) <br> Magic Goal: 0/ day <br> CCP: ? / Day <br> Shipping: 0 /Day <br> Sales: 0 /day |
-| Number of Phone Calls Answered    | All            | Five9 (Excel)  | Variable          | Magic: 15 / day <br> CCS CF: <br> CCS DTP: <br> CCP:|
-| Number of Phone Calls Returned    | All            | Five9 (Excel)  | Variable          | CCS CF: <br> CCS DTP: <br> Magic:                   |
-| Number of Zendesk Tickets Worked on | All          | Zendesk        |                   |                                                     |
+### Individual & Role Specific Dashboard Metrics:
 <br>
-
 | Data Metrics | Affected Roles | Data Source | Data Tables | Variable or Fixed | Goal of Metric (Based on 40 hours/week) |
 |:--------|:-------:|--------:|:--------|:-------:|--------:|
-| Number of Rx Typed   | cell2   | cell3   | cell2   | cell3   | cell2   |
+| Number of Rx Typed   | 1,2,5   | cell3   | cell2   | cell3   | cell2   |
 | Number of Phone Calls Answered   | cell5   | cell6   | cell2   | cell3   | cell2   |
 | Number of Phone Calls Returned   | cell2   | cell3   | cell2   | cell3   | cell2   |
 | Number of Zendesk Tickets Worked on   | cell5   | cell6   | cell2   | cell3   | cell2   |
@@ -67,6 +60,17 @@ A series of data metrics and dashboard visualizations in Qlik that report the fo
 | Individual Title   | cell2   | cell3   | cell2   | cell3   | cell2   |
 | Employment Type (FT / PT / Per Diem)   | cell2   | cell3   | cell2   | cell3   | cell2   |
 | Role / Position   | cell2   | cell3   | cell2   | cell3   | cell2   |
+
+
+| Header1 | Header2 | Header3 | Header4 | Header5 | Header6 |
+|:--------|:-------:|--------:|--------:|--------:|--------:|
+| cell1   | cell2   | cell3   | cell7   | cell8   | cell9   |
+| cell4   | cell5   | cell6   | cell10  | cell11  | cell12  |
+|-----------------------------|-----------------------------|
+| cell1   | cell2   | cell3   | cell7   | cell8   | cell9   |
+| cell4   | cell5   | cell6   | cell10  | cell11  | cell12  |
+|=============================|=============================|
+| Foot1   | Foot2   | Foot3   | Foot4   | Foot5   | Foot6   |
 
 <br>
 
