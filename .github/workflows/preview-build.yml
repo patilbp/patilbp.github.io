@@ -1,0 +1,31 @@
+name: Build portfolio preview
+on:
+  push:
+    branches:
+      - redesign/clean-modern-hybrid
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout redesign branch
+        uses: actions/checkout@v4
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+      - name: Build Jekyll site
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --destination _site
+      - name: Upload preview build
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-preview-site
+          path: _site/
+          retention-days: 14
