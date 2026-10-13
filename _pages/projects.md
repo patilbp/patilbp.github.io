@@ -1,79 +1,51 @@
 ---
 title: "Projects"
 permalink: /projects/
-header:
-  overlay_image: header_1.jpg
-  overlay_filter: 0.3
-author_profile: true
+layout: single
+author_profile: false
+classes: wide
 ---
 
-## Capstone Project Title: Performance Evaluation Metrics
-<br>
-### Problem Statement: <br>
-Historically, the customer care employees’ performance was assessed solely by the number of prescriptions they type. However their position is multifunctional where they are required to answer phone calls, return phone calls, solve customer service issues, follow-up with doctors’ offices and more. The issue is that the one metric is not enough to fairly assess their performance and rewards only that one job task. This in turn, creates less performance in all other areas except typing in prescriptions.
-<br>
-### Solution / Goal: <br>
-Develop a matrix system of performance metrics for the customer care department at Valor Compounding Pharmacy.
-<br>
-### Impact of working on this Project: <br>
-<br>
-### Deliverables: <br>
-A series of data metrics and dashboard visualizations in Qlik that report the following levels:<br>
-- By overall department
-- By role / position within the department
-- By individual within the department<br>
-<br>
+# Selected projects
 
-## Discovery of Process and Considerations: <br>
-<br>
-### Customer Care is divided into 2 departments: <br>
-- Central Fill (CF)
-- Direct to Patient (DTP)
-- Customer Care (All)
-<br>
-### Customer Care contains the following Roles / Positions: <br>
-- Customer Care Specialists - Central Fill
-- Customer Care Specialists - (DTP)
-- Quality Assurance Pharmacists (DTP)
-- Customer Care Specialists - Magic Team (All)
-- Customer Care Pharmacists (All)
-- Shipping (All)
-- Sales (All)
-<br>
-## Brainstorm Metrics / Data sources: <br>
-### Individual & Role Specific Dashboard Metrics:
-<br>
-| Data Metrics | Affected Roles | Data Source | Data Tables | Variable or Fixed | Goal of Metric (Based on 40 hours/week) |
-|:--------|:-------:|--------:|:--------|:-------:|--------:|
-| Number of Rx Typed   | 1,2,5   | cell3   | cell2   | cell3   | cell2   |
-| Number of Phone Calls Answered   | cell5   | cell6   | cell2   | cell3   | cell2   |
-| Number of Phone Calls Returned   | cell2   | cell3   | cell2   | cell3   | cell2   |
-| Number of Zendesk Tickets Worked on   | cell5   | cell6   | cell2   | cell3   | cell2   |
-| Number of Zendesk Tickets Solved   | cell2   | cell3   | cell2   | cell3   | cell2   |
-| Average time to Solve Ticket   | cell2   | cell3   | cell2   | cell3   | cell2   |
-| Number of work hours scheduled vs. worked   | cell2   | cell3   | cell2   | cell3   | cell2   |
-| Percent On-time arrival   | cell2   | cell3   | cell2   | cell3   | cell2   |
-| Hours of 'Other' or 'In Meeting' Agent Status   | cell2   | cell3   | cell2   | cell3   | cell2   |
-| Number of Rx Verified   | cell2   | cell3   | cell2   | cell3   | cell2   |
-| Number of Rx Shipped   | cell2   | cell3   | cell2   | cell3   | cell2   |
-| Individual Name   | cell2   | cell3   | cell2   | cell3   | cell2   |
-| Individual Title   | cell2   | cell3   | cell2   | cell3   | cell2   |
-| Employment Type (FT / PT / Per Diem)   | cell2   | cell3   | cell2   | cell3   | cell2   |
-| Role / Position   | cell2   | cell3   | cell2   | cell3   | cell2   |
+I approach analytics projects by starting with the decision they need to support, then designing metrics and reporting experiences around that goal.
 
+---
 
-| Header1 | Header2 | Header3 | Header4 | Header5 | Header6 |
-|:--------|:-------:|--------:|--------:|--------:|--------:|
-| cell1   | cell2   | cell3   | cell7   | cell8   | cell9   |
-| cell4   | cell5   | cell6   | cell10  | cell11  | cell12  |
-|---------|---------|---------|---------|---------|---------|
-| cell1   | cell2   | cell3   | cell7   | cell8   | cell9   |
-| cell4   | cell5   | cell6   | cell10  | cell11  | cell12  |
-|=========|=========|=========|=========|=========|=========|
-| Foot1   | Foot2   | Foot3   | Foot4   | Foot5   | Foot6   |
+## Performance Evaluation Metrics
 
-<br>
+**Focus:** Business intelligence · KPI design · Qlik dashboards
 
-### Data Timeframe Window: <br>
-2019 to till-date<br>
-<br>
+### The challenge
+
+At Valor Compounding Pharmacy, customer care performance had historically been assessed primarily by the number of prescriptions typed. However, the role also involved answering and returning calls, resolving customer service issues, and following up with doctors' offices. A single metric could not adequately reflect the range of work being performed.
+
+### The objective
+
+Design a more balanced performance measurement framework for the customer care department, covering:
+
+- Department-level performance
+- Role- and position-level performance
+- Individual-level performance
+
+### My approach
+
+**1. Understand the workflow.** Map the work performed by Central Fill, Direct to Patient, and cross-functional customer care teams.
+
+**2. Define meaningful measures.** Consider prescription throughput, phone interactions, Zendesk ticket activity, response and resolution time, attendance, and scheduled-versus-worked hours.
+
+**3. Design reporting views.** Plan Qlik dashboard views for department, role, and individual analysis, so performance can be evaluated in context rather than by a single output metric.
+
+### Proposed deliverables
+
+A KPI framework and a series of Qlik dashboard visualizations designed to support fairer, more complete performance conversations.
+
+> **Project note:** This case study describes the original problem, proposed metrics, and intended deliverables. Quantified outcomes have not been added because they are not documented in the original project write-up.
+
+---
+
+## More work
+
+Explore my [research](/research/), [professional experience](/experience/), and [GitHub repositories](https://github.com/patilbp) for additional technical work.
+
+*Additional case studies will be added as project details and outcomes are verified.*
