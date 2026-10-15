@@ -1,44 +1,123 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-const photographs=[
+const photos=[
   {
-    "src": "https://images.unsplash.com/photo-1644777122204-907ec31b0538?auto=format&fit=crop&w=1500&q=85",
-    "href": "https://unsplash.com/photos/a-view-of-a-beach-at-sunset-with-a-pier-in-the-distance-R0XyV52blMs",
-    "alt": "Coastal landscape at Torrey Pines State Natural Reserve photographed by Bhagyashri Patil",
-    "location": "Torrey Pines · California",
-    "name": "Where land meets the Pacific",
-    "kind": "Landscape"
+    "title": "Last Light",
+    "subtitle": "Coast / Evening",
+    "src": "https://images.unsplash.com/photo-1644777122204-907ec31b0538?auto=format&fit=crop&w=1900&q=86",
+    "url": "https://unsplash.com/photos/a-view-of-a-beach-at-sunset-with-a-pier-in-the-distance-R0XyV52blMs",
+    "alt": "Sunset light along the Torrey Pines coastline, photographed by Bhagyashri Patil",
+    "shape": "feature",
+    "note": "A quieter kind of horizon"
   },
   {
-    "src": "https://images.unsplash.com/photo-1656790788703-0605e41312c1?auto=format&fit=crop&w=1100&q=85",
-    "href": "https://unsplash.com/photos/a-hand-holding-a-group-of-sea-shells-on-a-beach-GZ_uCG_bNns",
-    "alt": "Seashells held in a hand on Baga Beach in Goa, photographed by Bhagyashri Patil",
-    "location": "Baga Beach · Goa",
-    "name": "The little things",
-    "kind": "Details"
+    "title": "Lift",
+    "subtitle": "Torrey Pines / California",
+    "src": "https://images.unsplash.com/photo-1644777072462-9ac43679036a?auto=format&fit=crop&w=1300&q=85",
+    "url": "https://unsplash.com/photos/a-person-flying-a-large-orange-kite-over-a-lush-green-field-8zkR1uW2fgk",
+    "alt": "Bright orange paraglider over a green coastal field and ocean",
+    "shape": "landscape",
+    "note": "The art of taking flight"
+  },
+  {
+    "title": "Symmetry in Gold",
+    "subtitle": "Architecture / Perspective",
+    "src": "https://images.unsplash.com/photo-1659843376072-a348fbaea990?auto=format&fit=crop&w=1300&q=85",
+    "url": "https://unsplash.com/photos/BlgQtOBoZ4k",
+    "alt": "Golden geometric architectural ceiling, viewed from below",
+    "shape": "landscape",
+    "note": "Patterns above us"
+  },
+  {
+    "title": "At the Edge of the Shore",
+    "subtitle": "Goa / India",
+    "src": "https://images.unsplash.com/photo-1656790821730-ff51eafc3b6c?auto=format&fit=crop&w=1200&q=85",
+    "url": "https://unsplash.com/photos/a-dog-lying-on-the-beach-BkcQljbVb8A",
+    "alt": "Golden brown dog resting on a coastal ledge at the beach",
+    "shape": "landscape",
+    "note": "A moment of company"
+  },
+  {
+    "title": "Sunlit Pause",
+    "subtitle": "Nature / Wildlife",
+    "src": "https://images.unsplash.com/photo-1644776986545-a3b246aa77a0?auto=format&fit=crop&w=1150&q=85",
+    "url": "https://unsplash.com/photos/a-small-turtle-sitting-on-top-of-a-rock-jqa0-zlARd4",
+    "alt": "Turtle basking on a stone beside the water",
+    "shape": "portrait",
+    "note": "In its own time"
+  },
+  {
+    "title": "Collected by the Sea",
+    "subtitle": "Beach / Details",
+    "src": "https://images.unsplash.com/photo-1656790788703-0605e41312c1?auto=format&fit=crop&w=1200&q=85",
+    "url": "https://unsplash.com/photos/a-hand-holding-a-group-of-sea-shells-on-a-beach-GZ_uCG_bNns",
+    "alt": "Palm holding small beach finds beside the shore in Goa",
+    "shape": "landscape",
+    "note": "Little things, kept close"
+  },
+  {
+    "title": "Afternoon Comfort",
+    "subtitle": "Nature / Animals",
+    "src": "https://images.unsplash.com/photo-1733442763792-6c8fa8b4ca96?auto=format&fit=crop&w=1100&q=85",
+    "url": "https://unsplash.com/photos/a-cat-laying-on-top-of-a-tree-stump-X8sXLzpvv2I",
+    "alt": "Grey-and-white cat relaxing on a tree stump in sunlight",
+    "shape": "portrait",
+    "note": "A place in the sun"
+  },
+  {
+    "title": "In Bloom",
+    "subtitle": "Flowers / Color",
+    "src": "https://images.unsplash.com/photo-1660280595918-e180ad83372f?auto=format&fit=crop&w=1200&q=85",
+    "url": "https://unsplash.com/photos/a-bunch-of-red-flowers-that-are-blooming-DdnjHjl7dPQ",
+    "alt": "Vivid red-pink flowering blossoms in soft focus",
+    "shape": "portrait",
+    "note": "Color in close-up"
+  },
+  {
+    "title": "Tropical Light",
+    "subtitle": "Botanical / Nature",
+    "src": "https://images.unsplash.com/photo-1714781280775-2053416dbd68?auto=format&fit=crop&w=1200&q=85",
+    "url": "https://unsplash.com/photos/evM-EmEAFrI",
+    "alt": "Red hibiscus in warm sun among tropical leaves",
+    "shape": "portrait",
+    "note": "A final burst of warmth"
   }
 ];
 ---
 <BaseLayout title="Beyond Work | Photography by Bhagyashri Patil">
 <header class="beyond-hero">
-  <div><span class="eyebrow">Beyond Work / A creative perspective</span>
-  <h1>A different way<br/>of <em>seeing the world.</em></h1>
-  <p>Outside of product thinking and technical problem-solving, I love photography. It invites me to slow down, notice small details, and hold on to moments that would otherwise pass by.</p>
-  <div class="actions"><a class="button primary" href="https://unsplash.com/@p_bhagyashri" target="_blank" rel="noopener noreferrer">Explore my Unsplash ↗</a><a class="button secondary" href="/about/">Back to About →</a></div></div>
-  <div class="beyond-side"><span class="side-number">01 —</span><p>Curiosity doesn't end when the workday does.</p><span class="side-mark">PHOTOGRAPHY / PLACES / MOMENTS</span></div>
+  <div class="beyond-intro"><span class="eyebrow">Beyond Work / Photography</span><h1>A different way<br/>of <em>seeing the world.</em></h1>
+    <p>Some stories are told in data. Others live in the light, colors, and quiet moments around us. Photography is my way of slowing down and noticing both.</p>
+    <div class="actions"><a class="button primary" href="https://unsplash.com/@p_bhagyashri" target="_blank" rel="noopener noreferrer">My photography on Unsplash ↗</a><a class="button secondary" href="/about/">Back to About →</a></div>
+  </div>
+  <div class="intro-aside"><span>EST. BY CURIOSITY</span><p>Places.<br/>Perspectives.<br/>Small wonders.</p><span>SELECTED FRAMES / 01—09</span></div>
 </header>
-<section class="section"><div class="gallery-heading"><div><span class="eyebrow">01 / Selected frames</span><h2>Through my lens.</h2></div><p>A small, intentional selection from my photography collection. More favorites will join this page over time.</p></div>
-<div class="photo-grid">
-{photographs.map((photo,i)=><a class:list={['photo',i===0?'photo-wide':'photo-tall']} href={photo.href} target="_blank" rel="noopener noreferrer" aria-label={`Open ${photo.name} on Unsplash`}><div class="photo-frame"><img src={photo.src} alt={photo.alt} loading={i===0?'eager':'lazy'} decoding="async"/><span class="photo-open" aria-hidden="true">View on Unsplash ↗</span></div><div class="photo-meta"><div><span class="eyebrow">{photo.kind} / {String(i+1).padStart(2,'0')}</span><h3>{photo.name}</h3></div><span class="location">{photo.location}</span></div></a>)}
-</div></section>
-<section class="section"><div class="section-row"><span class="eyebrow">02 / Away from the desk</span><div><h2>Exploration is part of who I am.</h2><p>Photography is one of the ways I recharge and stay curious. I'm especially drawn to nature, places, and the small compositions that often go unnoticed. It's a personal interest rather than a professional credential, and I love having a little corner of this website to share it.</p><div class="actions"><a class="button primary" href="https://unsplash.com/@p_bhagyashri" target="_blank" rel="noopener noreferrer">See the full collection ↗</a><a class="button secondary" href="/contact/">Let's connect →</a></div></div></div></section>
+<section class="gallery" aria-labelledby="gallery-title">
+<div class="gallery-head"><div><span class="eyebrow">01 / A curated collection</span><h2 id="gallery-title">Through my lens.</h2></div><p>Nine favorite moments—from open skies and architecture to animals, textures, and the details in between.</p></div>
+<div class="gallery-grid">
+{photos.map((photo,i)=><figure class:list={['gallery-item', 'gallery-'+photo.shape, i===0?'gallery-first':'']}>
+  <a href={photo.url} target="_blank" rel="noopener noreferrer" aria-label={`Open ${photo.title} on Unsplash`} class="photo-link">
+    <div class="photo-image"><img src={photo.src} alt={photo.alt} loading={i<2?'eager':'lazy'} decoding="async" fetchpriority={i===0?'high':'auto'} /><span class="photo-view">View photograph ↗</span></div>
+  </a>
+  <figcaption><div><span class="counter">FRAME {String(i+1).padStart(2,'0')} / 09</span><h3>{photo.title}</h3><span class="photo-note">{photo.note}</span></div><span class="photo-type">{photo.subtitle}</span></figcaption>
+</figure>)}
+</div>
+</section>
+<section class="section"><div class="section-row"><span class="eyebrow">02 / A little more about me</span><div><h2>Curiosity doesn't end at the desk.</h2><p>Whether I'm exploring a new place or spotting an interesting composition close to home, photography gives me a reason to notice things I might otherwise miss. It's one of the personal interests that makes life richer outside work.</p><div class="actions"><a class="button primary" href="https://unsplash.com/@p_bhagyashri" target="_blank" rel="noopener noreferrer">Explore my Unsplash collection ↗</a><a class="button secondary" href="/contact/">Let's connect →</a></div></div></div></section>
 </BaseLayout>
 <style>
-.beyond-hero{min-height:560px;padding:clamp(75px,8vw,130px) 0;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(230px,.45fr);gap:clamp(30px,8vw,120px);align-items:end}
-.beyond-hero h1{font-size:clamp(3.15rem,5.8vw,6.6rem);line-height:1.1;margin:25px 0 29px}.beyond-hero h1 em{font-style:normal;color:#4568d7}.beyond-hero p{max-width:700px}
-.beyond-side{border-left:1px solid #dce5f0;padding-left:28px;color:#62728a}.side-number{font-family:Manrope,sans-serif;font-size:2.5rem;color:#496bd6;font-weight:800}.beyond-side p{font-family:Manrope,sans-serif;font-size:1.24rem;color:#243a55;font-weight:700;line-height:1.5}.side-mark{font-size:.65rem;letter-spacing:.15em;font-weight:800;color:#8591a4}
-.gallery-heading{display:flex;align-items:end;justify-content:space-between;gap:30px}.gallery-heading h2{margin-top:15px}.gallery-heading p{max-width:390px;font-size:.97rem}.photo-grid{display:grid;grid-template-columns:minmax(0,1.32fr) minmax(0,.86fr);gap:clamp(18px,3vw,42px);margin-top:35px}.photo{min-width:0;display:block}.photo-frame{position:relative;overflow:hidden;border-radius:17px;background:#e6ecf7}.photo-wide .photo-frame{aspect-ratio:4/3}.photo-tall .photo-frame{aspect-ratio:3/4}.photo-frame img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .45s ease}.photo:hover .photo-frame img{transform:scale(1.035)}.photo-open{position:absolute;right:17px;bottom:18px;background:#fffdf5ee;border-radius:100px;font-size:.75rem;font-weight:800;padding:11px 15px}.photo-meta{display:flex;justify-content:space-between;gap:14px;align-items:end;padding-top:20px}.photo-meta h3{margin:10px 0 0}.location{font-size:.82rem;color:#7c899a;text-align:right}
-@media(max-width:900px){.beyond-hero{min-height:unset;grid-template-columns:1fr;gap:45px}.beyond-side{max-width:480px}.photo-grid{grid-template-columns:1fr 1fr;gap:20px}.photo-meta{display:block}.location{display:block;text-align:left;margin-top:8px}}
-@media(max-width:650px){.beyond-hero{padding:55px 0}.gallery-heading{display:block}.photo-grid{grid-template-columns:1fr}.photo-tall .photo-frame{aspect-ratio:4/3}.photo-meta{display:flex}.location{text-align:right}.beyond-hero h1{font-size:clamp(2.7rem,10vw,4.4rem)}}
-@media(prefers-reduced-motion:reduce){.photo-frame img{transition:none}}
+.beyond-hero{min-height:540px;padding:clamp(80px,8vw,130px) 0;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(230px,.5fr);align-items:end;gap:clamp(45px,8vw,130px)}
+.beyond-hero h1{font-size:clamp(3rem,5.6vw,6rem);line-height:1.1;margin:24px 0 27px}.beyond-hero em{font-style:normal;color:#4868d6}.beyond-hero p{max-width:710px}
+.intro-aside{border-left:1px solid #d8e2ef;padding-left:28px}.intro-aside>span{font-size:.66rem;font-weight:800;letter-spacing:.13em;color:#8190a6}.intro-aside p{font:700 clamp(1.1rem,1.6vw,1.5rem)/1.65 Manrope,sans-serif;color:#253b55;margin:20px 0}
+.gallery{border-top:1px solid #e0e8f1;padding:clamp(55px,6vw,86px) 0}.gallery-head{display:flex;align-items:end;justify-content:space-between;gap:40px;margin-bottom:35px}.gallery-head h2{margin:13px 0 0}.gallery-head p{max-width:420px;font-size:.98rem;margin:0}
+.gallery-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(22px,3vw,43px) clamp(18px,3vw,43px)}
+.gallery-item{margin:0;min-width:0;grid-column:span 6}.gallery-first{grid-column:span 12;margin-bottom:10px}.gallery-item:nth-child(4),.gallery-item:nth-child(7){grid-column:span 7}.gallery-item:nth-child(5),.gallery-item:nth-child(8){grid-column:span 5}
+.gallery-item:nth-child(6){grid-column:span 12}.gallery-item:nth-child(9){grid-column:span 12;max-width:740px;justify-self:center;width:100%}
+.photo-link{display:block}.photo-image{overflow:hidden;position:relative;border-radius:16px;background:#e8edf4}.photo-image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .4s ease,filter .3s ease}
+.gallery-item .photo-image{aspect-ratio:1.34}.gallery-first .photo-image{aspect-ratio:2.12}.gallery-item:nth-child(5) .photo-image,.gallery-item:nth-child(7) .photo-image,.gallery-item:nth-child(8) .photo-image{aspect-ratio:.86}.gallery-item:nth-child(6) .photo-image{aspect-ratio:2}.gallery-item:nth-child(9) .photo-image{aspect-ratio:1.5}
+.photo-link:hover img{transform:scale(1.025);filter:saturate(1.08)}.photo-view{position:absolute;right:17px;bottom:17px;font-size:.73rem;font-weight:800;background:#fffef0eb;border-radius:99px;padding:11px 15px;color:#263a55}
+figcaption{display:flex;justify-content:space-between;gap:18px;align-items:end;padding:17px 2px 0}.counter{display:block;color:#496bcc;font-size:.69rem;letter-spacing:.13em;font-weight:800}figcaption h3{font-size:clamp(1.1rem,1.7vw,1.6rem);margin:9px 0 4px}.photo-note{font-size:.86rem;color:#718099}.photo-type{font-size:.83rem;color:#78869a;text-align:right}
+@media(max-width:930px){.beyond-hero{grid-template-columns:1fr;min-height:unset;gap:45px}.intro-aside{max-width:350px}.gallery-grid{gap:35px 18px}.gallery-item:nth-child(n){grid-column:span 6}.gallery-item:first-child,.gallery-item:nth-child(6){grid-column:span 12}.gallery-item:nth-child(9){grid-column:span 12}.gallery-item:nth-child(6) .photo-image{aspect-ratio:1.7}}
+@media(max-width:620px){.beyond-hero{padding:55px 0}.beyond-hero h1{font-size:clamp(2.75rem,10vw,4.5rem)}.gallery-head{display:block}.gallery-head p{margin-top:18px}.gallery-item:nth-child(n){grid-column:span 12}.gallery-item .photo-image,.gallery-first .photo-image,.gallery-item:nth-child(5) .photo-image,.gallery-item:nth-child(7) .photo-image,.gallery-item:nth-child(8) .photo-image,.gallery-item:nth-child(9) .photo-image{aspect-ratio:1.22}.gallery-item:first-child .photo-image{aspect-ratio:1.55}figcaption{display:block}.photo-type{display:block;text-align:left;margin-top:6px}}
+@media(prefers-reduced-motion:reduce){.photo-image img{transition:none}}
 </style>
