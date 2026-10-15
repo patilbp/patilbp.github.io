@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+interface Props {
+  title: string;
+  category: string;
+  summary: string;
+  status?: string;
+}
+const {title,category,summary,status='Case study'}=Astro.props;
+---
+<BaseLayout title={`${title} | Bhagyashri Patil`}>
+  <header class="page-intro"><a href="/projects/" class="back">← All projects</a><p class="eyebrow">{category} / {status}</p><h1>{title}</h1><p>{summary}</p></header>
+  <slot />
+  <section class="section"><div class="section-row"><span class="eyebrow">Explore further</span><div><h2>More work and ideas.</h2><div class="actions"><a class="button primary" href="/projects/">All projects →</a><a class="button secondary" href="/contact/">Let's connect ↗</a></div></div></div></section>
+</BaseLayout>
+<style>.back{display:inline-flex;margin-bottom:30px;font-size:.95rem;font-weight:700;color:#4768d6}.back:hover{text-decoration:underline}</style>
