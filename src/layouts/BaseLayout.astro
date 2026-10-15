@@ -1,6 +1,6 @@
 ---
 const {title='Bhagyashri Patil | Product & Solutions Engineering'}=Astro.props;
-const nav=[['Home','/'],['Experience','/experience/'],['Projects','/projects/'],['Research','/research/']];
+const nav=[['Home','/'],['About','/about/'],['Experience','/experience/'],['Projects','/projects/'],['Research','/research/']];
 ---
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -9,7 +9,7 @@ const nav=[['Home','/'],['Experience','/experience/'],['Projects','/projects/'],
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head><body>
 <a class="skip" href="#content">Skip to content</a>
-<header class="top"><div class="shell navbar"><a class="brand" href="/">Bhagyashri Patil<span>.</span></a><nav aria-label="Main navigation">{nav.map(([label,url])=><a href={url} aria-current={Astro.url.pathname===url?'page':undefined}>{label}</a>)}<a class="contact" href="https://www.linkedin.com/in/bhagyashripatil/" target="_blank" rel="noopener noreferrer">Let's connect ↗</a></nav></div></header>
+<header class="top"><div class="shell navbar"><a class="brand" href="/">Bhagyashri Patil<span>.</span></a><nav aria-label="Main navigation">{nav.map(([label,url])=><a href={url} aria-current={Astro.url.pathname===url?'page':undefined}>{label}</a>)}<a class="contact" href="/contact/">Contact ↗</a></nav></div></header>
 <main class="shell" id="content"><slot /></main>
 <footer class="foot"><div class="shell foot-inner"><span>© {new Date().getFullYear()} Bhagyashri Patil</span><span>Built with Astro · Made for clarity</span></div></footer>
 </body></html>
