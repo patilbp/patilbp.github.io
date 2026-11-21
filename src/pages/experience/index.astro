@@ -61,13 +61,32 @@ const positions=[
       "45% faster reporting performance",
       "35% faster client onboarding"
     ],
-    "bullets": [
-      "Improved SQL queries and BI dashboards for pharmaceutical sales reporting, increasing report performance by 45% and reducing dashboard load time from 114 seconds to 37 seconds.",
-      "Established automated Python and SQL Server data pipelines and ARIMA forecasting models for two-year sales predictions, reducing recurring production work by 50% and accelerating client onboarding by 35%.",
-      "Analyzed customer sentiment from 25+ surveys and review platforms using Python, surfacing product quality and usability insights associated with a 20% reduction in failure and complaint rates.",
-      "Applied data-driven quality and sales insights to product and supply decisions, helping mitigate approximately 15% potential revenue loss and contributing to approximately 5% profit growth across franchise distribution channels.",
-      "Analyzed inventory, production runs, and purchase orders for demand forecasting across 80+ dealers, helping reduce operational losses by $30K through supply–demand optimization.",
-      "Introduced structured data collection and reporting to track dealer demand and inventory performance, cutting manual reporting by 40% and improving supply-chain decision-making."
+    "engagements": [
+      {
+        "client": "Cencora",
+        "previous": "earlier Dymaxium Inc.",
+        "sector": "Pharmaceuticals",
+        "bullets": [
+          "Improved SQL queries and BI dashboards for pharmaceutical sales reporting, increasing report performance by 45% and reducing dashboard load time from 114 seconds to 37 seconds.",
+          "Established automated Python and SQL Server data pipelines and ARIMA forecasting models for two-year sales predictions, reducing recurring production work by 50% and accelerating client onboarding by 35%."
+        ]
+      },
+      {
+        "client": "L’Oréal India Private Ltd",
+        "sector": "Cosmetics",
+        "bullets": [
+          "Analyzed customer sentiment from 25+ surveys and review platforms using Python, surfacing product quality and usability insights associated with a 20% reduction in failure and complaint rates.",
+          "Applied data-driven quality and sales insights to product and supply decisions, helping mitigate approximately 15% potential revenue loss and contributing to approximately 5% profit growth across franchise distribution channels."
+        ]
+      },
+      {
+        "client": "SKF India Ltd",
+        "sector": "Manufacturing",
+        "bullets": [
+          "Analyzed inventory, production runs, and purchase orders for demand forecasting across 80+ dealers, helping reduce operational losses by $30K through supply–demand optimization.",
+          "Introduced structured data collection and reporting to track dealer demand and inventory performance, cutting manual reporting by 40% and improving supply-chain decision-making."
+        ]
+      }
     ]
   },
   {
@@ -80,9 +99,15 @@ const positions=[
       "25% better reporting accuracy",
       "Overtime reduced from 24% to 5%"
     ],
-    "bullets": [
-      "Delivered six Salesforce-based reporting automation projects for petrochemical industry clients, improving reporting accuracy by 25% and operational efficiency by 10% through streamlined workflows and analytics dashboards.",
-      "Designed SSRS paginated reports with drill-down user analytics and optimized labor-capacity models, reducing overtime from 24% to 5% and supporting data-driven workforce planning."
+    "engagements": [
+      {
+        "client": "Honeywell Automation India Ltd",
+        "sector": "Petrochemicals",
+        "bullets": [
+          "Delivered six Salesforce-based reporting automation projects for petrochemical industry clients, improving reporting accuracy by 25% and operational efficiency by 10% through streamlined workflows and analytics dashboards.",
+          "Designed SSRS paginated reports with drill-down user analytics and optimized labor-capacity models, reducing overtime from 24% to 5% and supporting data-driven workforce planning."
+        ]
+      }
     ]
   }
 ];
@@ -108,7 +133,14 @@ const positions=[
         {job.brand && <span class="company-brand">{job.brand}</span>}
         <p class="role-title">{job.role}</p>
         <div class="outcomes">{job.highlights.map(item=><span>{item}</span>)}</div>
-        <ul class="achievements">{job.bullets.map(bullet=><li>{bullet}</li>)}</ul>
+        {job.engagements
+          ? <div class="client-engagements">
+              {job.engagements.map(engagement=><section class="client-engagement" aria-label={`Client project: ${engagement.client}`}>
+                <div class="client-heading"><span class="client-label">Client engagement</span><h4>{engagement.client}</h4>{engagement.previous && <span class="client-previous">({engagement.previous})</span>}<span class="client-sector">{engagement.sector}</span></div>
+                <ul class="achievements">{engagement.bullets.map(bullet=><li>{bullet}</li>)}</ul>
+              </section>)}
+            </div>
+          : <ul class="achievements">{job.bullets.map(bullet=><li>{bullet}</li>)}</ul>}
       </div>
     </article>)}
   </div>
@@ -137,6 +169,13 @@ const positions=[
 .achievements{list-style:none;padding:0;margin:0;display:grid;gap:13px}
 .achievements li{position:relative;padding-left:22px;color:#56677d;font-size:.98rem;line-height:1.75}
 .achievements li::before{content:"";position:absolute;left:2px;top:12px;width:7px;height:7px;border-radius:50%;background:#7290dd}
+.client-engagements{display:grid;gap:24px;margin-top:26px}
+.client-engagement{border-left:2px solid #e2e9f6;padding-left:18px}
+.client-heading{display:flex;align-items:baseline;flex-wrap:wrap;gap:7px 10px;margin:0 0 13px}
+.client-label{font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:#71839e;font-weight:800;width:100%}
+.client-heading h4{font-family:Manrope,sans-serif;font-size:1.07rem;font-weight:800;line-height:1.35;margin:0;color:#243750}
+.client-previous{font-size:.83rem;color:#75849a}
+.client-sector{font-size:.8rem;color:#7383a0;font-weight:650}
 .chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}
 .chips span{padding:10px 14px;background:#fff;border:1px solid #e0e8f3;border-radius:999px;font-size:.86rem;color:#52647d;font-weight:700}
 @media(max-width:800px){.role-card{grid-template-columns:1fr;gap:20px}.role-side{display:flex;flex-direction:row;align-items:center;gap:15px;flex-wrap:wrap}.role-date{margin-top:0}}
