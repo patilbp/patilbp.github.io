@@ -106,7 +106,7 @@ const volunteerPhotoUrl = (file) => volunteerAssets[`../../assets/volunteering/$
     </figure>)}
   </div>
   <div class="collage-right">
-    {[[photos[1],photos[3],photos[7]],[photos[2],photos[4]],[photos[6],photos[8]]].map((column,i)=><div class="collage-column">
+    {[[photos[1],photos[3],photos[7]],[photos[2],photos[8]],[photos[6],photos[4]]].map((column,i)=><div class="collage-column">
       {column.map(photo=><figure class="collage-photo">
         <a href={photo.url} target="_blank" rel="noopener noreferrer" aria-label={`Open ${photo.title} on Unsplash`} class="collage-link">
           <img src={photo.src} alt={photo.alt} loading="lazy" decoding="async" />
