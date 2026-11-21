@@ -108,144 +108,26 @@ const volunteerPhotoUrl = (file) => volunteerAssets[`../../assets/volunteering/$
 
 <section class="section community" id="community" aria-labelledby="community-heading">
   <div class="section-row">
-    <span class="eyebrow">02 / Community &amp; volunteering</span>
+    <span class="eyebrow">02 / Community</span>
     <div>
-      <h2 id="community-heading">Showing up for the community.</h2>
-      <p>Some of my most meaningful experiences happen away from the desk. From school supplies and food distributions to education, healthcare awareness, and volunteering with local organizations, I value the chance to contribute where I can.</p>
+      <h2 id="community-heading">A little time, given back.</h2>
+      <p>I'm grateful for opportunities to volunteer with local communities. A few moments from causes and events I've been part of over the years.</p>
     </div>
   </div>
-  <div class="community-grid">
+  <div class="community-gallery">
     {[
-  {
-    "year": "2026",
-    "when": "November 2026",
-    "org": "Gwinnett County Government",
-    "role": "Volunteer",
-    "title": "Sheriff's 6th Annual Thanksgiving Food Giveaway",
-    "type": "Poverty alleviation",
-    "text": "Supported the community food giveaway, including food-packet distribution and drive-through operations.",
-    "photos": [
-      {
-        "file": "thanksgiving-team-2026.webp",
-        "alt": "Volunteers gathered by distribution boxes at the Thanksgiving food giveaway"
-      },
-      {
-        "file": "thanksgiving-driveway-2026.webp",
-        "alt": "Pickup truck approaching food distribution volunteers"
-      },
-      {
-        "file": "thanksgiving-packets-2026.webp",
-        "alt": "Volunteers delivering packaged food into a vehicle"
-      },
-      {
-        "file": "thanksgiving-distribution-2026.webp",
-        "alt": "Outdoor car-line food giveaway under volunteer tents"
-      },
-      {
-        "file": "thanksgiving-site-2026.webp",
-        "alt": "Community giveaway setup with distribution tents"
-      }
-    ]
-  },
-  {
-    "year": "2026",
-    "when": "October 2026",
-    "org": "Northside Hospital",
-    "role": "Community fundraising participant",
-    "title": "Paint Gwinnett Pink 5K",
-    "type": "Health",
-    "text": "Participated in the 2026 Paint Gwinnett Pink 5K in support of breast cancer awareness.",
-    "photos": [
-      {
-        "file": "paint-gwinnett-pink-2026.webp",
-        "alt": "Participants at Paint Gwinnett Pink 5K wearing bright pink event shirts"
-      }
-    ]
-  },
-  {
-    "year": "2025",
-    "when": "December 11, 2025",
-    "org": "Helping Mamas, Inc.",
-    "role": "Operations volunteer",
-    "title": "Helping Mamas — Community Operations",
-    "type": "Social services",
-    "text": "Contributed time to operations volunteering with Helping Mamas.",
-    "photos": [
-      {
-        "file": "helping-mamas-2025.webp",
-        "alt": "Volunteers sorting donated supplies and clothing at Helping Mamas"
-      }
-    ]
-  },
-  {
-    "year": "2025",
-    "when": "August 2025",
-    "org": "Cobb County School District",
-    "role": "Volunteer",
-    "title": "School Supply Drive",
-    "type": "Education · Children",
-    "text": "Helped support a backpack and school-supply drive for McCall Primary in Acworth. The team donated 48 book bags to kindergarten students.",
-    "photos": [
-      {
-        "file": "school-supply-drive-2025.webp",
-        "alt": "School supply drive volunteers with backpacks and classroom items"
-      }
-    ]
-  },
-  {
-    "year": "2025",
-    "when": "March 2025",
-    "org": "Junior Achievement of Georgia",
-    "role": "Volunteer assistant",
-    "title": "Junior Achievement Discovery Center at Gwinnett",
-    "type": "Education",
-    "text": "Volunteered as an assistant with Junior Achievement of Georgia's Discovery Center.",
-    "photos": [
-      {
-        "file": "junior-achievement-2025.webp",
-        "alt": "Volunteers at the Junior Achievement Discovery Center with simulation storefronts"
-      }
-    ]
-  },
-  {
-    "year": "2024",
-    "when": "December 12, 2024",
-    "org": "Helping Mamas, Inc.",
-    "role": "Operations volunteer",
-    "title": "Helping Mamas — Community Operations",
-    "type": "Social services",
-    "text": "Returned for another operations volunteering day with Helping Mamas.",
-    "photos": [
-      {
-        "file": "helping-mamas-2024.webp",
-        "alt": "Large volunteer group gathered inside the Helping Mamas warehouse"
-      }
-    ]
-  },
-  {
-    "year": "2013",
-    "when": "February – April 2013",
-    "org": "Sinhgad Institute of Technology & Science",
-    "role": "Organizer",
-    "title": "Line Tracer Robotics Competition",
-    "type": "Science & technology",
-    "text": "Organized the Line Tracer robotics competition, bringing together teamwork, event coordination, and modern technology.",
-    "photos": []
-  }
-].map((event,i)=><article class="service-card">
-      <div class="service-top"><span class="service-year">{event.year}</span><span class="service-category">{event.type}</span></div>
-      <h3>{event.title}</h3>
-      {event.photos?.some(photo => volunteerPhotoUrl(photo.file)) && <div class="service-media" aria-label={`Photographs from ${event.title}`}>
-        {event.photos.filter(photo => volunteerPhotoUrl(photo.file)).map(photo =>
-          <img src={volunteerPhotoUrl(photo.file)} alt={photo.alt} loading="lazy" decoding="async" />
-        )}
-      </div>}
-      <p class="service-organization">{event.org}</p>
-      <p class="service-role">{event.role} <span aria-hidden="true">·</span> {event.when}</p>
-      <p class="service-summary">{event.text}</p>
-    </article>)}
+      {file:'thanksgiving-team-2026.webp',alt:'Volunteers together at the Thanksgiving food giveaway',title:"Thanksgiving Food Giveaway",detail:'Gwinnett County · 2026'},
+      {file:'paint-gwinnett-pink-2026.webp',alt:'Participants at the Paint Gwinnett Pink 5K',title:'Paint Gwinnett Pink 5K',detail:'Northside Hospital · 2026'},
+      {file:'helping-mamas-2025.webp',alt:'Volunteers sorting supplies at Helping Mamas',title:'Helping Mamas',detail:'Community volunteering · 2025'},
+      {file:'school-supply-drive-2025.webp',alt:'Volunteers with donated backpacks and school supplies',title:'School Supply Drive',detail:'Cobb County · 2025'},
+      {file:'junior-achievement-2025.webp',alt:'Volunteers at the Junior Achievement Discovery Center',title:'Junior Achievement',detail:'Gwinnett · 2025'},
+      {file:'helping-mamas-2024.webp',alt:'Volunteer group inside the Helping Mamas warehouse',title:'Helping Mamas',detail:'Community volunteering · 2024'}
+    ].map(item=><figure class="community-moment">
+      {volunteerPhotoUrl(item.file) && <img src={volunteerPhotoUrl(item.file)} alt={item.alt} loading="lazy" decoding="async" />}
+      <figcaption><span class="community-title">{item.title}</span><span class="community-detail">{item.detail}</span></figcaption>
+    </figure>)}
   </div>
-  <p class="community-footnote">These experiences are also listed on my <a href="https://www.linkedin.com/in/bhagyashripatil/" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a>.</p>
+  <p class="community-note">Earlier: organized a Line Tracer robotics competition at Sinhgad Institute of Technology &amp; Science (2013).</p>
 </section>
 <section class="section"><div class="section-row"><span class="eyebrow">03 / A little more about me</span><div><h2>Curiosity doesn't end at the desk.</h2><p>Whether I'm exploring a new place or spotting an interesting composition close to home, photography gives me a reason to notice things I might otherwise miss. It's one of the personal interests that makes life richer outside work.</p><div class="actions"><a class="button primary" href="https://unsplash.com/@p_bhagyashri" target="_blank" rel="noopener noreferrer">Explore my Unsplash collection ↗</a><a class="button secondary" href="/contact/">Let's connect →</a></div></div></div></section>
 </BaseLayout>
@@ -265,22 +147,13 @@ figcaption{display:flex;justify-content:space-between;gap:18px;align-items:end;p
 @media(max-width:620px){.beyond-hero{padding:var(--page-intro-top) 0 var(--page-intro-bottom)}.gallery-head{display:block}.gallery-head p{margin-top:18px}.gallery-item:nth-child(n){grid-column:span 12}.gallery-item .photo-image,.gallery-first .photo-image,.gallery-item:nth-child(5) .photo-image,.gallery-item:nth-child(7) .photo-image,.gallery-item:nth-child(8) .photo-image,.gallery-item:nth-child(9) .photo-image{aspect-ratio:1.22}.gallery-item:first-child .photo-image{aspect-ratio:1.55}figcaption{display:block}.photo-type{display:block;text-align:left;margin-top:6px}}
 @media(prefers-reduced-motion:reduce){.photo-image img{transition:none}}
 
-.community-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:36px}
-.service-card{min-width:0;border:1px solid #e0e8f2;background:#fff;border-radius:18px;padding:clamp(23px,2.5vw,34px);display:flex;flex-direction:column}
-.service-top{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-bottom:25px}
-.service-year{color:#4568d7;font-family:Manrope,sans-serif;font-size:1.1rem;font-weight:800}
-.service-category{color:#78879c;font-size:.73rem;letter-spacing:.05em;font-weight:700}
-.service-card h3{font-size:clamp(1.2rem,1.7vw,1.55rem);line-height:1.3;margin:0 0 14px}
-.service-organization{font-weight:800;color:#24364f;font-size:.95rem;margin:0}
-.service-role{font-size:.86rem;color:#758399;margin:3px 0 15px}
-.service-summary{font-size:.96rem;line-height:1.7;margin:0;color:#56667d}
-.community-footnote{margin-top:26px;font-size:.88rem;color:#77869b}
-.community-footnote a{color:#4168cf;font-weight:800}
-@media(max-width:720px){.community-grid{grid-template-columns:1fr}}
-
-.service-media{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px;margin:4px 0 22px;border-radius:13px;overflow:hidden}
-.service-media img{grid-column:span 3;width:100%;height:112px;object-fit:cover;display:block;background:#edf1f7}
-.service-media img:first-child{grid-column:span 6;height:auto;aspect-ratio:1.9;object-fit:cover}
-.service-media img:only-child{aspect-ratio:1.65}
-@media(max-width:720px){.service-media img{height:105px}}
+.community-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,3vw,44px) clamp(15px,2.2vw,30px);margin-top:35px}
+.community-moment{margin:0;min-width:0}
+.community-moment img{display:block;width:100%;aspect-ratio:1.45;object-fit:cover;border-radius:11px;background:#e7edf5}
+.community-moment figcaption{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:12px 1px 0}
+.community-title{font-size:.95rem;font-weight:700;color:#263953}
+.community-detail{font-size:.81rem;color:#7d8999}
+.community-note{font-size:.88rem;color:#7d8999;margin:30px 0 0}
+@media(max-width:850px){.community-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.community-gallery{grid-template-columns:1fr}.community-moment img{aspect-ratio:1.65}}
 </style>
