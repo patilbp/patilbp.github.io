@@ -90,7 +90,7 @@ const volunteerPhotoUrl = (file) => volunteerAssets[`../../assets/volunteering/$
 <header class="beyond-hero">
   <div class="beyond-intro"><span class="eyebrow">Beyond Work / Photography</span><h1>A different way<br/>of <em>seeing the world.</em></h1>
     <p>Some stories are told in data. Others live in the light, colors, and quiet moments around us. Photography is my way of slowing down and noticing both.</p>
-    <div class="actions"><a class="button primary" href="https://unsplash.com/@p_bhagyashri" target="_blank" rel="noopener noreferrer">My photography on Unsplash ↗</a><a class="button secondary" href="/">Back to About →</a></div>
+    <div class="actions"><a class="button secondary" href="/">Back to About →</a></div>
   </div>
   <div class="intro-aside"><span>EST. BY CURIOSITY</span><p>Places.<br/>Perspectives.<br/>Small wonders.</p><span>SELECTED FRAMES / 01—09</span></div>
 </header>
@@ -116,6 +116,7 @@ const volunteerPhotoUrl = (file) => volunteerAssets[`../../assets/volunteering/$
     </div>)}
   </div>
 </div>
+<div class="gallery-cta"><a class="button primary" href="https://unsplash.com/@p_bhagyashri" target="_blank" rel="noopener noreferrer">My photography on Unsplash ↗</a></div>
 </section>
 
 <section class="section community" id="community" aria-labelledby="community-heading">
@@ -148,6 +149,8 @@ const volunteerPhotoUrl = (file) => volunteerAssets[`../../assets/volunteering/$
 .beyond-hero h1{font-size:var(--page-h1-size);line-height:1.16;margin:16px 0 25px}.beyond-hero em{font-style:normal;color:#4868d6}.beyond-hero p{max-width:710px}.beyond-intro{max-width:920px}.intro-aside{align-self:center}
 .intro-aside{border-left:1px solid #d8e2ef;padding-left:28px}.intro-aside>span{font-size:.66rem;font-weight:800;letter-spacing:.13em;color:#8190a6}.intro-aside p{font:700 clamp(1.1rem,1.6vw,1.5rem)/1.65 Manrope,sans-serif;color:#253b55;margin:20px 0}
 .gallery{border-top:1px solid #e0e8f1;padding:clamp(55px,6vw,86px) 0}.gallery-head{display:flex;align-items:end;justify-content:space-between;gap:40px;margin-bottom:35px}.gallery-head h2{margin:13px 0 0}.gallery-head p{max-width:420px;font-size:.98rem;margin:0}
+.gallery-cta{display:flex;justify-content:flex-end;margin-top:20px}
+@media(max-width:620px){.gallery-cta{justify-content:center}.gallery-cta .button{width:100%;max-width:360px}}
 .photo-collage{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.05fr);gap:10px;align-items:start;max-width:1390px}
 .collage-left,.collage-column{display:flex;flex-direction:column;gap:10px;min-width:0}
 .collage-right{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;min-width:0}
