@@ -96,13 +96,25 @@ const volunteerPhotoUrl = (file) => volunteerAssets[`../../assets/volunteering/$
 </header>
 <section class="gallery" aria-labelledby="gallery-title">
 <div class="gallery-head"><div><span class="eyebrow">01 / A curated collection</span><h2 id="gallery-title">Through my lens.</h2></div><p>Nine favorite moments—from open skies and architecture to animals, textures, and the details in between.</p></div>
-<div class="gallery-grid">
-{photos.map((photo,i)=><figure class:list={['gallery-item', 'gallery-'+photo.shape, i===0?'gallery-first':'']}>
-  <a href={photo.url} target="_blank" rel="noopener noreferrer" aria-label={`Open ${photo.title} on Unsplash`} class="photo-link">
-    <div class="photo-image"><img src={photo.src} alt={photo.alt} loading={i<2?'eager':'lazy'} decoding="async" fetchpriority={i===0?'high':'auto'} /><span class="photo-view">View photograph ↗</span></div>
-  </a>
-  <figcaption><div><span class="counter">FRAME {String(i+1).padStart(2,'0')} / 09</span><h3>{photo.title}</h3><span class="photo-note">{photo.note}</span></div><span class="photo-type">{photo.subtitle}</span></figcaption>
-</figure>)}
+<div class="photo-collage">
+  <div class="collage-left">
+    {[photos[0],photos[5]].map((photo,i)=><figure class="collage-photo">
+      <a href={photo.url} target="_blank" rel="noopener noreferrer" aria-label={`Open ${photo.title} on Unsplash`} class="collage-link">
+        <img src={photo.src} alt={photo.alt} loading={i===0?'eager':'lazy'} decoding="async" />
+      </a>
+      <figcaption>{photo.title}</figcaption>
+    </figure>)}
+  </div>
+  <div class="collage-right">
+    {[[photos[1],photos[3],photos[7]],[photos[2],photos[4]],[photos[6],photos[8]]].map((column,i)=><div class="collage-column">
+      {column.map(photo=><figure class="collage-photo">
+        <a href={photo.url} target="_blank" rel="noopener noreferrer" aria-label={`Open ${photo.title} on Unsplash`} class="collage-link">
+          <img src={photo.src} alt={photo.alt} loading="lazy" decoding="async" />
+        </a>
+        <figcaption>{photo.title}</figcaption>
+      </figure>)}
+    </div>)}
+  </div>
 </div>
 </section>
 
@@ -136,20 +148,18 @@ const volunteerPhotoUrl = (file) => volunteerAssets[`../../assets/volunteering/$
 .beyond-hero h1{font-size:var(--page-h1-size);line-height:1.16;margin:16px 0 25px}.beyond-hero em{font-style:normal;color:#4868d6}.beyond-hero p{max-width:710px}.beyond-intro{max-width:920px}.intro-aside{align-self:center}
 .intro-aside{border-left:1px solid #d8e2ef;padding-left:28px}.intro-aside>span{font-size:.66rem;font-weight:800;letter-spacing:.13em;color:#8190a6}.intro-aside p{font:700 clamp(1.1rem,1.6vw,1.5rem)/1.65 Manrope,sans-serif;color:#253b55;margin:20px 0}
 .gallery{border-top:1px solid #e0e8f1;padding:clamp(55px,6vw,86px) 0}.gallery-head{display:flex;align-items:end;justify-content:space-between;gap:40px;margin-bottom:35px}.gallery-head h2{margin:13px 0 0}.gallery-head p{max-width:420px;font-size:.98rem;margin:0}
-.gallery-grid{columns:4;column-gap:9px;max-width:1390px}
-.gallery-item,.gallery-first,.gallery-item:nth-child(n){display:inline-block;vertical-align:top;break-inside:avoid;page-break-inside:avoid;width:100%;max-width:none;min-width:0;margin:0 0 12px;background:transparent;border-radius:0;overflow:visible;position:static}
-.photo-link,.photo-image{display:block;width:100%;height:auto;position:relative}
-.gallery-item .photo-image,.gallery-first .photo-image,.gallery-item:nth-child(n) .photo-image{height:auto;aspect-ratio:auto;border-radius:8px;overflow:hidden;background:#e8edf4}
-.photo-image img{display:block;width:100%;height:auto;max-width:100%;object-fit:contain;transition:filter .2s ease}
-.photo-link:hover img{filter:brightness(.94)}
-.photo-view{display:none}
-.gallery-item figcaption{position:static;pointer-events:auto;display:block;padding:7px 2px 0;background:none;color:#273b55}
-.gallery-item .counter,.gallery-item .photo-note,.gallery-item .photo-type{display:none}
-.gallery-item figcaption h3{font-size:.78rem;font-weight:700;line-height:1.3;margin:0;color:#475b74;letter-spacing:0}
-@media(max-width:930px){.beyond-hero{grid-template-columns:1fr;min-height:unset;gap:45px}.intro-aside{max-width:350px}.gallery-grid{columns:3;column-gap:8px}}
-@media(max-width:620px){.beyond-hero{padding:var(--page-intro-top) 0 var(--page-intro-bottom)}.gallery-head{display:block}.gallery-head p{margin-top:18px}.gallery-grid{columns:2;column-gap:7px}.gallery-item,.gallery-first,.gallery-item:nth-child(n){margin-bottom:11px}.gallery-item figcaption{padding-top:6px}.gallery-item figcaption h3{font-size:.73rem}}
-@media(max-width:340px){.gallery-grid{columns:1}}
-@media(prefers-reduced-motion:reduce){.photo-image img{transition:none}}
+.photo-collage{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.05fr);gap:10px;align-items:start;max-width:1390px}
+.collage-left,.collage-column{display:flex;flex-direction:column;gap:10px;min-width:0}
+.collage-right{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;min-width:0}
+.collage-photo{margin:0;min-width:0}
+.collage-link{display:block;border-radius:9px;overflow:hidden;background:#e8edf4}
+.collage-link img{display:block;width:100%;height:auto;object-fit:contain;max-width:100%;transition:filter .2s ease}
+.collage-link:hover img{filter:brightness(.94)}
+.collage-photo figcaption{display:block;padding:7px 2px 0;color:#52637b;font-size:.79rem;font-weight:700;line-height:1.35}
+@media(max-width:930px){.beyond-hero{grid-template-columns:1fr;min-height:unset;gap:45px}.intro-aside{max-width:350px}.photo-collage{grid-template-columns:minmax(0,1fr) minmax(0,1.55fr);gap:8px}.collage-right{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.collage-column{gap:8px}.collage-right .collage-column:nth-child(3){grid-column:1 / -1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:8px}}
+@media(max-width:620px){.beyond-hero{padding:var(--page-intro-top) 0 var(--page-intro-bottom)}.gallery-head{display:block}.gallery-head p{margin-top:18px}.photo-collage{grid-template-columns:1fr}.collage-left{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.collage-right{grid-template-columns:repeat(2,minmax(0,1fr))}.collage-photo figcaption{font-size:.73rem;padding-top:5px}}
+@media(max-width:370px){.collage-right{grid-template-columns:1fr}.collage-right .collage-column:nth-child(3){grid-column:auto}.collage-left{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.collage-link img{transition:none}}
 
 .community-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,3vw,44px) clamp(15px,2.2vw,30px);margin-top:35px}
 .community-moment{margin:0;min-width:0}
