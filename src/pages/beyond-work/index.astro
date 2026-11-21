@@ -83,6 +83,8 @@ const photos=[
     "note": "A final burst of warmth"
   }
 ];
+const volunteerAssets = import.meta.glob('../../assets/volunteering/*.webp', { eager: true, query: '?url', import: 'default' });
+const volunteerPhotoUrl = (file) => volunteerAssets[`../../assets/volunteering/${file}`];
 ---
 <BaseLayout title="Beyond Work | Photography by Bhagyashri Patil">
 <header class="beyond-hero">
@@ -121,7 +123,29 @@ const photos=[
     "role": "Volunteer",
     "title": "Sheriff's 6th Annual Thanksgiving Food Giveaway",
     "type": "Poverty alleviation",
-    "text": "Supported the community food giveaway, including food-packet distribution and drive-through operations."
+    "text": "Supported the community food giveaway, including food-packet distribution and drive-through operations.",
+    "photos": [
+      {
+        "file": "thanksgiving-team-2026.webp",
+        "alt": "Volunteers gathered by distribution boxes at the Thanksgiving food giveaway"
+      },
+      {
+        "file": "thanksgiving-driveway-2026.webp",
+        "alt": "Pickup truck approaching food distribution volunteers"
+      },
+      {
+        "file": "thanksgiving-packets-2026.webp",
+        "alt": "Volunteers delivering packaged food into a vehicle"
+      },
+      {
+        "file": "thanksgiving-distribution-2026.webp",
+        "alt": "Outdoor car-line food giveaway under volunteer tents"
+      },
+      {
+        "file": "thanksgiving-site-2026.webp",
+        "alt": "Community giveaway setup with distribution tents"
+      }
+    ]
   },
   {
     "year": "2026",
@@ -130,7 +154,13 @@ const photos=[
     "role": "Community fundraising participant",
     "title": "Paint Gwinnett Pink 5K",
     "type": "Health",
-    "text": "Participated in the 2026 Paint Gwinnett Pink 5K in support of breast cancer awareness."
+    "text": "Participated in the 2026 Paint Gwinnett Pink 5K in support of breast cancer awareness.",
+    "photos": [
+      {
+        "file": "paint-gwinnett-pink-2026.webp",
+        "alt": "Participants at Paint Gwinnett Pink 5K wearing bright pink event shirts"
+      }
+    ]
   },
   {
     "year": "2025",
@@ -139,7 +169,13 @@ const photos=[
     "role": "Operations volunteer",
     "title": "Helping Mamas — Community Operations",
     "type": "Social services",
-    "text": "Contributed time to operations volunteering with Helping Mamas."
+    "text": "Contributed time to operations volunteering with Helping Mamas.",
+    "photos": [
+      {
+        "file": "helping-mamas-2025.webp",
+        "alt": "Volunteers sorting donated supplies and clothing at Helping Mamas"
+      }
+    ]
   },
   {
     "year": "2025",
@@ -148,7 +184,13 @@ const photos=[
     "role": "Volunteer",
     "title": "School Supply Drive",
     "type": "Education · Children",
-    "text": "Helped support a backpack and school-supply drive for McCall Primary in Acworth. The team donated 48 book bags to kindergarten students."
+    "text": "Helped support a backpack and school-supply drive for McCall Primary in Acworth. The team donated 48 book bags to kindergarten students.",
+    "photos": [
+      {
+        "file": "school-supply-drive-2025.webp",
+        "alt": "School supply drive volunteers with backpacks and classroom items"
+      }
+    ]
   },
   {
     "year": "2025",
@@ -157,7 +199,13 @@ const photos=[
     "role": "Volunteer assistant",
     "title": "Junior Achievement Discovery Center at Gwinnett",
     "type": "Education",
-    "text": "Volunteered as an assistant with Junior Achievement of Georgia's Discovery Center."
+    "text": "Volunteered as an assistant with Junior Achievement of Georgia's Discovery Center.",
+    "photos": [
+      {
+        "file": "junior-achievement-2025.webp",
+        "alt": "Volunteers at the Junior Achievement Discovery Center with simulation storefronts"
+      }
+    ]
   },
   {
     "year": "2024",
@@ -166,7 +214,13 @@ const photos=[
     "role": "Operations volunteer",
     "title": "Helping Mamas — Community Operations",
     "type": "Social services",
-    "text": "Returned for another operations volunteering day with Helping Mamas."
+    "text": "Returned for another operations volunteering day with Helping Mamas.",
+    "photos": [
+      {
+        "file": "helping-mamas-2024.webp",
+        "alt": "Large volunteer group gathered inside the Helping Mamas warehouse"
+      }
+    ]
   },
   {
     "year": "2013",
@@ -175,11 +229,17 @@ const photos=[
     "role": "Organizer",
     "title": "Line Tracer Robotics Competition",
     "type": "Science & technology",
-    "text": "Organized the Line Tracer robotics competition, bringing together teamwork, event coordination, and modern technology."
+    "text": "Organized the Line Tracer robotics competition, bringing together teamwork, event coordination, and modern technology.",
+    "photos": []
   }
 ].map((event,i)=><article class="service-card">
       <div class="service-top"><span class="service-year">{event.year}</span><span class="service-category">{event.type}</span></div>
       <h3>{event.title}</h3>
+      {event.photos?.some(photo => volunteerPhotoUrl(photo.file)) && <div class="service-media" aria-label={`Photographs from ${event.title}`}>
+        {event.photos.filter(photo => volunteerPhotoUrl(photo.file)).map(photo =>
+          <img src={volunteerPhotoUrl(photo.file)} alt={photo.alt} loading="lazy" decoding="async" />
+        )}
+      </div>}
       <p class="service-organization">{event.org}</p>
       <p class="service-role">{event.role} <span aria-hidden="true">·</span> {event.when}</p>
       <p class="service-summary">{event.text}</p>
@@ -217,4 +277,10 @@ figcaption{display:flex;justify-content:space-between;gap:18px;align-items:end;p
 .community-footnote{margin-top:26px;font-size:.88rem;color:#77869b}
 .community-footnote a{color:#4168cf;font-weight:800}
 @media(max-width:720px){.community-grid{grid-template-columns:1fr}}
+
+.service-media{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px;margin:4px 0 22px;border-radius:13px;overflow:hidden}
+.service-media img{grid-column:span 3;width:100%;height:112px;object-fit:cover;display:block;background:#edf1f7}
+.service-media img:first-child{grid-column:span 6;height:auto;aspect-ratio:1.9;object-fit:cover}
+.service-media img:only-child{aspect-ratio:1.65}
+@media(max-width:720px){.service-media img{height:105px}}
 </style>
