@@ -20,8 +20,13 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         <span class="tile-title">GitHub</span>
         <span class="tile-desc">Code, projects, and technical exploration</span>
       </a>
+      <a class="contact-tile email-tile" href="mailto:bhagya22july@gmail.com" aria-label="Email Bhagyashri Patil">
+        <span class="tile-top"><span class="eyebrow">03 / Email</span><span class="tile-arrow" aria-hidden="true">↗</span></span>
+        <span class="tile-title email-address">bhagya22july@gmail.com</span>
+        <span class="tile-desc">Send me a message</span>
+      </a>
       <a class="contact-tile phone-tile" href="tel:+16198443051" aria-label="Call Bhagyashri Patil at 619 844 3051">
-        <span class="tile-top"><span class="eyebrow">03 / Call</span><span class="tile-arrow" aria-hidden="true">↗</span></span>
+        <span class="tile-top"><span class="eyebrow">04 / Call</span><span class="tile-arrow" aria-hidden="true">↗</span></span>
         <span class="tile-title phone-number">(619) 844-3051</span>
         <span class="tile-desc">Reach me by phone</span>
       </a>
@@ -35,14 +40,15 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 .contact-intro h1{margin:14px 0 16px;font-size:clamp(2.35rem,3.4vw,3.65rem)}
 .contact-intro>p{max-width:790px;margin:0;font-size:1.02rem;line-height:1.65}
 .contact-intro .opportunities{margin-top:14px;color:#60718b;font-size:.92rem;font-weight:650}
-.contact-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,2vw,22px)}
-.contact-tile{display:flex;flex-direction:column;min-width:0;min-height:170px;padding:clamp(20px,2vw,29px);background:#fff;border:1px solid #dde6f2;border-radius:18px;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.contact-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(10px,1.3vw,18px)}
+.contact-tile{display:flex;flex-direction:column;min-width:0;min-height:165px;padding:clamp(16px,1.5vw,25px);background:#fff;border:1px solid #dde6f2;border-radius:18px;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
 .contact-tile:hover{transform:translateY(-3px);border-color:#b9caef;box-shadow:0 14px 35px #263a6612}
 .tile-top{display:flex;justify-content:space-between;align-items:center;gap:16px}
 .tile-arrow{font-size:1.35rem;color:#4868d6}
 .tile-title{font:800 clamp(1.35rem,2vw,1.75rem)/1.25 Manrope,sans-serif;letter-spacing:-.04em;color:#17253c;margin-top:auto;padding-top:25px}
 .tile-desc{color:#65758e;font-size:.85rem;line-height:1.5;margin-top:8px}
-.phone-number{font-size:clamp(1.17rem,1.75vw,1.65rem);white-space:nowrap}
+.phone-number{font-size:clamp(1rem,1.5vw,1.5rem);white-space:nowrap}
+.email-address{font-size:clamp(.8rem,1.1vw,1.15rem);letter-spacing:-.025em;overflow-wrap:anywhere}
 @media(min-width:951px) and (min-height:660px){
   :global(html:has(.contact-stage)){height:100%;overflow:hidden}
   :global(body:has(.contact-stage)){height:100dvh;min-height:0;display:flex;flex-direction:column;overflow:hidden}
