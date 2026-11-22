@@ -2,79 +2,102 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
 <BaseLayout title="Case Studies | Product Thinking & Solutions Engineering">
-<header class="page-intro"><p class="margin-note">Notes on making things useful.</p><span class="eyebrow">Selected work / Product to execution</span><h1>Stay curious.<br/><span class="accent">Keep building.</span></h1><p>Each case study explores the business problem, the choices behind the solution, and the technical work needed to make an impact. Additional product, cloud architecture, and AI projects will be added here.</p></header>
+<header class="page-intro">
+  <p class="margin-note">Some problems I've spent time with.</p>
+  <span class="eyebrow">Projects / Selected work</span>
+  <h1>The things I've<br/><span class="accent">worked on.</span></h1>
+  <p>Most of my work starts with a question someone needs answered. Sometimes the result is a product, sometimes a system behind the scenes, and sometimes a better way of measuring what's happening.</p>
+</header>
 <section class="section case-study" id="case-study" aria-labelledby="case-heading">
   <div class="section-row">
-    <span class="eyebrow">01 / Selected case study</span>
+    <span class="eyebrow">01 / A closer look</span>
     <div class="case-main">
       <div class="case-intro">
         <div class="case-intro-copy">
           <span class="case-kicker">Valor Compounding Pharmacy · Customer operations</span>
-          <h2 id="case-heading">Designing a fairer performance measurement approach.</h2>
-          <p class="case-summary">Rethinking how customer-care performance is understood across prescription processing, phone interactions, service issues, and follow-ups—beyond a single output metric.</p>
-          <div class="case-chips"><span>Product discovery</span><span>Metrics design</span><span>Qlik reporting</span></div>
+          <h2 id="case-heading">Measuring more than the number of prescriptions typed.</h2>
+          <p class="case-summary">The pharmacy's customer-care team handled calls, tickets, schedules, and prescriptions. But performance was being judged largely by prescription volume. I built a system that looked at the different work people were actually doing.</p>
+          <div class="case-chips"><span>5 data sources</span><span>15+ KPIs</span><span>Role-based analytics</span></div>
         </div>
-        <a class="case-cover" href="https://github.com/patilbp/performance-evaluation-metrics" target="_blank" rel="noopener noreferrer" aria-label="Open the Performance Evaluation Metrics System GitHub repository">
-          <img src="https://github.com/patilbp/performance-evaluation-metrics/assets/36761520/4397572a-bd15-4897-bda9-78edf25c6fcb" alt="Performance Evaluation Metrics System project cover featuring miniature people standing among capsules" loading="lazy" decoding="async" />
-          <span class="case-cover-caption">View project on GitHub ↗</span>
+        <a class="case-cover" href="https://github.com/patilbp/performance-evaluation-metrics" target="_blank" rel="noopener noreferrer" aria-label="Open the performance evaluation project on GitHub">
+          <img src="https://github.com/patilbp/performance-evaluation-metrics/assets/36761520/4397572a-bd15-4897-bda9-78edf25c6fcb" alt="Performance analytics project cover with miniature figures and capsules" loading="lazy" decoding="async" />
+          <span class="case-cover-caption">Project on GitHub ↗</span>
         </a>
       </div>
       <div class="case-workspace" data-case-tabs>
-        <div class="case-tabs" role="tablist" aria-label="Explore the performance measurement case study">
+        <div class="case-tabs" role="tablist" aria-label="Read about the pharmacy performance analytics project">
           <button type="button" role="tab" id="case-tab-problem" aria-selected="true" aria-controls="case-panel-problem" tabindex="0" data-case-tab="problem"><span>01</span> Problem</button>
-          <button type="button" role="tab" id="case-tab-opportunity" aria-selected="false" aria-controls="case-panel-opportunity" tabindex="-1" data-case-tab="opportunity"><span>02</span> Opportunity</button>
-          <button type="button" role="tab" id="case-tab-solution" aria-selected="false" aria-controls="case-panel-solution" tabindex="-1" data-case-tab="solution"><span>03</span> Solution</button>
-          <button type="button" role="tab" id="case-tab-technical" aria-selected="false" aria-controls="case-panel-technical" tabindex="-1" data-case-tab="technical"><span>04</span> Technical approach</button>
+          <button type="button" role="tab" id="case-tab-opportunity" aria-selected="false" aria-controls="case-panel-opportunity" tabindex="-1" data-case-tab="opportunity"><span>02</span> What I built</button>
+          <button type="button" role="tab" id="case-tab-solution" aria-selected="false" aria-controls="case-panel-solution" tabindex="-1" data-case-tab="solution"><span>03</span> What changed</button>
+          <button type="button" role="tab" id="case-tab-technical" aria-selected="false" aria-controls="case-panel-technical" tabindex="-1" data-case-tab="technical"><span>04</span> Another finding</button>
         </div>
         <div class="case-panels">
           <section role="tabpanel" id="case-panel-problem" aria-labelledby="case-tab-problem" data-case-panel="problem" tabindex="0">
-            <span class="panel-eyebrow">The customer problem</span>
-            <h3>One metric couldn't tell the whole story.</h3>
-            <p>Customer-care performance was primarily assessed by the number of prescriptions typed. However, the team also handled phone interactions, service issues, and follow-ups. A volume-only measure missed important parts of the work.</p>
-            <div class="panel-takeaway"><strong>Core challenge</strong><span>Capture a more complete picture of contribution without reducing varied responsibilities to one number.</span></div>
+            <span class="panel-eyebrow">What wasn't working</span>
+            <h3>One number didn't tell the whole story.</h3>
+            <p>Prescription volume alone missed the time people spent on calls, service requests, schedules, and other work. That made it difficult to assess different roles against the work each person was actually responsible for.</p>
           </section>
           <section role="tabpanel" id="case-panel-opportunity" aria-labelledby="case-tab-opportunity" data-case-panel="opportunity" tabindex="0" hidden>
-            <span class="panel-eyebrow">The opportunity</span>
-            <h3>Make performance more representative.</h3>
-            <p>Define a framework that considers the work performed across Central Fill, Direct to Patient, and shared customer-care functions.</p>
-            <div class="panel-takeaway"><strong>Intended stakeholder views</strong><span>Department, role, and individual levels—so each audience can understand performance in the appropriate context.</span></div>
+            <span class="panel-eyebrow">The work</span>
+            <h3>Five sources. More than fifteen KPIs.</h3>
+            <p>I brought together calls, prescriptions, tickets, schedules, and employee data into a role-based performance analytics system. Different roles could be evaluated using targets that matched their responsibilities rather than one shared prescription count.</p>
           </section>
           <section role="tabpanel" id="case-panel-solution" aria-labelledby="case-tab-solution" data-case-panel="solution" tabindex="0" hidden>
-            <span class="panel-eyebrow">Solution direction</span>
-            <h3>Look beyond prescription counts.</h3>
-            <ul><li>Understand the responsibilities of Central Fill, Direct to Patient, and shared customer-care roles.</li><li>Consider prescriptions, calls, service tickets, resolution times, and attendance as complementary signals.</li><li>Plan Qlik views that provide context rather than relying on a single productivity measure.</li></ul>
+            <span class="panel-eyebrow">The outcome</span>
+            <h3>Clearer measures for the team.</h3>
+            <p>Employee performance metrics improved 30% across Q1–Q2 2023. The system also supported workforce planning and more transparent employee appraisals.</p>
           </section>
           <section role="tabpanel" id="case-panel-technical" aria-labelledby="case-tab-technical" data-case-panel="technical" tabindex="0" hidden>
-            <span class="panel-eyebrow">Technical foundation</span>
-            <h3>Translate operational activity into useful views.</h3>
-            <p>The proposed approach centered on business intelligence, KPI modeling, reporting design, and role-specific performance views using Qlik.</p>
-
+            <span class="panel-eyebrow">Another part of the job</span>
+            <h3>Why were so many calls being missed?</h3>
+            <p>I analyzed hourly, daily, weekly, and monthly call patterns and found a roughly 40% missed-call rate during peak hours. Extending Five9 history from three to twelve months helped guide staffing changes. Missed calls fell to 15% (a 62.5% relative reduction), and Zendesk tickets dropped from 120–150 to 40–50 a day (~67% reduction).</p>
           </section>
         </div>
-
       </div>
     </div>
   </div>
 </section>
-<section class="section"><div class="section-row"><span class="eyebrow">02 / Visual exploration</span><div><h2>Data visualization &amp; storytelling.</h2><p>My Tableau Public portfolio is a collection of interactive visual explorations and storytelling through data. It's one expression of how I make complex information easier to explore and understand.</p><div class="actions"><a class="button primary" href="https://public.tableau.com/app/profile/bhagyashri.patil" target="_blank" rel="noopener noreferrer">Explore Tableau Public ↗</a><a class="button secondary" href="https://www.tableau.com/blog/featured-authors-back-school-edition" target="_blank" rel="noopener noreferrer">Tableau Featured Author ↗</a></div></div></div></section>
-<section class="section"><div class="section-row"><span class="eyebrow">03 / Coming next</span><div><h2>Product, architecture, and AI work.</h2><p>Future case studies will cover product decisions, system architecture, technical trade-offs, AI experiments, and measurable outcomes as supporting material becomes available.</p><div class="actions"><a class="button primary" href="https://github.com/patilbp" target="_blank" rel="noopener noreferrer">Browse GitHub ↗</a></div></div></div></section>
+<section class="section" id="internal-products">
+  <div class="section-row">
+    <span class="eyebrow">02 / Products and systems</span>
+    <div>
+      <h2>A few more things I've built.</h2>
+      <p>These examples come from my professional work. Not every internal system has a public demo, but the problems and outcomes are worth sharing.</p>
+      <div class="project-list">
+        <article>
+          <div class="project-head"><span class="eyebrow">Black Book · Deployed</span><span class="project-status">Production product</span></div>
+          <h3>BB Reporting Navigator</h3>
+          <p>Our reporting dependencies were spread across hundreds of assets. I built a self-service place to trace what depends on what, which fields and metrics are affected, and what may change downstream.</p>
+          <p class="project-fact">400+ assets · 960+ lineage relationships · 3,500+ governed fields · 20+ business metrics</p>
+          <p>Based on recurring investigations, the estimated effort saved is around 300 hours per year.</p>
+        </article>
+        <article>
+          <div class="project-head"><span class="eyebrow">Black Book · In progress</span><span class="project-status">0→1 platform</span></div>
+          <h3>Building our own analytics platform</h3>
+          <p>I'm leading the architecture and technical research for an in-house Tableau replacement: a web app connected to our own semantic/data layer, security model, and deployment infrastructure. The work aims to reduce licensing costs and give teams more control over how analytics are built and delivered.</p>
+        </article>
+        <article>
+          <div class="project-head"><span class="eyebrow">Celandyne · Recruitment technology</span><span class="project-status">NLP &amp; matching</span></div>
+          <h3>Helping recruiters compare résumés</h3>
+          <p>I built an eight-stage Python NLP pipeline using PDF text extraction, preprocessing, TF-IDF, and cosine similarity. A KNN-based ranking step shortlisted the top 20 résumés for an opening. The design targeted matching results in under two seconds.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section"><div class="section-row"><span class="eyebrow">03 / Data visualization</span><div><h2>Data visualization &amp; storytelling.</h2><p>My Tableau Public portfolio is a collection of interactive visual explorations and storytelling through data. It's one expression of how I make complex information easier to explore and understand.</p><div class="actions"><a class="button primary" href="https://public.tableau.com/app/profile/bhagyashri.patil" target="_blank" rel="noopener noreferrer">Explore Tableau Public ↗</a><a class="button secondary" href="https://www.tableau.com/blog/featured-authors-back-school-edition" target="_blank" rel="noopener noreferrer">Tableau Featured Author ↗</a></div></div></div></section>
+<section class="section"><div class="section-row"><span class="eyebrow">04 / Elsewhere</span><div><h2>More of my work lives on GitHub.</h2><p>I keep some experiments and other code there, outside of the projects described above.</p><div class="actions"><a class="button secondary" href="https://github.com/patilbp" target="_blank" rel="noopener noreferrer">Browse GitHub ↗</a></div></div></div></section>
 <section id="publications" class="section" aria-labelledby="publications-heading">
   <div class="section-row">
-    <span class="eyebrow">04 / Publications</span>
-    <div><h2 id="publications-heading">Published work.</h2><p>Two earlier publications on assistive technology. Included here as part of my technical background, rather than as a separate research-focused career path.</p></div>
+    <span class="eyebrow">05 / Publications</span>
+    <div><h2 id="publications-heading">Published work.</h2><p>Earlier research on assistive technology, from my engineering background.</p></div>
   </div>
   <div class="publication-grid">
     <article class="publication">
       <span class="eyebrow">Publication / 2016</span>
-      <h3>Camera-Based Assistive Text and Product Label Reading for Blind Person</h3>
-      <p>International Journal of Innovative Research and Creative Technology (IJIRCT).</p>
-      <a href="https://www.ijirct.org/papers/IJIRCT1601003.pdf" target="_blank" rel="noopener noreferrer">View publication ↗</a>
-    </article>
-    <article class="publication">
-      <span class="eyebrow">Publication / 2015</span>
-      <h3>Camera-Based Assistive Text and Product Label Reading for Blind Person</h3>
-      <p>International Engineering Research Journal (IERJ).</p>
-      <a href="https://www.researchgate.net/profile/Bhagyashri-Patil-6" target="_blank" rel="noopener noreferrer">ResearchGate profile ↗</a>
+      <h3>Camera-Based Assistive Text and Product Label Reading For Blind Person</h3>
+      <p>International Journal of Innovative Research and Creative Technology (IJIRCT). Research into reading printed text and product labels using a camera to help people with visual impairments.</p>
+      <a href="https://www.ijirct.org/papers/IJIRCT1601003.pdf" target="_blank" rel="noopener noreferrer">Read publication ↗</a>
     </article>
   </div>
 </section>
@@ -183,4 +206,16 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 .publication a{color:var(--sage);text-underline-offset:4px}
 .publication h3{font-family:Georgia,serif;font-weight:500}
 
+</style>
+
+<style>
+.project-list{margin-top:30px;border-top:1px solid var(--line)}
+.project-list article{padding:27px 0 31px;border-bottom:1px solid var(--line)}
+.project-head{display:flex;gap:12px 20px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:12px}
+.project-status{font-size:.75rem;color:var(--muted)}
+.project-list h3{font:500 clamp(1.55rem,2.1vw,2.15rem)/1.2 Georgia,serif;margin:10px 0}
+.project-list p{max-width:870px;margin:11px 0 0;font-size:.97rem}
+.project-fact{color:var(--sage-deep)!important;font-weight:700;font-size:.88rem!important}
+.publication-grid{grid-template-columns:minmax(0,850px)}
+@media(max-width:700px){.project-head{align-items:flex-start}}
 </style>
