@@ -1,91 +1,164 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
-<BaseLayout title="About | Bhagyashri Patil — Product, Solutions Engineering & AI">
-<header class="hero">
-  <div class="hero-copy">
-    <p class="margin-note">A curious mind, a practical approach.</p>
-    <span class="eyebrow">About / Product thinking · Solutions engineering · Applied AI</span>
-    <h1>Hi, I'm Bhagyashri.<br/><em>I make complex things useful.</em></h1>
-    <p>With 7+ years in enterprise analytics and product-focused solutions, I connect customer problems, thoughtful product decisions, and hands-on engineering. I'm especially interested in what cloud and applied AI can make possible when they're grounded in real needs.</p>
-    <div class="actions"><a class="button primary" href="#accomplishments">Explore my work ↘</a><a class="button secondary" href="/curiosity-journal/">A little beyond work ↗</a></div>
-    <p class="availability"><span class="status-dot" aria-hidden="true"></span> Exploring Boston, MA and remote opportunities</p>
-  </div>
-  <div class="home-art" aria-label="A personal collection of images and colors">
-    <figure class="home-art-main"><img src="https://images.unsplash.com/photo-1644777122204-907ec31b0538?auto=format&fit=crop&w=1250&q=90" alt="Quiet golden coastline, photographed by Bhagyashri Patil" loading="eager" decoding="async" /><figcaption>01 / Noticing the little things</figcaption></figure>
-    <figure class="home-art-small"><img src="https://images.unsplash.com/photo-1660280595918-e180ad83372f?auto=format&fit=crop&w=700&q=90" alt="Pink-red flowers, photographed by Bhagyashri Patil" loading="eager" decoding="async" /><figcaption>Color, always.</figcaption></figure>
-    <div class="home-swatches" aria-label="A few colors from my palette"><i style="--swatch:#b75d40"></i><i style="--swatch:#ddb56d"></i><i style="--swatch:#4e6955"></i><i style="--swatch:#7d82a4"></i><small>A little color goes a long way.</small></div>
-  </div>
-</header>
-
-<section id="accomplishments" class="section accomplishments" aria-labelledby="accomplishments-heading">
-  <div class="section-row"><span class="eyebrow">01 / Accomplishments</span><div><h2 id="accomplishments-heading">Highlights that speak for themselves.</h2><p>A few milestones that reflect my technical foundation, published work, and ability to communicate through data.</p></div></div>
-  <div class="proof-grid">
-    <article class="proof-card"><span class="eyebrow">External recognition / 2022</span><h3>Tableau Public Featured Author</h3><p>Selected for Tableau's <em>Featured Authors: Back to School Edition</em>, highlighting my data visualization work.</p><a href="https://www.tableau.com/blog/featured-authors-back-school-edition" target="_blank" rel="noopener noreferrer">Read Tableau's feature ↗</a></article>
-    <article class="proof-card"><span class="eyebrow">Research / Publications</span><h3>Published research in assistive technology</h3><p>Co-authored research on camera-based text and product-label reading for people with visual impairments.</p><a href="/projects/#publications">View publications ↗</a></article>
-    <article class="proof-card"><span class="eyebrow">Professional foundation</span><h3>7+ years in enterprise data solutions</h3><p>Hands-on experience across analytics, system delivery, stakeholder requirements, and technical problem-solving in product-oriented environments.</p><a href="/experience/">Explore my experience ↗</a></article>
-  </div>
-</section>
-
-<section class="section" aria-labelledby="approach-heading">
-  <div class="section-row"><span class="eyebrow">02 / How I work</span><div><h2 id="approach-heading">Product thinking backed by engineering depth.</h2><p>I'm most energized by understanding the customer problem, mapping the trade-offs, and connecting the right technology to a useful outcome. My foundation in analytics and solution delivery provides a practical perspective for product and architecture conversations across industries.</p></div></div>
-  <div class="capabilities">
-    <div><span class="eyebrow">Product</span><h3>Define the right problem</h3><p>Stakeholder discovery, prioritization, requirements, and meaningful measures of success.</p></div>
-    <div><span class="eyebrow">Solutions</span><h3>Design for the real world</h3><p>Systems thinking, data integration, architecture considerations, and delivery trade-offs.</p></div>
-    <div><span class="eyebrow">Data & AI</span><h3>Make technology useful</h3><p>Enterprise data products, machine learning experience, and an evolving focus on applied AI.</p></div>
-  </div>
-</section>
-
-<section class="section" aria-labelledby="work-heading">
-  <div class="section-row"><span class="eyebrow">03 / Selected work</span><div><h2 id="work-heading">Proof through projects.</h2><p>Explore work through the lens of business context, product questions, solution design, and technical decisions. More cloud, product, and applied-AI case studies will join the portfolio as they're ready to share.</p>
-    <div class="actions">
-      <a class="button primary" href="/projects/">View case studies ↗</a>
-      <a class="button secondary" href="https://public.tableau.com/app/profile/bhagyashri.patil" target="_blank" rel="noopener noreferrer">Tableau Public ↗</a>
-      <a class="button secondary" href="/projects/#publications">Publications →</a>
+<BaseLayout title="About | Bhagyashri Patil — A Little About Me">
+  <header class="hero" aria-labelledby="intro-title">
+    <div class="hero-copy">
+      <p class="margin-note">I like a good question.</p>
+      <span class="eyebrow">A little about me</span>
+      <h1 id="intro-title">Hi, I'm Bhagyashri.<br /><em>I like building things people actually use.</em></h1>
+      <p class="hero-description">I'm usually the person asking, “But why do we do it that way?” Seven-plus years of working with data and building tools have given me plenty of chances to ask. I enjoy the technical puzzle, but I love it most when the result makes someone's day a little easier.</p>
+      <div class="actions">
+        <a class="button primary" href="#the-work">A little about my work <span aria-hidden="true">↘</span></a>
+        <a class="button secondary" href="#outside-work">The other side of me <span aria-hidden="true">↘</span></a>
+      </div>
+      <p class="availability"><span class="status-dot" aria-hidden="true"></span> Open to product &amp; solutions roles · Boston / remote</p>
     </div>
-  </div></div>
-</section>
+    <div class="home-art" aria-label="Photographs and color studies from my personal collection">
+      <figure class="home-art-main">
+        <img src="https://images.unsplash.com/photo-1644777122204-907ec31b0538?auto=format&fit=crop&w=1250&q=90" alt="Warm evening light across the coast, photographed by Bhagyashri" loading="eager" decoding="async" />
+        <figcaption>01 / A quieter horizon</figcaption>
+      </figure>
+      <figure class="home-art-small">
+        <img src="https://images.unsplash.com/photo-1660280595918-e180ad83372f?auto=format&fit=crop&w=700&q=90" alt="Close-up of red-pink flowers, photographed by Bhagyashri" loading="eager" decoding="async" />
+        <figcaption>Color, always.</figcaption>
+      </figure>
+      <div class="home-swatches" aria-label="Favorite color swatches"><i style="--swatch:#b75d40"></i><i style="--swatch:#ddb56d"></i><i style="--swatch:#4e6955"></i><i style="--swatch:#7d82a4"></i><small>Some things never change.</small></div>
+    </div>
+  </header>
 
-<section class="section" aria-labelledby="personal-heading">
-  <div class="section-row"><span class="eyebrow">04 / Beyond the résumé</span><div class="personal-grid"><div><h2 id="personal-heading">Curious beyond the screen.</h2><p>Away from the screen, I paint, photograph, collect little pieces of the world, explore new places, and stop for just about every dog I meet. My curiosity journal is where those interests have a home.</p><div class="actions"><a class="button secondary" href="/curiosity-journal/">Open my curiosity journal ↗</a><a class="button secondary" href="/beyond-work/">Explore photography ↗</a></div></div><a class="personal-photo" href="/beyond-work/" aria-label="Explore my photography"><img src="https://images.unsplash.com/photo-1644777122204-907ec31b0538?auto=format&fit=crop&w=760&q=80" alt="Coastal landscape at Torrey Pines photographed by Bhagyashri Patil" loading="lazy" decoding="async"/></a></div></div>
-</section>
+  <section class="section work-story" id="the-work" aria-labelledby="the-work-title">
+    <div class="section-row">
+      <span class="eyebrow">01 / The work part</span>
+      <div class="story-copy">
+        <h2 id="the-work-title">I like the part before the answer.</h2>
+        <p>I've worked on dashboards, data pipelines, analytics products, and machine-learning workflows. What keeps me interested isn't just the technology. It's talking to people, figuring out what's getting in their way, and working backwards from what would actually help.</p>
+        <p>That's also why I'm drawn to <strong>product management and solutions engineering</strong>. I want to be part of deciding what's worth building, not just how to build it. I'm curious about cloud and AI, too—but mostly about what they can make simpler for the people using them.</p>
+        <p class="handwritten-note">My favorite outcome? Something that works well enough that nobody needs me to explain it.</p>
+      </div>
+    </div>
+  </section>
 
-<section class="section" aria-labelledby="connect-heading">
-  <div class="section-row"><span class="eyebrow">05 / Let's connect</span><div><h2 id="connect-heading">Building what's next.</h2><p>I'm interested in product management and solutions engineering opportunities in the Boston area or remote, including teams building cloud-enabled, data-intensive, and AI-aware products in finance, banking, real estate, technology, and beyond.</p><div class="actions"><a class="button primary" href="/contact/">Get in touch ↗</a><a class="button secondary" href="/experience/">Full experience →</a></div></div></div>
-</section>
+  <section class="section accomplishments" id="accomplishments" aria-labelledby="accomplishments-title">
+    <div class="section-row">
+      <span class="eyebrow">02 / Little milestones</span>
+      <div>
+        <h2 id="accomplishments-title">A few things I'm proud of.</h2>
+        <p>Some moments stay with you. These are a few of mine.</p>
+      </div>
+    </div>
+    <div class="proof-grid">
+      <article class="proof-card">
+        <span class="eyebrow">A lovely surprise / 2022</span>
+        <h3>My Tableau work got featured.</h3>
+        <p>Tableau included my visualizations in its <em>Featured Authors: Back to School Edition</em>. It felt good to see something I enjoyed making reach more people.</p>
+        <a href="https://www.tableau.com/blog/featured-authors-back-school-edition" target="_blank" rel="noopener noreferrer">See the feature ↗</a>
+      </article>
+      <article class="proof-card">
+        <span class="eyebrow">A project with a purpose</span>
+        <h3>Research that started with a human problem.</h3>
+        <p>I co-authored research on using a camera to read text and product labels aloud for people with visual impairments. It's a project I still think fondly of.</p>
+        <a href="/projects/#publications">Read about the research ↗</a>
+      </article>
+      <article class="proof-card">
+        <span class="eyebrow">The work that gets used</span>
+        <h3>Turning numbers into something useful.</h3>
+        <p>At Black Book, I helped develop a visual analytics offering that increased adoption of data-driven valuation tools by 40%. That's the kind of impact I enjoy seeing.</p>
+        <a href="/experience/">More of my experience ↗</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section selected-work" aria-labelledby="selected-work-title">
+    <div class="section-row">
+      <span class="eyebrow">03 / Some of the work</span>
+      <div class="story-copy">
+        <h2 id="selected-work-title">Curious about what I've built?</h2>
+        <p>There's the work I can share, and the work I'm still finding the right way to tell the story of. Here are a few places to start.</p>
+        <div class="work-links">
+          <a href="/projects/"><span><strong>Projects &amp; case studies</strong><small>The problems, the choices, and what came out of them.</small></span><span class="link-arrow" aria-hidden="true">↗</span></a>
+          <a href="/experience/"><span><strong>Experience</strong><small>Where I've worked, what I've learned, and what I've delivered.</small></span><span class="link-arrow" aria-hidden="true">↗</span></a>
+          <a href="https://public.tableau.com/app/profile/bhagyashri.patil" target="_blank" rel="noopener noreferrer"><span><strong>Tableau Public</strong><small>Because I also enjoy making data interesting to look at.</small></span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section personal" id="outside-work" aria-labelledby="outside-work-title">
+    <div class="section-row">
+      <span class="eyebrow">04 / Away from the desk</span>
+      <div class="personal-grid">
+        <div class="story-copy">
+          <p class="margin-note">Not everything needs to be productive.</p>
+          <h2 id="outside-work-title">And then there's everything else.</h2>
+          <p>Sometimes my hands are covered in paint instead of being on a keyboard. I love colors, taking photographs, collecting stamps and coins, and finding an excuse to be outdoors. I also have a very hard time walking past a dog without saying hello.</p>
+          <p>None of those things needs a connection to my career. They're just things that make me, me.</p>
+          <div class="actions">
+            <a class="button primary" href="/curiosity-journal/">Open my curiosity journal ↗</a>
+            <a class="button secondary" href="/beyond-work/">See my photographs ↗</a>
+          </div>
+        </div>
+        <a class="painting-feature" href="/curiosity-journal/" aria-label="Explore my paintings in the curiosity journal">
+          <img src="/assets/journal/tropical-sunset-vibrant.webp" alt="Tropical Sunset, Bhagyashri's colorful painting of palm trees, a hammock, and a golden sunset by the sea" loading="lazy" decoding="async" />
+          <span>One of my paintings / Tropical Sunset <span aria-hidden="true">↗</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section closing" aria-labelledby="closing-title">
+    <div class="section-row">
+      <span class="eyebrow">05 / Say hello</span>
+      <div class="story-copy">
+        <h2 id="closing-title">Good conversations start somewhere.</h2>
+        <p>Whether it's an interesting problem, a product idea, or something here that caught your eye, I'd love to hear from you. I'm particularly interested in product and solutions opportunities in Boston and remote.</p>
+        <div class="actions"><a class="button primary" href="/contact/">Say hello ↗</a><a class="button secondary" href="/projects/">See what I've been working on ↗</a></div>
+      </div>
+    </div>
+  </section>
 </BaseLayout>
-<style>
-.hero{display:block;padding:clamp(54px,6vw,88px) 0 clamp(56px,6vw,78px)}.hero-copy{min-width:0;max-width:1010px}.hero h1{max-width:930px;font-size:clamp(2.25rem,3.65vw,3.85rem)}.intro{display:block;font-size:clamp(1.3rem,1.7vw,1.85rem);font-weight:650;letter-spacing:-.03em;margin-bottom:15px}.hero h1 em{font-style:normal;color:inherit}.hero p{max-width:800px}.availability{margin-top:28px;display:flex;align-items:center;gap:9px;color:#51637e;font-size:.89rem;font-weight:650}.status-dot{width:9px;height:9px;border-radius:50%;background:#4da98b;display:inline-block;flex:none}
-.proof-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(19px,3vw,42px);margin-top:30px}.proof-card{padding:20px 0 0;border:0;border-top:1px solid #d6d6d3;background:transparent;border-radius:0;display:flex;flex-direction:column}.proof-card h3{font-size:1.24rem;margin:17px 0 10px}.proof-card p{font-size:.96rem;flex:1;margin:0 0 21px}.proof-card a{font-size:.88rem;font-weight:700;color:#343c4a;align-self:flex-start;text-decoration:underline;text-underline-offset:3px}.proof-card a:hover{text-decoration:underline}
-.capabilities{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:32px}.capabilities>div{padding:20px 0;border-top:1px solid #d6d6d3}.capabilities h3{margin:13px 0 8px}.capabilities p{font-size:.95rem;margin:0}.personal-grid{display:grid;grid-template-columns:1.2fr .6fr;gap:clamp(25px,5vw,76px);align-items:center}.personal-photo{display:block;overflow:hidden;border-radius:17px;background:#e6eaf0}.personal-photo img{width:100%;height:100%;display:block;object-fit:cover;aspect-ratio:1.5}
-@media(max-width:800px){.proof-grid{grid-template-columns:1fr 1fr}.capabilities{grid-template-columns:1fr}.personal-grid{grid-template-columns:1fr}}@media(max-width:600px){.hero{padding:var(--page-intro-top) 0 var(--page-intro-bottom)}.proof-grid{grid-template-columns:1fr}.personal-photo{max-width:520px}}
-</style>
 
 <style>
-
-.hero{display:grid;grid-template-columns:minmax(0,1.14fr) minmax(290px,.86fr);gap:clamp(32px,5vw,86px);align-items:center;padding:clamp(58px,7vw,105px) 0}
-.hero-copy{max-width:870px}
-.hero h1{font:500 clamp(2.9rem,4.3vw,5.1rem)/1.095 Georgia,serif;letter-spacing:-.06em;max-width:900px;margin:17px 0 26px}
-.hero h1 em{font-style:italic;color:var(--sage);font-weight:400}
-.hero-copy>p:not(.margin-note){max-width:690px}
-.hero .availability{font:700 .84rem "DM Sans",sans-serif;color:#657264;margin:30px 0 0;display:flex;align-items:center;gap:9px}
-.hero .status-dot{background:#72977b}
-.home-art{position:relative;min-height:500px;background:#f0ede3;border:1px solid var(--line);padding:21px 25px}
+.hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(290px,.85fr);gap:clamp(32px,5vw,82px);align-items:center;padding:clamp(58px,7vw,105px) 0}
+.hero-copy{max-width:840px;min-width:0}
+.hero h1{max-width:920px;font:500 clamp(2.75rem,4.15vw,5rem)/1.11 Georgia,"Times New Roman",serif;letter-spacing:-.057em;margin:17px 0 28px}
+.hero h1 em{font-weight:400;font-style:italic;color:var(--sage)}
+.hero-description{max-width:690px;font-size:clamp(1.03rem,1.12vw,1.15rem);line-height:1.8}
+.availability{display:flex;gap:10px;align-items:center;font-size:.82rem;font-weight:700;color:#647764;margin-top:26px}
+.status-dot{display:inline-block;width:9px;height:9px;flex:none;border-radius:50%;background:#74967a}
+.home-art{position:relative;min-height:500px;border:1px solid var(--line);background:#f0ede3;padding:21px 25px}
 .home-art figure{margin:0}
 .home-art-main{width:85%;transform:rotate(-2deg)}
-.home-art-main img{display:block;width:100%;aspect-ratio:1.19;object-fit:cover;border:8px solid #fff;box-shadow:0 10px 30px #3c3c3320}
+.home-art-main img{width:100%;aspect-ratio:1.19;object-fit:cover;display:block;border:8px solid #fff;box-shadow:0 10px 30px #3c3c3320}
 .home-art figcaption{font:italic .8rem Georgia,serif;color:#777a70;padding:9px 5px}
 .home-art-small{position:absolute;width:39%;right:4%;bottom:15%;transform:rotate(5deg)}
 .home-art-small img{display:block;width:100%;aspect-ratio:.9;object-fit:cover;border:7px solid #fff;box-shadow:0 10px 30px #3c3c3324}
-.home-swatches{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-top:29px;max-width:61%}
+.home-swatches{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-top:29px;max-width:63%}
 .home-swatches i{display:block;width:28px;height:28px;border-radius:50%;background:var(--swatch)}
-.home-swatches small{font:italic .83rem Georgia,serif;color:#777a70;margin-left:5px}
-.proof-card{border-top-color:var(--line)}
-.proof-card h3,.capabilities h3{font-family:Georgia,serif;font-weight:500}
-.proof-card a{color:var(--sage);text-underline-offset:5px}
-.capabilities>div{border-top-color:var(--line)}
-.personal-photo{background:var(--paper-deep);border-radius:3px}
-@media(max-width:950px){.hero{grid-template-columns:1fr;gap:40px}.home-art{width:min(100%,670px);min-height:440px}.home-art-main{width:80%}}
-@media(max-width:600px){.hero{padding:var(--page-intro-top) 0 var(--page-intro-bottom)}.hero h1{font-size:clamp(2.65rem,10vw,3.9rem)}.home-art{min-height:310px;padding:15px 17px}.home-art-main{width:84%}.home-art-small{bottom:17%;right:4%}.home-art-main img{border-width:5px}.home-art-small img{border-width:5px}.home-swatches{margin-top:23px;max-width:65%}.home-swatches i{width:23px;height:23px}.home-swatches small{font-size:.71rem}}
-
+.home-swatches small{font:italic .82rem Georgia,serif;color:#777a70;margin-left:5px}
+.story-copy{max-width:920px}
+.story-copy p{max-width:790px}
+.story-copy p strong{font-weight:700;color:var(--sage-deep)}
+.handwritten-note{font:italic 1.19rem/1.55 Georgia,"Times New Roman",serif;color:#95775e!important;margin:30px 0 0;padding:0 0 0 20px;border-left:2px solid #d1bb9e;max-width:650px!important}
+.proof-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(19px,2.5vw,40px);margin-top:34px}
+.proof-card{padding:25px 0 0;border-top:1px solid var(--line);display:flex;flex-direction:column}
+.proof-card h3{font-size:clamp(1.45rem,1.75vw,1.9rem);line-height:1.23;margin:18px 0 12px}
+.proof-card p{font-size:.96rem;flex:1;margin:0 0 20px}
+.proof-card a{font-size:.87rem;font-weight:700;color:var(--sage-deep);text-decoration:underline;text-underline-offset:4px;align-self:flex-start}
+.work-links{margin-top:30px;border-top:1px solid var(--line)}
+.work-links a{display:flex;align-items:center;justify-content:space-between;gap:25px;padding:24px 4px 24px 0;border-bottom:1px solid var(--line);transition:padding .2s ease,color .2s ease}
+.work-links a:hover{padding-left:9px;color:var(--sage)}
+.work-links a strong{display:block;font:500 clamp(1.32rem,1.8vw,1.8rem)/1.2 Georgia,serif;letter-spacing:-.025em}
+.work-links a small{display:block;margin-top:7px;color:#6b7468;font-size:.91rem;line-height:1.5}
+.link-arrow{font:500 1.5rem Georgia,serif;color:var(--sage)}
+.personal-grid{display:grid;grid-template-columns:minmax(0,1.13fr) minmax(245px,.8fr);gap:clamp(28px,4vw,70px);align-items:center}
+.personal-grid .margin-note{margin-top:0}
+.painting-feature{display:block;margin:0;min-width:0;padding:12px 12px 11px;background:#f0ede3;border:1px solid var(--line);transform:rotate(1.5deg)}
+.painting-feature img{display:block;width:100%;height:auto;object-fit:contain}
+.painting-feature>span{display:flex;justify-content:space-between;gap:12px;padding:12px 4px 0;color:#7b7c70;font:italic .88rem Georgia,serif}
+.closing{padding-bottom:clamp(75px,8vw,120px)}
+@media(max-width:1000px){.hero{grid-template-columns:1fr}.home-art{width:min(100%,675px);min-height:430px}.home-art-main{width:80%}}
+@media(max-width:800px){.proof-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.personal-grid{grid-template-columns:1fr}.painting-feature{max-width:600px}}
+@media(max-width:600px){.hero{padding:var(--page-intro-top) 0 var(--page-intro-bottom)}.hero h1{font-size:clamp(2.5rem,10vw,3.75rem)}.home-art{min-height:310px;padding:15px 17px}.home-art-main{width:84%}.home-art-main img,.home-art-small img{border-width:5px}.home-art-small{bottom:17%}.home-swatches{margin-top:23px}.home-swatches i{width:23px;height:23px}.home-swatches small{font-size:.71rem}.proof-grid{grid-template-columns:1fr}.work-links a{padding:19px 0}.painting-feature{transform:none}}
+@media(prefers-reduced-motion:reduce){.work-links a{transition:none}}
 </style>
