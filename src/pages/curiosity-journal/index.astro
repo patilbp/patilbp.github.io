@@ -1,0 +1,166 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const images = {
+  coastal: "https://images.unsplash.com/photo-1644777122204-907ec31b0538?auto=format&fit=crop&w=1100&q=82",
+  dog: "https://images.unsplash.com/photo-1656790821730-ff51eafc3b6c?auto=format&fit=crop&w=900&q=82",
+  flight: "https://images.unsplash.com/photo-1644777072462-9ac43679036a?auto=format&fit=crop&w=1000&q=82",
+  flower: "https://images.unsplash.com/photo-1660280595918-e180ad83372f?auto=format&fit=crop&w=850&q=82"
+};
+---
+<BaseLayout title="Curiosity Journal — Design Preview | Bhagyashri Patil">
+  <div class="journal">
+    <div class="journal-meta"><span>PERSONAL STUDIO <span class="meta-dot">·</span> DESIGN EXPERIMENT</span><a href="/" aria-label="Return to the current About page">Return to my portfolio ↗</a></div>
+    <header class="journal-hero">
+      <div class="journal-copy">
+        <p class="margin-note">An open notebook of sorts.</p>
+        <h1>Hi, I'm Bhagyashri.<br /><em>I make, notice &amp; collect.</em></h1>
+        <p>At work, what I enjoy most is seeing people actually use something I've built. Outside of it, I'm drawn to colors, little details, the outdoors, and just about every dog I meet.</p>
+        <div class="journal-actions"><a href="#open-the-journal" class="journal-main-link">Open the journal <span aria-hidden="true">↘</span></a><a href="/projects/" class="journal-text-link">The things I've built ↗</a></div>
+      </div>
+      <div class="journal-art" aria-label="Three photographs from my photography collection and a few color swatches">
+        <figure class="art-main"><img src={images.coastal} alt="A warm sunset over a quiet coastline, photographed by Bhagyashri" loading="eager"/><figcaption>01 / a quieter horizon</figcaption></figure>
+        <figure class="art-small"><img src={images.flower} alt="Red flowers photographed by Bhagyashri" loading="eager"/><figcaption>Little bursts of color</figcaption></figure>
+        <div class="art-palette" aria-label="A few favorite colors"><span style="--swatch:#b75d40"></span><span style="--swatch:#ddb56d"></span><span style="--swatch:#4e6955"></span><span style="--swatch:#7d82a4"></span><small>A bit of color goes a long way.</small></div>
+      </div>
+    </header>
+
+    <section id="open-the-journal" class="journal-section" aria-labelledby="journal-heading">
+      <div class="section-intro"><p class="kicker">01 / Things I come back to</p><h2 id="journal-heading">A few pages from my world.</h2><p>Nothing here has to become a professional skill. These are simply things I enjoy.</p></div>
+      <div class="journal-browser" data-journal>
+        <div class="journal-tabs" role="tablist" aria-label="Browse my personal interests">
+          <button type="button" role="tab" id="j-tab-create" aria-controls="j-panel-create" aria-selected="true" tabindex="0" data-jtab="create"><span>01</span>Create</button>
+          <button type="button" role="tab" id="j-tab-see" aria-controls="j-panel-see" aria-selected="false" tabindex="-1" data-jtab="see"><span>02</span>See</button>
+          <button type="button" role="tab" id="j-tab-collect" aria-controls="j-panel-collect" aria-selected="false" tabindex="-1" data-jtab="collect"><span>03</span>Collect</button>
+          <button type="button" role="tab" id="j-tab-explore" aria-controls="j-panel-explore" aria-selected="false" tabindex="-1" data-jtab="explore"><span>04</span>Explore</button>
+          <button type="button" role="tab" id="j-tab-dogs" aria-controls="j-panel-dogs" aria-selected="false" tabindex="-1" data-jtab="dogs"><span>05</span>Dogs, always</button>
+        </div>
+        <div class="journal-pages">
+          <section class="journal-page" role="tabpanel" id="j-panel-create" aria-labelledby="j-tab-create" tabindex="0" data-jpanel="create">
+            <div class="page-story"><p class="kicker">The color page</p><h3>I've always had a thing for colors.</h3><p>Painting is one of those things I can lose myself in. I like experimenting, making a mess, and seeing what a few colors can become.</p><p class="tiny-note">A small note to myself: leave room to play.</p></div>
+            <div class="paint-study" role="img" aria-label="An abstract set of colorful brush-stroke shapes representing painting; original artwork photographs can be added later"><i class="stroke s1"></i><i class="stroke s2"></i><i class="stroke s3"></i><i class="stroke s4"></i><span class="paint-caption">Color study / always in progress</span></div>
+          </section>
+          <section class="journal-page" role="tabpanel" id="j-panel-see" aria-labelledby="j-tab-see" tabindex="0" data-jpanel="see" hidden>
+            <div class="page-story"><p class="kicker">Through my lens</p><h3>I like noticing the small things.</h3><p>Light, patterns, a beautiful sky, or a moment I'd otherwise walk past. Photography is my way of keeping a few of those moments close.</p><a href="/beyond-work/" class="inline-link">See my photographs ↗</a></div>
+            <figure class="page-photo"><img src={images.coastal} alt="Golden evening light on the coastline" loading="lazy"/><figcaption>Last Light / from my photography collection</figcaption></figure>
+          </section>
+          <section class="journal-page" role="tabpanel" id="j-panel-collect" aria-labelledby="j-tab-collect" tabindex="0" data-jpanel="collect" hidden>
+            <div class="page-story"><p class="kicker">Little pieces of the world</p><h3>Stamps. Coins. Stories.</h3><p>I enjoy collecting postage stamps and currency coins. A little piece of metal or paper can carry a surprising amount of history and geography.</p><p class="tiny-note">I'll add photographs from my collection here when they're ready.</p></div>
+            <div class="collect-study" aria-label="Decorative illustration of a stamp album and coin collection"><div class="sample-stamp"><span>POSTAGE</span><strong>✳</strong><small>places & stories</small></div><div class="sample-coin"><span>✦</span></div><span class="collector-caption">Collected with curiosity.</span></div>
+          </section>
+          <section class="journal-page" role="tabpanel" id="j-panel-explore" aria-labelledby="j-tab-explore" tabindex="0" data-jpanel="explore" hidden>
+            <div class="page-story"><p class="kicker">A little adventure</p><h3>I'd rather try it than wonder.</h3><p>I'm drawn to outdoor adventures—from rock climbing to paragliding—and to the feeling of seeing a place from an entirely different angle.</p><p class="tiny-note">The photograph is one I took; it isn't a photo of me paragliding.</p></div>
+            <figure class="page-photo"><img src={images.flight} alt="An orange paraglider near the ocean, photographed by Bhagyashri" loading="lazy"/><figcaption>Lift / photographed on the coast</figcaption></figure>
+          </section>
+          <section class="journal-page" role="tabpanel" id="j-panel-dogs" aria-labelledby="j-tab-dogs" tabindex="0" data-jpanel="dogs" hidden>
+            <div class="page-story"><p class="kicker">No explanation necessary</p><h3>Any dog. Every dog.</h3><p>If there's a dog around, I'll probably notice it before anything else. Breed doesn't matter. I just really love dogs.</p><p class="tiny-note">One of the many good dogs I've photographed.</p></div>
+            <figure class="page-photo"><img src={images.dog} alt="Brown dog resting on a seaside ledge, photographed by Bhagyashri" loading="lazy"/><figcaption>At the Edge of the Shore / Goa</figcaption></figure>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="journal-outro" aria-labelledby="outro-heading">
+      <div><p class="kicker">02 / Back to the work</p><h2 id="outro-heading">Curiosity follows me to work, too.</h2><p>I've spent over seven years building enterprise data solutions. The part I find most satisfying is seeing people put something I've built to use.</p></div>
+      <div class="outro-links"><a href="/experience/">Experience ↗</a><a href="/projects/">Selected work ↗</a><a href="/contact/">Say hello ↗</a></div>
+    </section>
+    <p class="preview-disclaimer">This is a separate design experiment. Your existing portfolio pages remain unchanged.</p>
+  </div>
+</BaseLayout>
+<style>
+.journal{--paper:#f6f3eb;--ink:#282822;--muted:#6d716c;--line:#dbd9d0;color:var(--ink)}
+.journal-meta{display:flex;justify-content:space-between;align-items:center;gap:20px;border-bottom:1px solid var(--line);padding:21px 0;font:700 .72rem "DM Sans",sans-serif;letter-spacing:.12em;color:#73766d}
+.journal-meta a{letter-spacing:0;color:#424942;text-decoration:underline;text-underline-offset:4px}
+.meta-dot{padding:0 5px}
+.journal-hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr);gap:clamp(35px,5vw,95px);align-items:center;padding:clamp(56px,7vw,110px) 0}
+.journal-copy{max-width:760px}
+.margin-note{font:italic 1.18rem Georgia,serif;color:#8b7159;margin:0 0 24px}
+.journal h1{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.065em;font-weight:500;font-size:clamp(2.7rem,4.6vw,5.3rem);line-height:1.09;margin:0 0 27px}
+.journal h1 em{display:inline;color:#4d6656;font-weight:400}
+.journal-copy>p:not(.margin-note){max-width:680px;color:#53594f;font-size:clamp(1.04rem,1.2vw,1.17rem);line-height:1.75}
+.journal-actions{display:flex;align-items:center;flex-wrap:wrap;gap:23px;margin-top:32px}
+.journal-main-link{display:inline-flex;gap:26px;background:#2f3831;color:#fff;border-radius:5px;padding:15px 19px;font-weight:700}
+.journal-text-link,.inline-link{font-weight:700;color:#394b40;text-decoration:underline;text-underline-offset:5px}
+.journal-art{position:relative;min-height:500px;padding:20px 22px 26px;background:var(--paper);border:1px solid var(--line)}
+.journal-art figure{margin:0}
+.art-main{width:84%;transform:rotate(-2deg)}
+.art-main img{width:100%;aspect-ratio:1.2;object-fit:cover;display:block;border:8px solid #fff;box-shadow:0 9px 30px #38342b20}
+.journal-art figcaption{font:italic .79rem Georgia,serif;color:#73756e;padding:9px 6px}
+.art-small{position:absolute;width:39%;right:4%;bottom:16%;transform:rotate(5deg)}
+.art-small img{display:block;width:100%;aspect-ratio:.9;object-fit:cover;border:7px solid #fff;box-shadow:0 10px 28px #38342b20}
+.art-palette{display:flex;gap:6px;align-items:center;margin-top:24px;max-width:62%;flex-wrap:wrap}
+.art-palette>span{width:29px;height:29px;border-radius:100%;background:var(--swatch)}
+.art-palette small{color:#6d716c;font:italic .85rem Georgia,serif;margin-left:5px}
+.journal-section{padding:clamp(55px,7vw,95px) 0;border-top:1px solid var(--line)}
+.section-intro{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:32px;flex-wrap:wrap}
+.kicker{font:700 .72rem "DM Sans",sans-serif!important;color:#8b7159!important;letter-spacing:.12em;text-transform:uppercase}
+.journal h2{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.045em;font-weight:500;font-size:clamp(2.15rem,3vw,3.25rem);line-height:1.13;margin:0}
+.section-intro>p{color:var(--muted);max-width:360px;font-size:.94rem;margin:0}
+.section-intro .kicker{width:100%;margin:0 0 -14px}
+.journal-browser{border:1px solid var(--line);background:#f9f7f1}
+.journal-tabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-bottom:1px solid var(--line)}
+.journal-tabs button{font:700 .88rem "DM Sans",sans-serif;background:transparent;border:0;border-right:1px solid var(--line);padding:20px 10px;cursor:pointer;color:#687067;text-align:center}
+.journal-tabs button:last-child{border-right:0}
+.journal-tabs button span{display:block;color:#969a90;font-size:.65rem;letter-spacing:.13em;margin-bottom:6px}
+.journal-tabs button[aria-selected="true"]{color:#283b30;background:#eeeee6;box-shadow:inset 0 -3px #627565}
+.journal-tabs button:hover{background:#eeeee6}
+.journal-tabs button:focus-visible{outline:3px solid #6c7564;outline-offset:-5px}
+.journal-pages{min-height:340px;padding:clamp(22px,3vw,42px)}
+.journal-page{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(24px,4vw,65px);align-items:center}
+.journal-page[hidden]{display:none!important}
+.page-story h3{font-family:Georgia,serif;font-weight:500;letter-spacing:-.04em;font-size:clamp(1.8rem,2.9vw,2.9rem);line-height:1.16;margin:8px 0 19px;color:var(--ink)}
+.page-story p{max-width:540px;color:#585e56;font-size:1.01rem;line-height:1.8}
+.page-story .tiny-note{font:italic .95rem Georgia,serif;color:#8b7864;margin-top:22px}
+.page-photo{margin:0;max-width:650px}
+.page-photo img{display:block;width:100%;max-height:365px;object-fit:contain;border-radius:3px;background:#eeeae0}
+.page-photo figcaption{margin-top:10px;color:#858479;font-size:.77rem;font-style:italic}
+.paint-study,.collect-study{position:relative;min-height:300px;background:#eee9dc;border:1px solid #e0d9ca;overflow:hidden}
+.paint-study .stroke{position:absolute;height:30px;width:70%;border-radius:30% 60% 45% 55%;opacity:.89;transform:rotate(-14deg)}
+.paint-study .s1{background:#ba6149;top:18%;left:8%;height:35px;width:73%}
+.paint-study .s2{background:#d7b35d;top:36%;left:20%;height:43px;width:65%;transform:rotate(9deg)}
+.paint-study .s3{background:#506950;top:54%;left:12%;height:39px;width:74%;transform:rotate(-8deg)}
+.paint-study .s4{background:#647292;top:72%;left:32%;height:30px;width:50%;transform:rotate(5deg)}
+.paint-caption,.collector-caption{position:absolute;bottom:12px;left:18px;font:italic .88rem Georgia,serif;color:#67695f}
+.collect-study{display:flex;align-items:center;justify-content:center;gap:25px}
+.sample-stamp{width:155px;height:190px;padding:18px;background:#e0d5b6;border:10px dotted #f5efe0;outline:1px solid #d0bea2;display:flex;flex-direction:column;align-items:center;justify-content:space-around;color:#52614c;text-align:center;transform:rotate(-7deg)}
+.sample-stamp span{font:700 .7rem Georgia,serif;letter-spacing:.14em}.sample-stamp strong{font-size:5rem;font-weight:400}.sample-stamp small{font:italic .7rem Georgia,serif}
+.sample-coin{width:125px;height:125px;border-radius:50%;border:8px double #aa925b;background:#d6c188;box-shadow:0 7px 20px #574a291c;display:grid;place-items:center;transform:rotate(12deg)}.sample-coin span{font:400 4.7rem Georgia,serif;color:#8d7747}
+.journal-outro{border-top:1px solid var(--line);padding:clamp(50px,6vw,85px) 0;display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}
+.journal-outro h2{max-width:710px}
+.journal-outro p:not(.kicker){max-width:660px}
+.outro-links{display:flex;flex-direction:column;gap:16px;min-width:200px}
+.outro-links a{font-size:1.02rem;font-weight:700;border-bottom:1px solid var(--line);padding:0 0 10px}
+.preview-disclaimer{border-top:1px solid var(--line);padding-top:20px;color:#898e89;font-size:.8rem;margin:0 0 30px}
+@media(max-width:1000px){.journal-hero{grid-template-columns:1fr}.journal-art{max-width:630px;width:100%;margin:auto}.journal-outro{grid-template-columns:1fr}.outro-links{flex-direction:row;flex-wrap:wrap;gap:22px}}
+@media(max-width:640px){.journal-meta{flex-wrap:wrap;font-size:.65rem}.journal-hero{padding:40px 0}.journal-art{min-height:330px;padding:12px}.art-main{width:82%}.art-palette>span{width:22px;height:22px}.art-palette{max-width:55%}.journal-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}.journal-tabs button{padding:13px 5px;font-size:.76rem}.journal-pages{min-height:unset;padding:20px}.journal-page{grid-template-columns:1fr}.page-photo{width:100%}.journal-section{padding:55px 0}}
+@media(prefers-reduced-motion:reduce){.journal-main-link{transition:none}}
+</style>
+<script>
+  const initJournal=()=>{
+    document.querySelectorAll('[data-journal]').forEach(browser=>{
+      if(browser.hasAttribute('data-ready'))return;
+      browser.setAttribute('data-ready','true');
+      const tabs=Array.from(browser.querySelectorAll('[data-jtab]'));
+      const panels=Array.from(browser.querySelectorAll('[data-jpanel]'));
+      const activate=(tab,focus=false)=>{
+        const value=tab.getAttribute('data-jtab');
+        tabs.forEach(item=>{const selected=item===tab;item.setAttribute('aria-selected',String(selected));item.tabIndex=selected?0:-1;});
+        panels.forEach(panel=>{panel.hidden=panel.getAttribute('data-jpanel')!==value;});
+        if(focus)tab.focus();
+      };
+      tabs.forEach((tab,index)=>{
+        tab.addEventListener('click',()=>activate(tab));
+        tab.addEventListener('keydown',event=>{
+          let next=index;
+          if(event.key==='ArrowRight')next=(index+1)%tabs.length;
+          else if(event.key==='ArrowLeft')next=(index-1+tabs.length)%tabs.length;
+          else if(event.key==='Home')next=0;
+          else if(event.key==='End')next=tabs.length-1;
+          else return;
+          event.preventDefault();activate(tabs[next],true);
+        });
+      });
+    });
+  };
+  initJournal();
+  document.addEventListener('astro:page-load',initJournal);
+</script>
