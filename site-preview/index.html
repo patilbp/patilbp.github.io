@@ -1,0 +1,243 @@
+<!doctype html><html lang="en"><head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="robots" content="noindex,nofollow"/><meta name="theme-color" content="#f8f6ef"/>
+  <title>Index | Bhagyashri Patil — Résumé refresh preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <base href="https://patilbp.github.io/"/>
+  <style>
+:root{
+  --page-intro-top:clamp(64px,7vw,108px);--page-intro-bottom:clamp(55px,6vw,86px);
+  --page-h1-size:clamp(2.8rem,5.1vw,5.6rem);
+  --paper:#f8f6ef;--paper-deep:#f0eee5;--paper-light:#fcfaf5;--ink:#282e29;
+  --sage:#4d6656;--sage-deep:#2f3b32;--muted:#657064;--line:#dbd9cf;--clay:#90725b;
+  font-family:"DM Sans",system-ui,sans-serif;color:var(--ink);background:var(--paper)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:115px}
+body{margin:0;background:var(--paper);color:var(--ink);overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible{outline:3px solid var(--sage);outline-offset:4px;border-radius:3px}
+::selection{background:#dbe3d8;color:#233226}
+.skip{position:absolute;top:-110px;left:10px;background:#fff;padding:13px 18px;z-index:500}
+.skip:focus{top:8px}
+.shell{width:min(1520px,calc(100% - clamp(40px,8vw,148px)));margin-inline:auto}
+.top{position:sticky;top:0;z-index:100;background:rgba(248,246,239,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(15px);-webkit-backdrop-filter:blur(15px)}
+.navbar{min-height:86px;display:flex;justify-content:space-between;align-items:center;gap:24px}
+.brand{font:500 1.45rem/1.1 Georgia,"Times New Roman",serif;letter-spacing:-.045em;white-space:nowrap;color:var(--ink)}
+.brand span{color:var(--sage)}
+.navbar nav{display:flex;align-items:center;gap:clamp(14px,2vw,31px);flex-wrap:wrap}
+.navbar nav>a{font-size:.86rem;font-weight:700;color:#687369;padding:6px 0;border-bottom:1px solid transparent;transition:color .2s ease}
+.navbar nav>a:not(.contact):hover,.navbar nav>a:not(.contact)[aria-current=page]{color:var(--sage-deep);border-bottom-color:var(--sage)}
+.navbar nav .contact{border:1px solid var(--sage-deep);background:var(--sage-deep);color:#fff;padding:11px 16px;border-radius:4px}
+.navbar nav .contact:hover,.navbar nav .contact[aria-current=page]{background:var(--sage);border-color:var(--sage);color:#fff}
+.foot{border-top:1px solid var(--line);padding:28px 0;margin-top:46px;color:#788075;font-size:.82rem}
+.foot-inner{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.foot a{color:var(--sage-deep);font-weight:700;text-decoration:underline;text-underline-offset:4px}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.045em;font-weight:500;color:var(--ink)}
+h1{font-size:var(--page-h1-size);line-height:1.09;margin:17px 0 28px}
+h2{font-size:clamp(2.05rem,3.1vw,3.65rem);line-height:1.15;margin:0 0 20px}
+h3{font-size:clamp(1.25rem,1.55vw,1.6rem);line-height:1.26;margin:0 0 14px}
+p{font-size:1.04rem;line-height:1.82;color:#59655a}
+.eyebrow{display:inline-block;font-size:.73rem;letter-spacing:.12em;text-transform:uppercase;color:var(--clay);font-weight:700}
+.margin-note{font:italic 1.11rem Georgia,serif;color:var(--clay);margin:0 0 18px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:28px}
+.button{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 20px;border:1px solid #ccd0c5;border-radius:4px;font-weight:700;font-size:.87rem;transition:background .2s ease,transform .2s ease}
+.button:hover{transform:translateY(-2px);background:#ebece4}
+.button.primary{background:var(--sage-deep);border-color:var(--sage-deep);color:#fff}
+.button.primary:hover{background:var(--sage);border-color:var(--sage)}
+.button.secondary{background:transparent;color:var(--sage-deep)}
+.section{border-top:1px solid var(--line);padding:clamp(55px,6vw,90px) 0}
+.section-row{display:grid;grid-template-columns:minmax(160px,.34fr) minmax(0,1fr);gap:clamp(28px,6vw,100px)}
+.section-row p{max-width:850px}
+.section-row h2{max-width:970px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:35px}
+.card{border:1px solid var(--line);background:var(--paper-light);border-radius:3px;padding:clamp(22px,2.2vw,30px)}
+.card .eyebrow{display:block;margin-bottom:17px}
+.card p{font-size:.96rem;margin:0}
+.page-intro{max-width:1130px;padding:var(--page-intro-top) 0 var(--page-intro-bottom)}
+.page-intro h1{max-width:1040px}
+.page-intro h1 .accent{color:var(--sage);font-style:italic}
+.page-intro>p:not(.margin-note){max-width:800px}
+.content-block{max-width:900px}
+.content-block ul{font-size:1.04rem;line-height:1.9;color:var(--muted)}
+.content-block h3{margin-top:28px}
+@media(max-width:1040px){.navbar{min-height:80px;align-items:flex-start;flex-direction:column;justify-content:center;gap:15px;padding:17px 0}.navbar nav{gap:clamp(13px,2vw,24px)}html{scroll-padding-top:145px}}
+@media(max-width:950px){.section-row{grid-template-columns:1fr;gap:15px}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){
+ :root{--page-h1-size:clamp(2.65rem,10vw,3.6rem);--page-intro-top:58px;--page-intro-bottom:49px}
+ html{scroll-padding-top:164px}
+ .shell{width:calc(100% - 36px)}
+ .navbar nav{column-gap:15px;row-gap:7px}
+ .navbar nav>a{font-size:.78rem}
+ .navbar nav .contact{padding:8px 11px}
+ .cards{grid-template-columns:1fr}
+ .page-intro{padding:var(--page-intro-top) 0 var(--page-intro-bottom)}
+ .foot-note{display:none}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button,.navbar nav>a{transition:none}}
+</style><style>
+.hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(290px,.85fr);gap:clamp(32px,5vw,82px);align-items:center;padding:clamp(58px,7vw,105px) 0}
+.hero-copy{max-width:840px;min-width:0}
+.hero h1{max-width:920px;font:500 clamp(2.75rem,4.15vw,5rem)/1.11 Georgia,"Times New Roman",serif;letter-spacing:-.057em;margin:17px 0 28px}
+.hero h1 em{font-weight:400;font-style:italic;color:var(--sage)}
+.hero-description{max-width:690px;font-size:clamp(1.03rem,1.12vw,1.15rem);line-height:1.8}
+.availability{display:flex;gap:10px;align-items:center;font-size:.82rem;font-weight:700;color:#647764;margin-top:26px}
+.status-dot{display:inline-block;width:9px;height:9px;flex:none;border-radius:50%;background:#74967a}
+.home-art{position:relative;min-height:500px;border:1px solid var(--line);background:#f0ede3;padding:21px 25px}
+.home-art figure{margin:0}
+.home-art-main{width:85%;transform:rotate(-2deg)}
+.home-art-main img{width:100%;aspect-ratio:1.19;object-fit:cover;display:block;border:8px solid #fff;box-shadow:0 10px 30px #3c3c3320}
+.home-art figcaption{font:italic .8rem Georgia,serif;color:#777a70;padding:9px 5px}
+.home-art-small{position:absolute;width:39%;right:4%;bottom:15%;transform:rotate(5deg)}
+.home-art-small img{display:block;width:100%;aspect-ratio:.9;object-fit:cover;border:7px solid #fff;box-shadow:0 10px 30px #3c3c3324}
+.home-swatches{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-top:29px;max-width:63%}
+.home-swatches i{display:block;width:28px;height:28px;border-radius:50%;background:var(--swatch)}
+.home-swatches small{font:italic .82rem Georgia,serif;color:#777a70;margin-left:5px}
+.story-copy{max-width:920px}
+.story-copy p{max-width:790px}
+.story-copy p strong{font-weight:700;color:var(--sage-deep)}
+.handwritten-note{font:italic 1.19rem/1.55 Georgia,"Times New Roman",serif;color:#95775e!important;margin:30px 0 0;padding:0 0 0 20px;border-left:2px solid #d1bb9e;max-width:650px!important}
+.proof-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(19px,2.5vw,40px);margin-top:34px}
+.proof-card{padding:25px 0 0;border-top:1px solid var(--line);display:flex;flex-direction:column}
+.proof-card h3{font-size:clamp(1.45rem,1.75vw,1.9rem);line-height:1.23;margin:18px 0 12px}
+.proof-card p{font-size:.96rem;flex:1;margin:0 0 20px}
+.proof-card a{font-size:.87rem;font-weight:700;color:var(--sage-deep);text-decoration:underline;text-underline-offset:4px;align-self:flex-start}
+.work-links{margin-top:30px;border-top:1px solid var(--line)}
+.work-links a{display:flex;align-items:center;justify-content:space-between;gap:25px;padding:24px 4px 24px 0;border-bottom:1px solid var(--line);transition:padding .2s ease,color .2s ease}
+.work-links a:hover{padding-left:9px;color:var(--sage)}
+.work-links a strong{display:block;font:500 clamp(1.32rem,1.8vw,1.8rem)/1.2 Georgia,serif;letter-spacing:-.025em}
+.work-links a small{display:block;margin-top:7px;color:#6b7468;font-size:.91rem;line-height:1.5}
+.link-arrow{font:500 1.5rem Georgia,serif;color:var(--sage)}
+.personal-grid{display:grid;grid-template-columns:minmax(0,1.13fr) minmax(245px,.8fr);gap:clamp(28px,4vw,70px);align-items:center}
+.personal-grid .margin-note{margin-top:0}
+.painting-feature{display:block;margin:0;min-width:0;padding:12px 12px 11px;background:#f0ede3;border:1px solid var(--line);transform:rotate(1.5deg)}
+.painting-feature img{display:block;width:100%;height:auto;object-fit:contain}
+.painting-feature>span{display:flex;justify-content:space-between;gap:12px;padding:12px 4px 0;color:#7b7c70;font:italic .88rem Georgia,serif}
+.closing{padding-bottom:clamp(75px,8vw,120px)}
+@media(max-width:1000px){.hero{grid-template-columns:1fr}.home-art{width:min(100%,675px);min-height:430px}.home-art-main{width:80%}}
+@media(max-width:800px){.proof-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.personal-grid{grid-template-columns:1fr}.painting-feature{max-width:600px}}
+@media(max-width:600px){.hero{padding:var(--page-intro-top) 0 var(--page-intro-bottom)}.hero h1{font-size:clamp(2.5rem,10vw,3.75rem)}.home-art{min-height:310px;padding:15px 17px}.home-art-main{width:84%}.home-art-main img,.home-art-small img{border-width:5px}.home-art-small{bottom:17%}.home-swatches{margin-top:23px}.home-swatches i{width:23px;height:23px}.home-swatches small{font-size:.71rem}.proof-grid{grid-template-columns:1fr}.work-links a{padding:19px 0}.painting-feature{transform:none}}
+@media(prefers-reduced-motion:reduce){.work-links a{transition:none}}
+</style></head><body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="top"><div class="shell navbar">
+    <a class="brand" href="https://raw.githack.com/patilbp/patilbp.github.io/preview/about-personal-voice/site-preview/index.html">Bhagyashri Patil<span>.</span></a>
+    <nav aria-label="Preview navigation"><a href="https://raw.githack.com/patilbp/patilbp.github.io/preview/about-personal-voice/site-preview/index.html">About</a><a href="https://raw.githack.com/patilbp/patilbp.github.io/preview/about-personal-voice/site-preview/experience.html">Experience</a><a href="https://raw.githack.com/patilbp/patilbp.github.io/preview/about-personal-voice/site-preview/projects.html">Projects</a><a href="https://patilbp.github.io/beyond-work/">Beyond Work</a><a href="https://patilbp.github.io/curiosity-journal/">Curiosity</a><a href="https://raw.githack.com/patilbp/patilbp.github.io/preview/about-personal-voice/site-preview/contact.html">Contact</a></nav>
+  </div></header><main class="shell" id="content"><header class="hero" aria-labelledby="intro-title">
+    <div class="hero-copy">
+      <p class="margin-note">I like a good question.</p>
+      <span class="eyebrow">A little about me</span>
+      <h1 id="intro-title">Hi, I'm Bhagyashri.<br /><em>I like seeing people use what I build.</em></h1>
+      <p class="hero-description">I'm a Product Solutions Engineer at Black Book. Most of my work is about finding a better way to do something—whether that means building a tool that helps teams trace reporting dependencies or working on a new analytics platform. My favorite part is seeing someone use what we've built.</p>
+      <div class="actions">
+        <a class="button primary" href="#the-work">A little about my work <span aria-hidden="true">↘</span></a>
+        <a class="button secondary" href="#outside-work">The other side of me <span aria-hidden="true">↘</span></a>
+      </div>
+      <p class="availability"><span class="status-dot" aria-hidden="true"></span> Product Solutions Engineer · Melrose, MA</p>
+    </div>
+    <div class="home-art" aria-label="Photographs and color studies from my personal collection">
+      <figure class="home-art-main">
+        <img src="https://images.unsplash.com/photo-1644777122204-907ec31b0538?auto=format&fit=crop&w=1250&q=90" alt="Warm evening light across the coast, photographed by Bhagyashri" loading="eager" decoding="async" />
+        <figcaption>01 / A quieter horizon</figcaption>
+      </figure>
+      <figure class="home-art-small">
+        <img src="https://images.unsplash.com/photo-1660280595918-e180ad83372f?auto=format&fit=crop&w=700&q=90" alt="Close-up of red-pink flowers, photographed by Bhagyashri" loading="eager" decoding="async" />
+        <figcaption>Color, always.</figcaption>
+      </figure>
+      <div class="home-swatches" aria-label="Favorite color swatches"><i style="--swatch:#b75d40"></i><i style="--swatch:#ddb56d"></i><i style="--swatch:#4e6955"></i><i style="--swatch:#7d82a4"></i><small>Some things never change.</small></div>
+    </div>
+  </header>
+
+  <section class="section work-story" id="the-work" aria-labelledby="the-work-title">
+    <div class="section-row">
+      <span class="eyebrow">01 / The work part</span>
+      <div class="story-copy">
+        <h2 id="the-work-title">How I ended up doing this work.</h2>
+        <p>I started out working with reporting and analytics. Over the years, I've moved closer to building the products themselves—talking to the people who need them, understanding what's missing, and figuring out how to make the tools work.</p>
+        <p>At Black Book, I built the BB Reporting Navigator, a self-service product for exploring report dependencies and changes. I'm also leading the architecture and technical research for a new in-house analytics platform. I enjoy being involved from the first conversations through the technical decisions and, eventually, delivery.</p>
+        <p class="handwritten-note">A working product is more interesting to me than a perfect presentation about one.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section accomplishments" id="accomplishments" aria-labelledby="accomplishments-title">
+    <div class="section-row">
+      <span class="eyebrow">02 / A few highlights</span>
+      <div>
+        <h2 id="accomplishments-title">Some things I've worked on.</h2>
+        <p>A few numbers and projects that give a better picture of the work.</p>
+      </div>
+    </div>
+    <div class="proof-grid">
+      <article class="proof-card">
+        <span class="eyebrow">Black Book · Reporting Navigator</span>
+        <h3>400+ reporting assets, finally in one place.</h3>
+        <p>I built a self-service reporting navigator with 960+ lineage relationships, 3,500+ governed fields, and 20+ metrics. The estimated time saved on recurring BI investigations is around 300 hours a year.</p>
+        <a href="https://raw.githack.com/patilbp/patilbp.github.io/preview/about-personal-voice/site-preview/projects.html#internal-products">Read about the tool ↗</a>
+      </article>
+      <article class="proof-card">
+        <span class="eyebrow">A nice bit of recognition · 2022</span>
+        <h3>Tableau featured my visualizations.</h3>
+        <p>My work was selected for Tableau's <em>Featured Authors: Back to School Edition</em>.</p>
+        <a href="https://www.tableau.com/blog/featured-authors-back-school-edition" target="_blank" rel="noopener noreferrer">See the feature ↗</a>
+      </article>
+      <article class="proof-card">
+        <span class="eyebrow">Across my career</span>
+        <h3>200+ dashboards across six industries.</h3>
+        <p>I've delivered work across 12 analytics initiatives, from pharmaceuticals and healthcare to manufacturing and automotive intelligence.</p>
+        <a href="https://raw.githack.com/patilbp/patilbp.github.io/preview/about-personal-voice/site-preview/experience.html">Where I've worked ↗</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section selected-work" aria-labelledby="selected-work-title">
+    <div class="section-row">
+      <span class="eyebrow">03 / Some of the work</span>
+      <div class="story-copy">
+        <h2 id="selected-work-title">A few projects, if you're curious.</h2>
+        <p>A reporting navigator, a pharmacy performance system, an NLP résumé matcher, and other work across data and software. I've put some of the stories here.</p>
+        <div class="work-links">
+          <a href="https://raw.githack.com/patilbp/patilbp.github.io/preview/about-personal-voice/site-preview/projects.html"><span><strong>Projects &amp; case studies</strong><small>A closer look at some of the systems I worked on.</small></span><span class="link-arrow" aria-hidden="true">↗</span></a>
+          <a href="https://raw.githack.com/patilbp/patilbp.github.io/preview/about-personal-voice/site-preview/experience.html"><span><strong>Experience</strong><small>Roles, clients, tools, and outcomes.</small></span><span class="link-arrow" aria-hidden="true">↗</span></a>
+          <a href="https://public.tableau.com/app/profile/bhagyashri.patil" target="_blank" rel="noopener noreferrer"><span><strong>Tableau Public</strong><small>Visualizations I've published over the years.</small></span><span class="link-arrow" aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section personal" id="outside-work" aria-labelledby="outside-work-title">
+    <div class="section-row">
+      <span class="eyebrow">04 / Away from the desk</span>
+      <div class="personal-grid">
+        <div class="story-copy">
+          <p class="margin-note">Not everything needs to be productive.</p>
+          <h2 id="outside-work-title">And then there's everything else.</h2>
+          <p>Sometimes my hands are covered in paint instead of being on a keyboard. I love colors, taking photographs, collecting stamps and coins, and finding an excuse to be outdoors. I also have a very hard time walking past a dog without saying hello.</p>
+          <p>None of those things needs a connection to my career. They're just things that make me, me.</p>
+          <div class="actions">
+            <a class="button primary" href="/curiosity-journal/">Open my curiosity journal ↗</a>
+            <a class="button secondary" href="/beyond-work/">See my photographs ↗</a>
+          </div>
+        </div>
+        <a class="painting-feature" href="/curiosity-journal/" aria-label="Explore my paintings in the curiosity journal">
+          <img src="/assets/journal/tropical-sunset-vibrant.webp" alt="Tropical Sunset, Bhagyashri's colorful painting of palm trees, a hammock, and a golden sunset by the sea" loading="lazy" decoding="async" />
+          <span>One of my paintings / Tropical Sunset <span aria-hidden="true">↗</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section closing" aria-labelledby="closing-title">
+    <div class="section-row">
+      <span class="eyebrow">05 / Say hello</span>
+      <div class="story-copy">
+        <h2 id="closing-title">Say hello.</h2>
+        <p>I'm based in Melrose, Massachusetts, and open to conversations about product solutions engineering, product development, and other teams building useful software and analytics products.</p>
+        <div class="actions"><a class="button primary" href="https://raw.githack.com/patilbp/patilbp.github.io/preview/about-personal-voice/site-preview/contact.html">Say hello ↗</a><a class="button secondary" href="https://raw.githack.com/patilbp/patilbp.github.io/preview/about-personal-voice/site-preview/projects.html">See what I've been working on ↗</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+  <footer class="foot"><div class="shell foot-inner"><span>© 2026 Bhagyashri Patil</span><span class="foot-note">Made with care, curiosity &amp; a little color.</span><a href="https://raw.githack.com/patilbp/patilbp.github.io/preview/about-personal-voice/site-preview/contact.html">Let's connect ↗</a></div></footer>
+  </body></html>
