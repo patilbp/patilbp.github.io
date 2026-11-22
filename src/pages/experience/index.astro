@@ -4,21 +4,20 @@ const positions=[
   {
     "company": "Hearst Corporation",
     "brand": "DBA Black Book",
-    "role": "Product Analytics Engineer",
+    "role": "Product Solutions Engineer",
     "dates": "Oct 2024 – Present",
     "location": "Massachusetts, USA",
-    "domain": "Automotive intelligence · Product analytics",
+    "domain": "Automotive intelligence · Analytics products",
     "highlights": [
-      "50% less manual processing",
-      "46% lower infrastructure cost",
-      "40% higher product adoption"
+      "400+ reporting assets",
+      "~300 hours/year estimated effort saved",
+      "40% increase in Visual Analytics adoption"
     ],
     "bullets": [
-      "Scaled AI-driven automation and Spark-based distributed pipelines for large-scale vehicle data ingestion, cutting manual processing by 50% and accelerating pricing-model refresh cycles by 35%.",
-      "Migrated retail-listings data infrastructure to a cloud Databricks Lakehouse, reducing infrastructure costs by 46% and processing times by 83%.",
-      "Implemented production Databricks Lakehouse architecture for vehicle analytics, cutting data-processing latency by 60% and improving analytics query performance by 45%, allowing product and analytics teams to generate market insights 2× faster.",
-      "Developed and launched Visual Analytics as a product offering for residual-value and vehicle-lifecycle insights, increasing adoption of data-driven valuation tools by 40% among internal analysts and dealership clients.",
-      "Optimized BI pipelines and infrastructure supporting 10M+ vehicle listing records, generating $39K in operational savings from harvesting and cloud infrastructure optimization."
+      "I'm leading the architecture and technical research for an in-house Tableau replacement: a new web-based analytics platform with its own semantic/data layer, security model, and deployment infrastructure. The goal is lower licensing costs and more control over analytics delivery.",
+      "Built and deployed the BB Reporting Navigator as a production self-service product. It brings together 400+ reporting assets, 960+ lineage relationships, 3,500+ governed fields, and 20+ business metrics so teams can investigate dependencies and changes in one place.",
+      "Replaced recurring report-by-report investigations with self-service downstream impact, field and metric analysis, operational paths, and change history. The estimated reduction in recurring BI investigation work is around 300 hours a year (~15% of annual working capacity).",
+      "Developed and launched Visual Analytics for residual-value and vehicle-lifecycle insights. Adoption of data-driven valuation tools increased 40% among internal analysts and dealership clients."
     ]
   },
   {
@@ -26,40 +25,41 @@ const positions=[
     "role": "Data Scientist",
     "dates": "May 2024 – Sep 2024",
     "location": "California, USA",
-    "domain": "AI recruitment · NLP",
+    "domain": "Recruitment technology · NLP",
     "highlights": [
-      "40% more efficient candidate processing",
-      "1K+ candidate profiles"
+      "8 stages automated",
+      "Top 20 candidate ranking"
     ],
     "bullets": [
-      "Engineered Django backend services for an AI recruitment platform, including authentication and résumé storage workflows, improving candidate-processing efficiency by 40% and supporting 1K+ candidate profiles.",
-      "Built production-grade NLP and model-inference workflows for automated résumé ingestion and candidate matching with Python and SQL Server, improving search and matching speed by 50% and helping recruiters shortlist candidates 35% faster."
+      "Built a Python-based NLP pipeline that automated eight stages of résumé-to-job matching, from PDF text extraction and preprocessing to TF-IDF and cosine similarity scoring.",
+      "Used KNN-based ranking to score and shortlist the top 20 résumés for an opening, replacing manual comparisons with a repeatable workflow. The matching design targeted results under two seconds."
     ]
   },
   {
-    "company": "Valor Compounding Pharmacy",
+    "company": "Valor Compounding Pharmacy Inc",
     "role": "Data Analyst",
     "dates": "Jun 2022 – Feb 2024",
     "location": "California, USA",
-    "domain": "Healthcare · Pharmacy analytics",
+    "domain": "Healthcare · Pharmacy operations",
     "highlights": [
-      "90% less reporting time",
-      "50+ prescription products"
+      "5 data sources · 15+ KPIs",
+      "30% improvement in performance metrics",
+      "Missed calls: ~40% to 15%"
     ],
     "bullets": [
-      "Automated PySpark pipelines processing millions of prescription records, reducing reporting time by 90% and enabling real-time analytics for 50+ prescription products.",
-      "Built Python forecasting models using feature engineering and ARIMA, alongside Snowflake ETL pipelines, improving demand-planning accuracy by approximately 25% and reducing manual reporting by 60% for 50+ pharmacists and healthcare staff."
+      "Built a role-based performance analytics system across calls, prescriptions, tickets, schedules, and employee data. Instead of judging everyone by prescription volume, it used 15+ KPIs and role-specific targets. Employee performance metrics improved 30% across Q1–Q2 2023.",
+      "Looked at call patterns by hour, day, week, and month and found around 40% of peak-hour calls were missed. After expanding access to Five9 history from three months to twelve, the findings guided staffing changes that reduced missed calls to 15% (a 62.5% relative reduction) and daily Zendesk tickets from 120–150 to 40–50 (~67% reduction)."
     ]
   },
   {
     "company": "Saviant Consulting",
     "role": "Solution Engineer",
     "dates": "Apr 2019 – Jul 2021",
-    "location": "Pune, Maharashtra, India",
+    "location": "Pune, India",
     "domain": "Pharmaceuticals · Cosmetics · Manufacturing",
     "highlights": [
-      "45% faster reporting performance",
-      "35% faster client onboarding"
+      "45% better dashboard performance",
+      "10K+ salons · 80K+ professionals"
     ],
     "engagements": [
       {
@@ -67,63 +67,61 @@ const positions=[
         "previous": "earlier Dymaxium Inc.",
         "sector": "Pharmaceuticals",
         "bullets": [
-          "Improved SQL queries and BI dashboards for pharmaceutical sales reporting, increasing report performance by 45% and reducing dashboard load time from 114 seconds to 37 seconds.",
-          "Established automated Python and SQL Server data pipelines and ARIMA forecasting models for two-year sales predictions, reducing recurring production work by 50% and accelerating client onboarding by 35%."
+          "Led the Tableau-to-Qlik Sense migration as the main point of contact, rebuilding dashboards, coordinating with the data engineering team, and handling reporting, access, and production issues.",
+          "Optimized pharmaceutical sales reporting using Python and SQL Server. Dashboard performance improved 45%, load times dropped from 114 to 37 seconds, two-year sales projections became available, and recurring production errors fell 50%."
         ]
       },
       {
-        "client": "L’Oréal India Private Ltd",
+        "client": "L'Oréal India Private Ltd",
         "sector": "Cosmetics",
         "bullets": [
-          "Analyzed customer sentiment from 25+ surveys and review platforms using Python, surfacing product quality and usability insights associated with a 20% reduction in failure and complaint rates.",
-          "Applied data-driven quality and sales insights to product and supply decisions, helping mitigate approximately 15% potential revenue loss and contributing to approximately 5% profit growth across franchise distribution channels."
+          "Built education and recruitment analytics covering 10K+ salons and 80K+ salon professionals. The work identified 37.8% year-over-year training growth and hiring delays: an average 59 days to offer and 99 days to join."
         ]
       },
       {
         "client": "SKF India Ltd",
         "sector": "Manufacturing",
         "bullets": [
-          "Analyzed inventory, production runs, and purchase orders for demand forecasting across 80+ dealers, helping reduce operational losses by $30K through supply–demand optimization.",
-          "Introduced structured data collection and reporting to track dealer demand and inventory performance, cutting manual reporting by 40% and improving supply-chain decision-making."
+          "Built commercial and customer analytics supporting $14B+ in year-to-date sales, combining plan variance, forecasts, regional performance, and purchase cadence to identify growth gaps and next-buy opportunities."
         ]
       }
     ]
   },
   {
-    "company": "Technomatic Services Pvt. Ltd.",
+    "company": "Techknomatic Services Pvt. Ltd",
     "role": "Technology Analyst",
     "dates": "Aug 2017 – Apr 2019",
-    "location": "Pune, Maharashtra, India",
-    "domain": "Petrochemicals · Industrial analytics",
+    "location": "Pune, India",
+    "domain": "Petrochemicals · Workforce analytics",
     "highlights": [
-      "25% better reporting accuracy",
-      "Overtime reduced from 24% to 5%"
+      "6 reporting automation projects",
+      "Overtime: 24% to 5%"
     ],
     "engagements": [
       {
         "client": "Honeywell Automation India Ltd",
         "sector": "Petrochemicals",
         "bullets": [
-          "Delivered six Salesforce-based reporting automation projects for petrochemical industry clients, improving reporting accuracy by 25% and operational efficiency by 10% through streamlined workflows and analytics dashboards.",
-          "Designed SSRS paginated reports with drill-down user analytics and optimized labor-capacity models, reducing overtime from 24% to 5% and supporting data-driven workforce planning."
+          "Delivered six Salesforce reporting automation projects and SSRS workforce analytics solutions. Reporting accuracy improved 25%, and overtime fell from 24% to 5% through workflow automation and labor-capacity analysis."
         ]
       }
     ]
   }
 ];
+
 ---
 <BaseLayout title="Experience | Bhagyashri Patil">
 <header class="page-intro">
-  <p class="margin-note">The road so far.</p>
-  <span class="eyebrow">Experience / Product &amp; solutions engineering</span>
-  <h1>Customer-first thinking.<br/><span class="accent">Engineered for impact.</span></h1>
-  <p>From enterprise analytics to data products, cloud architecture, and applied AI, my work has centered on turning complex business needs into systems that are faster, more reliable, and easier to use.</p>
-  <div class="actions"><a class="button primary" href="#career">Explore my experience ↘</a><a class="button secondary" href="https://www.linkedin.com/in/bhagyashripatil/" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a></div>
+  <p class="margin-note">The work, so far.</p>
+  <span class="eyebrow">Experience</span>
+  <h1>Different industries.<br/><span class="accent">Similar questions.</span></h1>
+  <p>From pharmacy teams to automotive analytics, I've spent over seven years figuring out where information gets stuck and building tools people can actually use. These are the roles and projects behind that work.</p>
+  <div class="actions"><a class="button primary" href="#career">Jump to experience ↘</a><a class="button secondary" href="https://www.linkedin.com/in/bhagyashripatil/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
 </header>
 <section class="section" id="career" aria-labelledby="career-title">
   <div class="section-row">
     <span class="eyebrow">01 / Career journey</span>
-    <div><h2 id="career-title">Building products, platforms, and better decisions.</h2><p>Five roles across automotive intelligence, AI recruitment, healthcare, consulting, and industrial analytics. Below are selected contributions and outcomes from my professional experience.</p></div>
+    <div><h2 id="career-title">What I've been working on.</h2><p>A few selected contributions, from the work itself to what changed for the people using it.</p></div>
   </div>
   <div class="timeline">
     {positions.map((job,i)=><article class="role-card">
@@ -146,11 +144,42 @@ const positions=[
     </article>)}
   </div>
 </section>
-<section class="section">
-  <div class="section-row"><span class="eyebrow">02 / Connecting the dots</span><div><h2>A toolkit, not a boundary.</h2><p>My experience connects requirements discovery, product analytics, data engineering, modeling, cloud architecture, and machine learning. I'm applying that foundation to increasingly product-led and AI-enabled solutions.</p><div class="chips"><span>Product analytics</span><span>Solutions engineering</span><span>Databricks &amp; Spark</span><span>Python &amp; NLP</span><span>SQL &amp; ETL</span><span>Cloud lakehouse architecture</span><span>Data visualization</span><span>Stakeholder collaboration</span></div></div></div>
+<section class="section" id="skills">
+  <div class="section-row">
+    <span class="eyebrow">02 / Tools I use</span>
+    <div class="story-small">
+      <h2>Tools change. The work keeps me curious.</h2>
+      <p>These are some of the tools and techniques from my recent work. The detailed list is here for anyone who wants it.</p>
+      <div class="skill-lines">
+        <p><strong>Programming</strong> Python · SQL</p>
+        <p><strong>Data engineering</strong> Snowflake · SQL Server · Azure Fabric · ETL pipelines</p>
+        <p><strong>Machine learning</strong> Time series forecasting · NLP · Sentiment analysis</p>
+        <p><strong>AI</strong> LLMs · Retrieval-Augmented Generation (RAG) · Generative AI · AI-DLC · AI-assisted development</p>
+        <p><strong>Visualization</strong> Tableau · Power BI · Qlik Sense</p>
+        <p><strong>Cloud</strong> AWS · Azure</p>
+      </div>
+      <h3 class="subheading">Certifications</h3>
+      <p class="credentials">AWS Certified AI Practitioner · AWS Certified Cloud Practitioner · AI Agents on Databricks · Tableau Desktop Specialist · Microsoft Power BI Data Analyst (PL-300)</p>
+    </div>
+  </div>
+</section>
+<section class="section" id="education">
+  <div class="section-row">
+    <span class="eyebrow">03 / Education</span>
+    <div class="education-list">
+      <div><h2>Where I studied.</h2></div>
+      <div class="education-entry"><strong>M.S. in Big Data Analytics</strong><span>San Diego State University · May 2023</span><p>Enterprise Data Management, Big Data Analytics, Global Supply Chain Analytics, Computational Linguistics, and Machine Learning Engineering.</p></div>
+      <div class="education-entry"><strong>Bachelor's in Computer Engineering</strong><span>Savitribai Phule Pune University · May 2016</span></div>
+    </div>
+  </div>
 </section>
 <section class="section">
-  <div class="section-row"><span class="eyebrow">03 / What's next</span><div><h2>Product-minded solutions for new domains.</h2><p>I'm exploring product management and solutions engineering opportunities in Boston, Massachusetts, or remote, where I can combine product thinking, architecture, enterprise data experience, and applied AI.</p><div class="actions"><a class="button primary" href="/projects/">Explore my work ↗</a><a class="button secondary" href="/">Back to About →</a></div></div></div>
+  <div class="section-row">
+    <span class="eyebrow">04 / Elsewhere</span>
+    <div><h2>More than fits on this page.</h2><p>Across six industries, I've delivered 200+ BI dashboards in 12 analytics initiatives. Some of the individual stories are on the Projects page.</p>
+      <div class="actions"><a class="button primary" href="/projects/">See selected projects ↗</a><a class="button secondary" href="/contact/">Get in touch ↗</a></div>
+    </div>
+  </div>
 </section>
 </BaseLayout>
 <style>
@@ -201,4 +230,18 @@ const positions=[
 .client-sector,.client-previous{color:#7a8177}
 .chips span{background:#f4f2e9;border-color:var(--line);color:#526554;border-radius:3px}
 
+</style>
+
+<style>
+.skill-lines{border-top:1px solid var(--line);margin-top:28px}
+.skill-lines p{margin:0;padding:14px 0;border-bottom:1px solid var(--line);font-size:.96rem;line-height:1.6}
+.skill-lines strong{display:inline-block;color:var(--ink);min-width:175px;margin-right:16px}
+.subheading{margin-top:37px!important}
+.credentials{max-width:820px}
+.education-list{display:grid;gap:22px}
+.education-entry{border-top:1px solid var(--line);padding-top:20px}
+.education-entry strong{font-size:1.08rem;font-weight:700}
+.education-entry span{display:block;color:var(--sage);font-size:.9rem;margin-top:6px}
+.education-entry p{font-size:.94rem;margin:10px 0 0}
+@media(max-width:620px){.skill-lines strong{display:block;margin:0 0 4px}}
 </style>
