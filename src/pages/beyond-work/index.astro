@@ -88,9 +88,9 @@ const volunteerPhotoUrl = (file) => volunteerAssets[`../../assets/volunteering/$
 ---
 <BaseLayout title="Beyond Work | Photography by Bhagyashri Patil">
 <header class="beyond-hero">
-  <div class="beyond-intro"><span class="eyebrow">Beyond Work / Photography</span><h1>A different way<br/>of <em>seeing the world.</em></h1>
+  <div class="beyond-intro"><p class="margin-note">Small moments, kept close.</p><span class="eyebrow">Beyond Work / Photography</span><h1>A different way<br/>of <em>seeing the world.</em></h1>
     <p>Some stories are told in data. Others live in the light, colors, and quiet moments around us. Photography is my way of slowing down and noticing both.</p>
-    <div class="actions"><a class="button secondary" href="/">Back to About →</a></div>
+    <div class="actions"><a class="button primary" href="/curiosity-journal/">Open my curiosity journal ↗</a><a class="button secondary" href="/">Back to About →</a></div>
   </div>
   <div class="intro-aside"><span>EST. BY CURIOSITY</span><p>Places.<br/>Perspectives.<br/>Small wonders.</p><span>SELECTED FRAMES / 01—09</span></div>
 </header>
@@ -173,4 +173,21 @@ const volunteerPhotoUrl = (file) => volunteerAssets[`../../assets/volunteering/$
 .community-note{font-size:.88rem;color:#7d8999;margin:30px 0 0}
 @media(max-width:850px){.community-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.community-gallery{grid-template-columns:1fr}.community-moment img{aspect-ratio:1.65}}
+</style>
+
+<style>
+
+.beyond-hero h1{font-size:var(--page-h1-size);font-family:Georgia,serif;font-weight:500;line-height:1.09;letter-spacing:-.05em}
+.beyond-hero em{font-style:italic;color:var(--sage)}
+.intro-aside{border-left-color:var(--line)}
+.intro-aside>span{color:var(--clay)}
+.intro-aside p{font:500 clamp(1.35rem,2vw,2rem)/1.5 Georgia,serif;color:var(--sage-deep)}
+.gallery{border-top-color:var(--line)}
+.gallery-head p{color:#677063}
+.collage-link{border-radius:2px;background:var(--paper-deep)}
+.collage-photo figcaption{color:#566356;font-family:Georgia,serif;font-style:italic;font-weight:500;font-size:.93rem}
+.community-moment img{border-radius:3px;background:var(--paper-deep)}
+.community-title{color:var(--sage-deep)}
+.community-detail,.community-note{color:#858779}
+
 </style>

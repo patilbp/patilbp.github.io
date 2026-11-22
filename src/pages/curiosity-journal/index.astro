@@ -8,9 +8,9 @@ const images = {
   shells: "https://images.unsplash.com/photo-1656790788703-0605e41312c1?auto=format&fit=crop&w=1200&q=85"
 };
 ---
-<BaseLayout title="Curiosity Journal — Design Preview | Bhagyashri Patil">
+<BaseLayout title="Curiosity Journal | Bhagyashri Patil">
   <div class="journal">
-    <div class="journal-meta"><span>PERSONAL STUDIO <span class="meta-dot">·</span> DESIGN EXPERIMENT</span><a href="/" aria-label="Return to the current About page">Return to my portfolio ↗</a></div>
+    <div class="journal-meta"><span>PERSONAL STUDIO <span class="meta-dot">·</span> AN OPEN NOTEBOOK</span><a href="/" aria-label="Return to the About page">Back to my work ↗</a></div>
     <header class="journal-hero">
       <div class="journal-copy">
         <p class="margin-note">An open notebook of sorts.</p>
@@ -67,7 +67,7 @@ const images = {
       <div><p class="kicker">02 / Back to the work</p><h2 id="outro-heading">Curiosity follows me to work, too.</h2><p>I've spent over seven years building enterprise data solutions. The part I find most satisfying is seeing people put something I've built to use.</p></div>
       <div class="outro-links"><a href="/experience/">Experience ↗</a><a href="/projects/">Selected work ↗</a><a href="/contact/">Say hello ↗</a></div>
     </section>
-    <p class="preview-disclaimer">This is a separate design experiment. Your existing portfolio pages remain unchanged.</p>
+    <p class="preview-disclaimer">A little space for making, noticing, exploring, and collecting.</p>
   </div>
 </BaseLayout>
 <style>
@@ -173,3 +173,17 @@ const images = {
   initJournal();
   document.addEventListener('astro:page-load',initJournal);
 </script>
+<style>
+
+.journal{--paper:#f4f1e7;--ink:#282e29;--line:var(--line);color:var(--ink)}
+.journal-meta{border-bottom-color:#dbd9cf}
+.journal-art{background:#f0ede3}
+.journal h1 em{color:var(--sage)}
+.journal-main-link{background:var(--sage-deep)}
+.journal-main-link:hover{background:var(--sage)}
+.journal-text-link,.inline-link{color:var(--sage)}
+.journal-browser{background:#f9f7f0}
+.journal-tabs button[aria-selected="true"]{background:#e7ece4}
+.preview-disclaimer{font-style:italic;color:#8b7a64}
+
+</style>

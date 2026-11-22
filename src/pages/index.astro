@@ -4,16 +4,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 <BaseLayout title="About | Bhagyashri Patil — Product, Solutions Engineering & AI">
 <header class="hero">
   <div class="hero-copy">
+    <p class="margin-note">A curious mind, a practical approach.</p>
     <span class="eyebrow">About / Product thinking · Solutions engineering · Applied AI</span>
-    <h1><span class="intro">Hi, I'm Bhagyashri.</span>I connect business problems with <em>products and solutions that create value.</em></h1>
-    <p>With 7+ years of experience building enterprise analytics and data solutions in product-focused environments, I bring hands-on engineering depth to product decisions, stakeholder needs, and scalable solution design. I'm growing at the intersection of product management, cloud architecture, and applied AI.</p>
-    <div class="actions">
-      <a class="button primary" href="#accomplishments">See accomplishments ↘</a>
-      <a class="button secondary" href="/projects/">Explore my work ↗</a>
-    </div>
+    <h1>Hi, I'm Bhagyashri.<br/><em>I make complex things useful.</em></h1>
+    <p>With 7+ years in enterprise analytics and product-focused solutions, I connect customer problems, thoughtful product decisions, and hands-on engineering. I'm especially interested in what cloud and applied AI can make possible when they're grounded in real needs.</p>
+    <div class="actions"><a class="button primary" href="#accomplishments">Explore my work ↘</a><a class="button secondary" href="/curiosity-journal/">A little beyond work ↗</a></div>
     <p class="availability"><span class="status-dot" aria-hidden="true"></span> Exploring Boston, MA and remote opportunities</p>
   </div>
-
+  <div class="home-art" aria-label="A personal collection of images and colors">
+    <figure class="home-art-main"><img src="https://images.unsplash.com/photo-1644777122204-907ec31b0538?auto=format&fit=crop&w=1250&q=90" alt="Quiet golden coastline, photographed by Bhagyashri Patil" loading="eager" decoding="async" /><figcaption>01 / Noticing the little things</figcaption></figure>
+    <figure class="home-art-small"><img src="https://images.unsplash.com/photo-1660280595918-e180ad83372f?auto=format&fit=crop&w=700&q=90" alt="Pink-red flowers, photographed by Bhagyashri Patil" loading="eager" decoding="async" /><figcaption>Color, always.</figcaption></figure>
+    <div class="home-swatches" aria-label="A few colors from my palette"><i style="--swatch:#b75d40"></i><i style="--swatch:#ddb56d"></i><i style="--swatch:#4e6955"></i><i style="--swatch:#7d82a4"></i><small>A little color goes a long way.</small></div>
+  </div>
 </header>
 
 <section id="accomplishments" class="section accomplishments" aria-labelledby="accomplishments-heading">
@@ -45,7 +47,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 </section>
 
 <section class="section" aria-labelledby="personal-heading">
-  <div class="section-row"><span class="eyebrow">04 / Beyond the résumé</span><div class="personal-grid"><div><h2 id="personal-heading">Curious beyond the screen.</h2><p>Outside work, photography gives me another way to notice patterns, perspectives, and details that are easy to miss. A small collection of my favorite photographs lives in Beyond Work.</p><div class="actions"><a class="button secondary" href="/beyond-work/">Explore photography ↗</a></div></div><a class="personal-photo" href="/beyond-work/" aria-label="Explore my photography"><img src="https://images.unsplash.com/photo-1644777122204-907ec31b0538?auto=format&fit=crop&w=760&q=80" alt="Coastal landscape at Torrey Pines photographed by Bhagyashri Patil" loading="lazy" decoding="async"/></a></div></div>
+  <div class="section-row"><span class="eyebrow">04 / Beyond the résumé</span><div class="personal-grid"><div><h2 id="personal-heading">Curious beyond the screen.</h2><p>Away from the screen, I paint, photograph, collect little pieces of the world, explore new places, and stop for just about every dog I meet. My curiosity journal is where those interests have a home.</p><div class="actions"><a class="button secondary" href="/curiosity-journal/">Open my curiosity journal ↗</a><a class="button secondary" href="/beyond-work/">Explore photography ↗</a></div></div><a class="personal-photo" href="/beyond-work/" aria-label="Explore my photography"><img src="https://images.unsplash.com/photo-1644777122204-907ec31b0538?auto=format&fit=crop&w=760&q=80" alt="Coastal landscape at Torrey Pines photographed by Bhagyashri Patil" loading="lazy" decoding="async"/></a></div></div>
 </section>
 
 <section class="section" aria-labelledby="connect-heading">
@@ -57,4 +59,33 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 .proof-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(19px,3vw,42px);margin-top:30px}.proof-card{padding:20px 0 0;border:0;border-top:1px solid #d6d6d3;background:transparent;border-radius:0;display:flex;flex-direction:column}.proof-card h3{font-size:1.24rem;margin:17px 0 10px}.proof-card p{font-size:.96rem;flex:1;margin:0 0 21px}.proof-card a{font-size:.88rem;font-weight:700;color:#343c4a;align-self:flex-start;text-decoration:underline;text-underline-offset:3px}.proof-card a:hover{text-decoration:underline}
 .capabilities{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:32px}.capabilities>div{padding:20px 0;border-top:1px solid #d6d6d3}.capabilities h3{margin:13px 0 8px}.capabilities p{font-size:.95rem;margin:0}.personal-grid{display:grid;grid-template-columns:1.2fr .6fr;gap:clamp(25px,5vw,76px);align-items:center}.personal-photo{display:block;overflow:hidden;border-radius:17px;background:#e6eaf0}.personal-photo img{width:100%;height:100%;display:block;object-fit:cover;aspect-ratio:1.5}
 @media(max-width:800px){.proof-grid{grid-template-columns:1fr 1fr}.capabilities{grid-template-columns:1fr}.personal-grid{grid-template-columns:1fr}}@media(max-width:600px){.hero{padding:var(--page-intro-top) 0 var(--page-intro-bottom)}.proof-grid{grid-template-columns:1fr}.personal-photo{max-width:520px}}
+</style>
+
+<style>
+
+.hero{display:grid;grid-template-columns:minmax(0,1.14fr) minmax(290px,.86fr);gap:clamp(32px,5vw,86px);align-items:center;padding:clamp(58px,7vw,105px) 0}
+.hero-copy{max-width:870px}
+.hero h1{font:500 clamp(2.9rem,4.3vw,5.1rem)/1.095 Georgia,serif;letter-spacing:-.06em;max-width:900px;margin:17px 0 26px}
+.hero h1 em{font-style:italic;color:var(--sage);font-weight:400}
+.hero-copy>p:not(.margin-note){max-width:690px}
+.hero .availability{font:700 .84rem "DM Sans",sans-serif;color:#657264;margin:30px 0 0;display:flex;align-items:center;gap:9px}
+.hero .status-dot{background:#72977b}
+.home-art{position:relative;min-height:500px;background:#f0ede3;border:1px solid var(--line);padding:21px 25px}
+.home-art figure{margin:0}
+.home-art-main{width:85%;transform:rotate(-2deg)}
+.home-art-main img{display:block;width:100%;aspect-ratio:1.19;object-fit:cover;border:8px solid #fff;box-shadow:0 10px 30px #3c3c3320}
+.home-art figcaption{font:italic .8rem Georgia,serif;color:#777a70;padding:9px 5px}
+.home-art-small{position:absolute;width:39%;right:4%;bottom:15%;transform:rotate(5deg)}
+.home-art-small img{display:block;width:100%;aspect-ratio:.9;object-fit:cover;border:7px solid #fff;box-shadow:0 10px 30px #3c3c3324}
+.home-swatches{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-top:29px;max-width:61%}
+.home-swatches i{display:block;width:28px;height:28px;border-radius:50%;background:var(--swatch)}
+.home-swatches small{font:italic .83rem Georgia,serif;color:#777a70;margin-left:5px}
+.proof-card{border-top-color:var(--line)}
+.proof-card h3,.capabilities h3{font-family:Georgia,serif;font-weight:500}
+.proof-card a{color:var(--sage);text-underline-offset:5px}
+.capabilities>div{border-top-color:var(--line)}
+.personal-photo{background:var(--paper-deep);border-radius:3px}
+@media(max-width:950px){.hero{grid-template-columns:1fr;gap:40px}.home-art{width:min(100%,670px);min-height:440px}.home-art-main{width:80%}}
+@media(max-width:600px){.hero{padding:var(--page-intro-top) 0 var(--page-intro-bottom)}.hero h1{font-size:clamp(2.65rem,10vw,3.9rem)}.home-art{min-height:310px;padding:15px 17px}.home-art-main{width:84%}.home-art-small{bottom:17%;right:4%}.home-art-main img{border-width:5px}.home-art-small img{border-width:5px}.home-swatches{margin-top:23px;max-width:65%}.home-swatches i{width:23px;height:23px}.home-swatches small{font-size:.71rem}}
+
 </style>

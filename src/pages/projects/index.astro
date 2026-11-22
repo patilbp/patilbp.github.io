@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
 <BaseLayout title="Case Studies | Product Thinking & Solutions Engineering">
-<header class="page-intro"><span class="eyebrow">Selected work / Product to execution</span><h1>Stay curious.<br/><span class="accent">Keep building.</span></h1><p>Each case study explores the business problem, the choices behind the solution, and the technical work needed to make an impact. Additional product, cloud architecture, and AI projects will be added here.</p></header>
+<header class="page-intro"><p class="margin-note">Notes on making things useful.</p><span class="eyebrow">Selected work / Product to execution</span><h1>Stay curious.<br/><span class="accent">Keep building.</span></h1><p>Each case study explores the business problem, the choices behind the solution, and the technical work needed to make an impact. Additional product, cloud architecture, and AI projects will be added here.</p></header>
 <section class="section case-study" id="case-study" aria-labelledby="case-heading">
   <div class="section-row">
     <span class="eyebrow">01 / Selected case study</span>
@@ -158,4 +158,29 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 .publication a{font-weight:800;font-size:.9rem;color:#4264cd}
 .publication a:hover{text-decoration:underline}
 @media(max-width:700px){.publication-grid{grid-template-columns:1fr}}
+</style>
+
+<style>
+
+.accent{color:var(--sage);font-style:italic}
+.case-kicker,.panel-eyebrow{color:var(--clay)}
+.case-cover{border-radius:3px;background:var(--paper-deep);border-color:var(--line)}
+.case-summary{color:#5c695d}
+.case-chips span{color:var(--sage);border-bottom-color:#b8c5b5}
+.case-workspace{background:#faf8f2;border:1px solid var(--line);border-radius:3px;box-shadow:none}
+.case-tabs{background:#efeee5;border-bottom-color:var(--line)}
+.case-tabs button{border-right:1px solid var(--line);color:#647064}
+.case-tabs button:last-child{border-right:0}
+.case-tabs button span{color:#8b9387}
+.case-tabs button[aria-selected="true"]{background:#e2e9df;border-bottom-color:var(--sage);color:var(--sage-deep)}
+.case-tabs button:hover{background:#e7ebe2;color:var(--sage-deep)}
+.case-tabs button:focus-visible{outline-color:var(--sage)}
+.case-panels h3{font:500 clamp(1.55rem,2.2vw,2.4rem)/1.2 Georgia,serif}
+.case-panels ul{color:#566457}
+.panel-takeaway{border-left-color:var(--sage);background:#eff2e9;color:#536454;border-radius:0}
+.panel-takeaway strong{color:var(--sage-deep)}
+.publication{border:1px solid var(--line);background:var(--paper-light);border-radius:3px}
+.publication a{color:var(--sage);text-underline-offset:4px}
+.publication h3{font-family:Georgia,serif;font-weight:500}
+
 </style>

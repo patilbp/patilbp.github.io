@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 <BaseLayout title="Contact | Bhagyashri Patil">
   <div class="contact-stage">
     <div class="contact-intro">
+      <p class="margin-note">A conversation starts somewhere.</p>
       <span class="eyebrow">Contact / Let's talk</span>
       <h1>Good products start with<br/><span class="accent">good conversations.</span></h1>
       <p>Whether you're building a product, designing a solution, or exploring where AI can genuinely help, I'd enjoy connecting.</p>
@@ -59,4 +60,33 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 @media(max-width:950px){.contact-stage{min-height:unset;padding:55px 0}.contact-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:620px){.contact-stage{padding:38px 0}.contact-intro h1{font-size:clamp(2.15rem,8vw,3.1rem)}.contact-links{grid-template-columns:1fr}.contact-tile{min-height:155px}.phone-number{white-space:normal}}
 @media(prefers-reduced-motion:reduce){.contact-tile{transition:none}}
+</style>
+
+<style>
+
+.accent{color:var(--sage);font-style:italic}
+.contact-stage{padding:clamp(55px,6vw,95px) 0 30px;gap:clamp(35px,5vw,75px)}
+.contact-intro{max-width:1050px}
+.contact-intro h1{font:500 clamp(2.85rem,4.7vw,5.45rem)/1.1 Georgia,serif;letter-spacing:-.055em;margin:20px 0 25px}
+.contact-intro>p:not(.margin-note){max-width:760px}
+.contact-intro .opportunities{color:var(--sage);font-weight:700;margin-top:22px}
+.contact-links{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.contact-tile{min-height:200px;border:1px solid var(--line);background:#f4f1e7;border-radius:3px;padding:clamp(24px,3vw,36px);box-shadow:none}
+.contact-tile:hover{transform:translateY(-2px);border-color:#9bac9a;box-shadow:0 8px 26px #3347330b}
+.tile-arrow{color:var(--sage)}
+.tile-title{font:500 clamp(1.5rem,2.2vw,2.3rem)/1.25 Georgia,serif;letter-spacing:-.04em;color:var(--sage-deep)}
+.tile-desc{color:#6c7669}
+.phone-number{font-size:clamp(1.3rem,2vw,2rem)}
+.email-address{font-size:clamp(1.18rem,1.8vw,1.8rem)}
+@media(max-width:620px){.contact-links{grid-template-columns:1fr}.contact-stage{padding:var(--page-intro-top) 0 12px}.contact-intro h1{font-size:clamp(2.65rem,10vw,3.8rem)}}
+
+</style>
+
+<style is:global>
+@media(min-width:951px) and (min-height:660px){
+ html:has(.contact-stage),body:has(.contact-stage){height:auto!important;overflow:visible!important}
+ body:has(.contact-stage){display:block!important}
+ body:has(.contact-stage)>main{min-height:unset!important;display:block!important;flex:none!important}
+ body:has(.contact-stage)>.foot{margin-top:46px!important;padding:28px 0!important}
+}
 </style>
