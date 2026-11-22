@@ -4,7 +4,8 @@ const images = {
   coastal: "https://images.unsplash.com/photo-1644777122204-907ec31b0538?auto=format&fit=crop&w=1100&q=82",
   dog: "https://images.unsplash.com/photo-1656790821730-ff51eafc3b6c?auto=format&fit=crop&w=900&q=82",
   flight: "https://images.unsplash.com/photo-1644777072462-9ac43679036a?auto=format&fit=crop&w=1000&q=82",
-  flower: "https://images.unsplash.com/photo-1660280595918-e180ad83372f?auto=format&fit=crop&w=850&q=82"
+  flower: "https://images.unsplash.com/photo-1660280595918-e180ad83372f?auto=format&fit=crop&w=850&q=82",
+  shells: "https://images.unsplash.com/photo-1656790788703-0605e41312c1?auto=format&fit=crop&w=1200&q=85"
 };
 ---
 <BaseLayout title="Curiosity Journal — Design Preview | Bhagyashri Patil">
@@ -37,15 +38,15 @@ const images = {
         <div class="journal-pages">
           <section class="journal-page" role="tabpanel" id="j-panel-create" aria-labelledby="j-tab-create" tabindex="0" data-jpanel="create">
             <div class="page-story"><p class="kicker">The color page</p><h3>I've always had a thing for colors.</h3><p>Painting is one of those things I can lose myself in. I like experimenting, making a mess, and seeing what a few colors can become.</p><p class="tiny-note">A small note to myself: leave room to play.</p></div>
-            <div class="paint-study" role="img" aria-label="An abstract set of colorful brush-stroke shapes representing painting; original artwork photographs can be added later"><i class="stroke s1"></i><i class="stroke s2"></i><i class="stroke s3"></i><i class="stroke s4"></i><span class="paint-caption">Color study / always in progress</span></div>
+            <figure class="page-photo painting-photo"><img src="/assets/journal/tropical-sunset.avif" alt="A colorful tropical sunset painting on canvas with blue ocean, palm trees, a hammock, sailboats and a yellow-orange sky, painted by Bhagyashri" loading="lazy" decoding="async"/><figcaption>Tropical Sunset / acrylic painting</figcaption></figure>
           </section>
           <section class="journal-page" role="tabpanel" id="j-panel-see" aria-labelledby="j-tab-see" tabindex="0" data-jpanel="see" hidden>
             <div class="page-story"><p class="kicker">Through my lens</p><h3>I like noticing the small things.</h3><p>Light, patterns, a beautiful sky, or a moment I'd otherwise walk past. Photography is my way of keeping a few of those moments close.</p><a href="/beyond-work/" class="inline-link">See my photographs ↗</a></div>
             <figure class="page-photo"><img src={images.coastal} alt="Golden evening light on the coastline" loading="lazy"/><figcaption>Last Light / from my photography collection</figcaption></figure>
           </section>
           <section class="journal-page" role="tabpanel" id="j-panel-collect" aria-labelledby="j-tab-collect" tabindex="0" data-jpanel="collect" hidden>
-            <div class="page-story"><p class="kicker">Little pieces of the world</p><h3>Stamps. Coins. Stories.</h3><p>I enjoy collecting postage stamps and currency coins. A little piece of metal or paper can carry a surprising amount of history and geography.</p><p class="tiny-note">I'll add photographs from my collection here when they're ready.</p></div>
-            <div class="collect-study" aria-label="Decorative illustration of a stamp album and coin collection"><div class="sample-stamp"><span>POSTAGE</span><strong>✳</strong><small>places & stories</small></div><div class="sample-coin"><span>✦</span></div><span class="collector-caption">Collected with curiosity.</span></div>
+            <div class="page-story"><p class="kicker">Little pieces of the world</p><h3>Stamps. Coins. Stories.</h3><p>I enjoy collecting postage stamps and currency coins. A little piece of metal or paper can carry a surprising amount of history and geography.</p><p class="tiny-note">A few finds from the shore. I'll share my stamp and coin collection here another time.</p></div>
+            <figure class="page-photo"><img src={images.shells} alt="A hand holding a collection of small pebbles and shells beside the sea, photographed by Bhagyashri" loading="lazy" decoding="async"/><figcaption>Collected by the Sea / little things worth keeping</figcaption></figure>
           </section>
           <section class="journal-page" role="tabpanel" id="j-panel-explore" aria-labelledby="j-tab-explore" tabindex="0" data-jpanel="explore" hidden>
             <div class="page-story"><p class="kicker">A little adventure</p><h3>I'd rather try it than wonder.</h3><p>I'm drawn to outdoor adventures—from rock climbing to paragliding—and to the feeling of seeing a place from an entirely different angle.</p><p class="tiny-note">The photograph is one I took; it isn't a photo of me paragliding.</p></div>
@@ -111,8 +112,8 @@ const images = {
 .page-story p{max-width:540px;color:#585e56;font-size:1.01rem;line-height:1.8}
 .page-story .tiny-note{font:italic .95rem Georgia,serif;color:#8b7864;margin-top:22px}
 .page-photo{margin:0;max-width:650px}
-.page-photo img{display:block;width:100%;max-height:365px;object-fit:contain;border-radius:3px;background:#eeeae0}
-.page-photo figcaption{margin-top:10px;color:#858479;font-size:.77rem;font-style:italic}
+.page-photo img{display:block;width:100%;max-height:380px;object-fit:contain;border-radius:3px;background:#eeeae0}
+.page-photo figcaption{margin-top:10px;color:#858479;font-size:.77rem;font-style:italic}.painting-photo img{object-fit:contain;background:transparent}
 .paint-study,.collect-study{position:relative;min-height:300px;background:#eee9dc;border:1px solid #e0d9ca;overflow:hidden}
 .paint-study .stroke{position:absolute;height:30px;width:70%;border-radius:30% 60% 45% 55%;opacity:.89;transform:rotate(-14deg)}
 .paint-study .s1{background:#ba6149;top:18%;left:8%;height:35px;width:73%}
