@@ -38,7 +38,10 @@ const images = {
         <div class="journal-pages">
           <section class="journal-page" role="tabpanel" id="j-panel-create" aria-labelledby="j-tab-create" tabindex="0" data-jpanel="create">
             <div class="page-story"><p class="kicker">The color page</p><h3>I've always had a thing for colors.</h3><p>Painting is one of those things I can lose myself in. I like experimenting, making a mess, and seeing what a few colors can become.</p><p class="tiny-note">A small note to myself: leave room to play.</p></div>
-            <figure class="page-photo painting-photo"><img src="/assets/journal/mountain-blooms-original.jpeg" alt="Bhagyashri’s original painting of colorful tulips and flowering shrubs in front of mountains beneath a blue and pink sky" loading="lazy" decoding="async" width="1152" height="1536" /><figcaption>Mountain Blooms / painting</figcaption></figure>
+            <div class="paint-gallery" aria-label="Two paintings by Bhagyashri">
+              <figure><img src="/assets/journal/mountain-blooms-original.jpeg" alt="Mountain Blooms: a painting of colorful tulips and flowering shrubs before mountains under a blue and pink sky" loading="lazy" decoding="async" width="1152" height="1536" /><figcaption>Mountain Blooms / painting</figcaption></figure>
+              <figure><img src="/assets/journal/tropical-sunset-original.jpeg" alt="Tropical Sunset: a painting with two palms and a hammock beside blue water, sailboats, and a golden-orange sunset" loading="lazy" decoding="async" width="2048" height="1536" /><figcaption>Tropical Sunset / painting</figcaption></figure>
+            </div>
           </section>
           <section class="journal-page" role="tabpanel" id="j-panel-see" aria-labelledby="j-tab-see" tabindex="0" data-jpanel="see" hidden>
             <div class="page-story"><p class="kicker">Through my lens</p><h3>I like noticing the small things.</h3><p>Light, patterns, a beautiful sky, or a moment I'd otherwise walk past. Photography is my way of keeping a few of those moments close.</p><a href="/beyond-work/" class="inline-link">See my photographs ↗</a></div>
@@ -113,7 +116,12 @@ const images = {
 .page-story .tiny-note{font:italic .95rem Georgia,serif;color:#8b7864;margin-top:22px}
 .page-photo{margin:0;max-width:650px}
 .page-photo img{display:block;width:100%;max-height:380px;object-fit:contain;border-radius:3px;background:#eeeae0}
-.page-photo figcaption{margin-top:10px;color:#858479;font-size:.77rem;font-style:italic}.painting-photo img{width:100%;height:auto;max-height:430px;object-fit:contain;background:transparent}
+.page-photo figcaption{margin-top:10px;color:#858479;font-size:.77rem;font-style:italic}
+.paint-gallery{display:grid;grid-template-columns:minmax(0,.56fr) minmax(0,1fr);gap:clamp(10px,1.3vw,18px);align-items:end;width:100%;max-width:700px}
+.paint-gallery figure{margin:0;min-width:0}
+.paint-gallery img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;border-radius:2px;box-shadow:0 3px 12px rgba(42,43,36,.1)}
+.paint-gallery figcaption{margin-top:10px;color:#858479;font-size:.77rem;font-style:italic;line-height:1.4}
+@media(max-width:420px){.paint-gallery{gap:9px}.paint-gallery figcaption{font-size:.71rem}}
 .paint-study,.collect-study{position:relative;min-height:300px;background:#eee9dc;border:1px solid #e0d9ca;overflow:hidden}
 .paint-study .stroke{position:absolute;height:30px;width:70%;border-radius:30% 60% 45% 55%;opacity:.89;transform:rotate(-14deg)}
 .paint-study .s1{background:#ba6149;top:18%;left:8%;height:35px;width:73%}
